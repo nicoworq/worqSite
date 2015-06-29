@@ -7,7 +7,6 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-
         <link href="css/estilos.css" media="all" rel="stylesheet"/>
         <link href="css/animate.css" media="all" rel="stylesheet"/>
         <link href="css/flexslider.css" media="all" rel="stylesheet"/>
@@ -18,9 +17,6 @@ and open the template in the editor.
 
         <?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container"> 
-
-
-
             <ul id="botonera">
                 <li><a href="#">PROFESIONAL WEBSITE</a></li>
                 <li><a href="">CUSTOM APPLICATIONS</a></li>
@@ -36,12 +32,11 @@ and open the template in the editor.
                     <div class="bt-form mostrarContacto">Get your website</div>
                 </div>
                 <div class="contenedor-contenido">
-                    <!-- <div class="intro slide1">
-                         <h1>WORQ</h1>
-                    <!--<div class="separador"></div>
-                    <h2>We launch web projects with superior quality</h2>
-                    <p>Desarrollamos aplicaciones web a medida</p>
-                </div>-->
+                    <div class="intro slide1">
+                        <h1>WORQ</h1>
+                        <!--<div class="separador"></div>-->
+
+                    </div>
                     <div class="intro slide2">
                         <h2 class="wow fadeInUp">WE LAUCH WEB PROJECTS WITH <b>SUPERIOR QUALITY</b></h2>                        
                         <p class="wow fadeIn" data-wow-delay=".6s">Desarrollamos aplicaciones web a medida</p>
@@ -55,51 +50,51 @@ and open the template in the editor.
 
 
 
-
-        <section id="ultimos-proyectos-slider" class="flexslider">
-
-
-
-            <ul class="slides">
-
-                <li>  
-                    <div id="slide-falazairroo" class="slide-proyecto">
-                        <div class="slide-proyecto-imagen">
-                            <img class="fala-mac" src="img/falazairroo1.png"/>
-                        </div>
-                        <div class="slide-proyecto-contenido">
-                            <img class="laureles wow bounceIn" src="img/laureles.png" />
-                            <img src="img/logo-falazairroo.png"/>
-                            <span class="slide-proyecto-titulo">FALAZAIRROO</span>
-                            <span class="slide-proyecto-proweb">PRO<span>≈</span>WEBSITE</span>
-                            <span class="slide-proyecto-texto">SITIO INSTITUCIONAL</span>
-                            <a href="#" class="slide-proyecto-link">Ver Caso de &Eacute;xito</a>
-                        </div>
-                        <div class="slide-proyecto-imagen">
-                            <img class="fala-ipad" src="img/falazairroo2.png"/>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div id="slide-contadores" class="slide-proyecto">
-                        <div class="slide-proyecto-imagen">
-                            <img class="contadores-mac" src="img/contadores1.png"/>
-                        </div>
-                        <div class="slide-proyecto-contenido">
-
-                            <span class="slide-proyecto-titulo wow fadeInDown" data-wow-delay="2s">CONTADORES ROSARIO.COM</span>
-                            <span class="slide-proyecto-proweb">PRO<span>≈</span>WEBSITE</span>
-                            <span class="slide-proyecto-texto">PORTAL DE NOTICIAS DE ECONOM&Iacute;A & INVERSIONES DE LA REGI&Oacute;N</span>
-                            <a href="#" class="slide-proyecto-link">Ver Caso de &Eacute;xito</a>
-                        </div>
-                        <div class="slide-proyecto-imagen">
-                            <img class="contadores-ipad" src="img/contadores2.png"/>
-                        </div>
-                    </div>
-                </li>
-            </ul>            
-        </section>
         <!--
+                <section id="ultimos-proyectos-slider" class="flexslider">
+        
+        
+        
+                    <ul class="slides">
+        
+                        <li>  
+                            <div id="slide-falazairroo" class="slide-proyecto">
+                                <div class="slide-proyecto-imagen">
+                                    <img class="fala-mac" src="img/falazairroo1.png"/>
+                                </div>
+                                <div class="slide-proyecto-contenido">
+                                    <img class="laureles wow bounceIn" src="img/laureles.png" />
+                                    <img src="img/logo-falazairroo.png"/>
+                                    <span class="slide-proyecto-titulo">FALAZAIRROO</span>
+                                    <span class="slide-proyecto-proweb">PRO<span>≈</span>WEBSITE</span>
+                                    <span class="slide-proyecto-texto">SITIO INSTITUCIONAL</span>
+                                    <a href="#" class="slide-proyecto-link">Ver Caso de &Eacute;xito</a>
+                                </div>
+                                <div class="slide-proyecto-imagen">
+                                    <img class="fala-ipad" src="img/falazairroo2.png"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="slide-contadores" class="slide-proyecto">
+                                <div class="slide-proyecto-imagen">
+                                    <img class="contadores-mac" src="img/contadores1.png"/>
+                                </div>
+                                <div class="slide-proyecto-contenido">
+        
+                                    <span class="slide-proyecto-titulo wow fadeInDown" data-wow-delay="2s">CONTADORES ROSARIO.COM</span>
+                                    <span class="slide-proyecto-proweb">PRO<span>≈</span>WEBSITE</span>
+                                    <span class="slide-proyecto-texto">PORTAL DE NOTICIAS DE ECONOM&Iacute;A & INVERSIONES DE LA REGI&Oacute;N</span>
+                                    <a href="#" class="slide-proyecto-link">Ver Caso de &Eacute;xito</a>
+                                </div>
+                                <div class="slide-proyecto-imagen">
+                                    <img class="contadores-ipad" src="img/contadores2.png"/>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>            
+                </section> -->
+
         <section id="ultimos-proyectos">
             <h3><span>&#8776;</span>&nbsp;LATEST PROJECTS</h3>
 
@@ -163,10 +158,10 @@ and open the template in the editor.
                 </div>
             </div>
 
-            <div class="bg-separador"></div>
+            <!-- <div class="bg-separador"></div>-->
 
         </section>
-        -->
+
         <section id="pro-web">
             <div class="bg-pro-web">
                 <h4>PRO<span>&#8776;</span>WEBSITES</h4>
@@ -216,7 +211,7 @@ and open the template in the editor.
 
             </div>
         </section>
-        <section id="botonera2">
+        <!-- <section id="botonera2">
             <ul>
                 <li><a href="#">PRESS</a></li>
                 <li><a href="#">AWARDS</a></li>
@@ -232,6 +227,7 @@ and open the template in the editor.
 
 
         </section>
+       
         <section id="worq2">
             <div class="bg-worq2">
 
@@ -243,8 +239,21 @@ and open the template in the editor.
             </div>
 
         </section>
+        -->
+
+        <section id="suscribir">
+            <div class="contenido-suscribir">
+                <h3>suscribite a las &uacute;ltimas<br/>
+                    <strong>novedades en tecnología</strong>
+                </h3>
+                <form id="form-suscribir">
+                    <input type="text" placeholder="Ingresa tu Email"/>
+                    <input type="submit" value="Suscribite"/>
+                </form>
+            </div>
+        </section>
         <footer>          
-            <span class="float-l">WORQ &COPY; 2014 ALL RIGHTS RESERVED. ROSARIO, ARGENTINA</span>
+            <span class="float-l">WORQ &COPY; SINCE 2012 | ALL RIGHTS RESERVED. ROSARIO, ARGENTINA</span>
             <span class="float-r">DEVELOPED BY <b>WORQ</b></span>
 
 

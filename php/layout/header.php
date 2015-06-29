@@ -1,19 +1,23 @@
 <header>
-    <a href="index.php">
-        <img id="logo-worq" src="img/logo-worq.png" alt="WORQ" title="WORQ" />
-    </a>
-    <span>IMPULSE YOUR PROJECT </span>
-    <ul>
-        <li><a href="press.php">PRESS</a></li>
-        <li><a href="#">AWARDS</a></li>
-        <li><a href="thecompany.php">THE COMPANY</a></li>
-        <li><a href="ourteam.php">OUR TEAM</a></li>
-        <li><a href="#">BLOG</a></li>
-    </ul>
+    <div class="header-left">
+        <a id="logo-worq" href="index.php">
+            <img  src="img/logo-worq.png" alt="WORQ" title="WORQ" />
+        </a>
+        <span>IMPULSE YOUR PROJECT </span>
+    </div>
+    <div class="header-center">
+        <ul>
+            <li><a href="press.php">PRESS</a></li>
+            <li><a href="#">AWARDS</a></li>
+            <li><a href="thecompany.php">THE COMPANY</a></li>
+            <li><a href="ourteam.php">OUR TEAM</a></li>
+            <li><a href="#">BLOG</a></li>
+        </ul>
+    </div>
     <div class="header-right">
-        <span><b>EN</b>/ES</span>
-        <span>CALL US +54 (9) 3416 280427</span>
-        <span><b><a href="#" class="mostrarContacto">CONTACT</a></b></span>
+        <span class="idioma"><b>EN</b>/ES</span>
+        <span class="llamar">CALL US +54 (9) 3416 280427</span>
+        <span class="contacto"><b><a href="#" class="mostrarContacto">CONTACT</a></b></span>
     </div>
 
 </header>

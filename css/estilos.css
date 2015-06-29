@@ -53,16 +53,19 @@ body{
 header{
     background:#040404;
     height: 30px;
-    padding: 15px 37px;
+    padding: 15px 35px;
     color:white;
     font-size: 12px;
     color:#dbdbdb;
     letter-spacing: 2px;
     position: relative;
+    display: table;
+    width: 100%;
 }
 header ul li {
+    display: block;
+    margin-right: 19px;
     float: left;
-    margin-right: 14px;
 }
 header ul li a{
     color:white;
@@ -70,55 +73,64 @@ header ul li a{
     letter-spacing: 2px;
 }
 #logo-worq{
-    margin-left:5px;
-    margin-right: 40px;
+    margin-left: 5px;
+    margin-right: 44px;
     float: left;
-    margin-top: 3px;
+    display: inline-block;
+    margin-top: -5px;
 }
 
 header > span{
     float: left;
-    margin-top: 7px;
+    margin-top: 9px;
     color:white;
 }
 header ul{
-    float: left;
+    display: block;
     overflow: hidden;
-    margin-top: 7px;
-    margin-left: 20%;
+    margin-top: 9px;
+    margin-left: 52px;
+}
+
+.header-left, .header-center ,.header-right{
+    display: table-cell;
+    vertical-align: top;
 }
 
 .header-left{
-    float: left;
-    color:white;
-}
-
-.header-center{
-    width: 30%;
-    position: absolute;
-    left:40%;
     padding-top: 8px;
 
 }
+
+.header-center{
+    text-align: center;
+
+
+}
 .header-center span{
-    margin-left: 14px;
+
 
 }
 .header-right{
-    float: right;
+    /* float: right; */
     font-weight: bold;
     font-size: 12px;
     padding-top: 8px;
     letter-spacing: 2px;
+    width: 32%;
 }
 .header-right span{
-    margin-left: 14px;
+    /* margin-left: 14px; */
 }
 
 .header-right b a{
     color:#6dc823;
 
 }
+
+.header-right .idioma{}
+.header-right .llamar{}
+.header-right .contacto{}
 
 
 #banner , #botonera-container{
@@ -136,7 +148,7 @@ header ul{
 
 .contenedor-contenido{
     position: absolute;
-    top: 30%;
+    top: 24%;
     left: 74px;
     overflow: hidden;
     z-index: 0;
@@ -144,7 +156,7 @@ header ul{
 
 .intro{
     color:white;
-    width: 60%;
+    /* width: 60%; */
     overflow: hidden;
 }
 .intro h1{
@@ -180,6 +192,10 @@ header ul{
     font-weight: bold;
 }
 
+
+.intro.slide2{
+    display: none;
+}
 
 #call-action1{
     position: absolute;
@@ -474,7 +490,7 @@ header ul{
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    padding: 32px 0 26px 0;
+    padding: 18px 0 14px 0;
     display: block;
 }
 
@@ -698,8 +714,8 @@ img.contadores-ipad {
 #ultimos-proyectos{
     position: relative;
     background: url(../img/pattern.gif) #24449b;
-    padding: 55px 40px 0;
-    margin-top: -10px;    
+    padding: 43px 40px 33px;
+    margin-top: -28px;    
 }
 #ultimos-proyectos h3{
     color:white;
@@ -707,6 +723,7 @@ img.contadores-ipad {
     font-family: 'MuseoSans';
     font-weight: 900;
     margin-top:0;
+    margin-bottom: 14px;
 }
 #ultimos-proyectos h3 span{
     font-size: 36px;
@@ -725,6 +742,7 @@ img.contadores-ipad {
     float: left;
     width: 33.33%;
 
+    overflow: hidden;
 }
 .proyecto img{
     max-width: 100%;
@@ -743,19 +761,19 @@ img.contadores-ipad {
 
 
 #pro-web{
-    padding: 40px;
+    padding: 31px 40px 30px;
     font-family: 'MuseoSans';
 }
 
 .bg-pro-web{
-    padding: 5% 90px 6%;
+    padding: 5% 90px 7%;
     background:url(../img/que-hacemos-bg.jpg)no-repeat;       
     background-size: cover;
     text-align: center;
 }
 
 #pro-web h4{
-    margin:42px 0;
+    margin: 29px 0 40px;
     color:#040404;
     font-size: 76px;
     font-weight: 900;   
@@ -794,7 +812,7 @@ img.contadores-ipad {
 }
 
 #apps{
-    padding: 0 40px 40px;
+    padding: 0 40px 32px;
     overflow: hidden;
     display: table;
 }
@@ -815,14 +833,16 @@ img.contadores-ipad {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#235397', endColorstr='#15e16c',GradientType=0 ); /* IE6-9 */
     color:white;
     display: table-cell;
+    padding-bottom: 27px;
 }
 
 .contenido-apps h3{
     font-family: 'MuseoSans';
     font-size: 87px;
     font-weight: 900;
-    margin-top: 75px;
+    margin-top: 66px;
     margin-bottom: 20px;
+    line-height: 83px;
 }
 .contenido-apps h3 span{
 
@@ -849,13 +869,14 @@ img.contadores-ipad {
     background:#41125b;
     border-radius: 3px;
     padding: 17px 15px;
+    margin: 6px 0 -16px;
 }
 .contenido-apps a:hover{
     background: #551d74;
 }
 
 .contenido-apps .separador{
-    margin: 0 auto;
+    margin: -7px auto -9px;
 }
 
 .imagen-apps{
@@ -868,7 +889,7 @@ img.contadores-ipad {
 
 #servicios{
     overflow: hidden;
-    padding: 0 40px 40px;
+    padding: 0px 40px 29px;
     font-family: 'MuseoSans';
     text-align: center;
 }
@@ -886,8 +907,8 @@ img.contadores-ipad {
 .contenido-servicios h3{
     font-weight: 900;
     font-size: 76px;
-    margin-top: 110px;
-    margin-bottom: 60px;
+    margin-top: 93px;
+    margin-bottom: 31px;
 }
 .contenido-servicios h3 span{
     color:#78d32e;
@@ -903,14 +924,14 @@ img.contadores-ipad {
 }
 
 .contenido-servicios{
-    background: url(../img/servicios-bg.jpg)no-repeat 50%;
+    background: url(../img/bg-consulting.jpg) #b70178 no-repeat 50%;
     background-size: cover;
 }
 #servicios2 .contenido-servicios h3{
     font-weight: 900;
     font-size: 76px;
     width: 72%;
-    margin: 110px auto 60px auto;
+    margin: 53px auto 18px auto;
 }
 
 #servicios2 .contenido-servicios .nuestros-servicios span{
@@ -921,9 +942,12 @@ img.contadores-ipad {
 }
 
 #servicios2 .contenido-servicios{
-    background:url(../img/pattern.gif) #24449b;
+    background:url(../img/bg-metricas.jpg) #24449b no-repeat;
+    background-size: cover;
 }
-
+#servicios2 .contenido-servicios .nuestros-servicios span{
+    margin-bottom: 77px;
+}
 
 #botonera2{
     padding: 25px 40px;
@@ -987,14 +1011,57 @@ img.contadores-ipad {
 
 }
 
+#suscribir{
+    padding: 28px 40px 0;
+    font-family: 'MuseoSans';
+}
+.contenido-suscribir h3{font-weight: 300;font-size: 26px;color: white;text-transform: uppercase;line-height: 32px;}
+.contenido-suscribir{
+    background: url(../img/bg-suscribite.jpg)no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 88px 0 171px;
+}
+
+#form-suscribir{
+    display: inline-block;
+    background-color: white;
+    padding: 7px 8px 7px 4px;
+    border-radius: 4px;
+    margin-top: 19px;
+    text-align: left;
+    overflow: hidden;
+}
+#form-suscribir input[type=text]{
+    border: none;
+    font-family: Arial;
+    font-size: 15px;
+    color: #343434;
+    padding: 10px 16px;
+    float: left;
+}
+#form-suscribir input[type=submit]{
+    background-color: #5fb514;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+    padding: 10px;
+}
+
 footer{
     color: #FFF;
     font-size: 12px;
     font-weight: normal;
     font-family: Arial;
-    padding: 27px 40px;
+    padding: 27px 52px;
     height: 15px;
     letter-spacing: 2px;
+    margin-top: -58px;
+    margin-bottom: 30px;
 }
 
 
