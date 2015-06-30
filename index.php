@@ -9,8 +9,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <link href="css/estilos.css" media="all" rel="stylesheet"/>
         <link href="css/animate.css" media="all" rel="stylesheet"/>
-        <link href="css/flexslider.css" media="all" rel="stylesheet"/>
-        <script src="js/wow.js"></script>
+        <link href="css/flexslider.css" media="all" rel="stylesheet"/>       
         <title>WORQ</title>
     </head>
     <body>
@@ -18,10 +17,10 @@ and open the template in the editor.
         <?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container"> 
             <ul id="botonera">
-                <li><a href="#">PROFESIONAL WEBSITE</a></li>
-                <li><a href="">CUSTOM APPLICATIONS</a></li>
-                <li><a href="">BRAND CONSULTING</a></li>
-                <li><a href="">MARKETING & REPORTS</a></li>
+                <li><a href="#" data-nav="pro-web">PROFESIONAL WEBSITE</a></li>
+                <li><a href="#" data-nav="apps">CUSTOM APPLICATIONS</a></li>
+                <li><a href="#" data-nav="servicios">BRAND CONSULTING</a></li>
+                <li><a href="#" data-nav="servicios2">MARKETING & REPORTS</a></li>
             </ul>
         </section>
         <section id="banner">            
@@ -31,17 +30,17 @@ and open the template in the editor.
                     <span>Mejora tu presencia en Internet</span><br>
                     <div class="bt-form mostrarContacto">Get your website</div>
                 </div>
-                <div class="contenedor-contenido">
-                    <div class="intro slide1">
-                        <h1>WORQ</h1>
-                        <!--<div class="separador"></div>-->
 
-                    </div>
-                    <div class="intro slide2">
-                        <h2 class="wow fadeInUp">WE LAUCH WEB PROJECTS WITH <b>SUPERIOR QUALITY</b></h2>                        
-                        <p class="wow fadeIn" data-wow-delay=".6s">Desarrollamos aplicaciones web a medida</p>
-                    </div>
+                <div class="intro slide1">
+                    <h1>WORQ</h1>
+                    <!--<div class="separador"></div>-->
+
                 </div>
+                <div class="intro slide2">
+                    <h2 class="">WE LAUCH WEB PROJECTS <br/> WITH <b>SUPERIOR QUALITY</b></h2>                        
+                    <!--<p class="">Desarrollamos aplicaciones web a medida</p>-->
+                </div>
+
             </div>
         </section>
 
@@ -99,14 +98,15 @@ and open the template in the editor.
             <h3><span>&#8776;</span>&nbsp;LATEST PROJECTS</h3>
 
             <div class="fila-proyectos">
-                <div class="proyecto">
+                <div class="proyecto" >
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
                             <span>VIEW CASE</span>
                         </div>
+
                     </div>
-                    <img src="img/portfolio1.jpg" alt="Proyecto"/>
+                    <img src="img/portfolio1.jpg"/>
                 </div>
                 <div class="proyecto">
                     <div class="proyecto-over">
@@ -114,8 +114,8 @@ and open the template in the editor.
                             <span>&#8776;</span><br>
                             <span>VIEW CASE</span>
                         </div>
-                    </div>
-                    <img src="img/portfolio2.jpg" alt="Proyecto"/>
+                    </div>     
+                    <img src="img/portfolio2.jpg"/>
                 </div>
                 <div class="proyecto">
                     <div class="proyecto-over">
@@ -123,20 +123,21 @@ and open the template in the editor.
                             <span>&#8776;</span><br>
                             <span>VIEW CASE</span>
                         </div>
-                    </div>
-                    <img src="img/portfolio3.jpg" alt="Proyecto"/>
+                    </div>     
+                    <img src="img/portfolio3.jpg"/>
                 </div>
+
             </div>
 
             <div class="fila-proyectos">
-                <div class="proyecto">
+                <div class="proyecto" >
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
                             <span>VIEW CASE</span>
                         </div>
-                    </div>
-                    <img src="img/portfolio4.jpg" alt="Proyecto"/>
+                    </div>   
+                    <img src="img/portfolio4.jpg"/>
                 </div>
                 <div class="proyecto">
                     <div class="proyecto-over">
@@ -144,17 +145,17 @@ and open the template in the editor.
                             <span>&#8776;</span><br>
                             <span>VIEW CASE</span>
                         </div>
-                    </div>
-                    <img src="img/portfolio5.jpg" alt="Proyecto"/>
+                    </div>     
+                    <img src="img/portfolio5.jpg"/>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" >
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
                             <span>VIEW CASE</span>
                         </div>
                     </div>
-                    <img src="img/portfolio6.jpg" alt="Proyecto"/>
+                    <img src="img/portfolio6.jpg"/>
                 </div>
             </div>
 
@@ -259,8 +260,10 @@ and open the template in the editor.
 
         </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!--
         <script src="js/flexslider.js"></script>
-
+         <script src="js/wow.js"></script>-->
+        <script src="js/plugins.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>

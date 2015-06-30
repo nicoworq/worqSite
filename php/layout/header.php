@@ -26,11 +26,11 @@
         <div class="botonera-bg">
             <span id="logo-botonera">WORQ</span>
             <ul id="navegacion-fixed">
-                <li><a href="">PROFESIONAL WEBSITE</a></li>
-                <li><a href="">CUSTOM APPLICATIONS</a></li>
-                <li><a href="">BRAND CONSULTING</a></li>
-                <li><a href="">MARKETING & REPORTS</a></li>
-                <li><a href="">CONTACT US</a></li>
+                <li><a href="#">PROFESIONAL WEBSITE</a></li>
+                <li><a href="#">CUSTOM APPLICATIONS</a></li>
+                <li><a href="#">BRAND CONSULTING</a></li>
+                <li><a href="#">MARKETING & REPORTS</a></li>
+                <li><a href="#">CONTACT US</a></li>
             </ul>
         </div>
     </div>
