@@ -2,11 +2,15 @@
 
 if (document.querySelector('#slide-home') !== null) {
     imagesLoaded(document.querySelector('#slide-home'), function (instance) {
-        console.log('images loaded')
-        $('header, #botonera-container , #slide-home , #ultimos-proyectos').removeClass('loaderAnim');
-        $("#page-loader").fadeOut({easing: 'easeOutCubic', duration: 500, done: function () {
-                $("#page-loader").hide()
-            }});
+
+
+        var elements = document.querySelectorAll('header, #botonera-container , #slide-home , #ultimos-proyectos')
+
+        for (var elm in elements) {
+            elements[elm].className = '';
+        }
+        document.querySelector("#page-loader").className = 'hide';
+
     });
 } else {
     $('header, #botonera-container , #slide-home , #ultimos-proyectos').removeClass('loaderAnim');
@@ -17,7 +21,10 @@ if (document.querySelector('#slide-home') !== null) {
 
 
 $(document).ready(function () {
-
+    var hideLoader = function () {
+        $("#page-loader").hide()
+    }
+    setTimeout(hideLoader, 1500);
 
     $('#form-contacto input[type=submit]').mouseenter(function () {
 
@@ -50,7 +57,6 @@ $(document).ready(function () {
             // Anchors corresponding to menu items
             scrollItems = menuItems.map(function () {
                 var item = $($(this).attr("href"));
-                console.log(item)
                 if (item.length && item.selector !== '#contacto') {
                     return item;
                 }
@@ -86,12 +92,9 @@ $(document).ready(function () {
         cur = cur[cur.length - 1];
         var id = cur && cur.length ? cur[0].id : "";
 
-        console.log(id)
         menuItems
                 .parent().removeClass("activo")
                 .end().filter("[href=#" + id + "]").parent().addClass("activo");
-
-
     });
 
 
@@ -108,8 +111,7 @@ $(document).ready(function () {
             animation: "fade",
             animationLoop: true,
             itemWidth: 1,
-            minItems: 1,
-            maxItems: 1,
+            directionNav: false,
             move: 1
 
         });
@@ -186,14 +188,6 @@ $(document).ready(function () {
         $('#contacto-progress').hide();
     });
 
-    $('.proyecto').mouseenter(function () {
-        $(this).addClass('oh-yeah');
-        $(this).removeClass('oh-noo');
-    })
-    $('.proyecto').mouseleave(function () {
-        $(this).removeClass('oh-yeah');
-        $(this).addClass('oh-noo');
-    });
 
     //$('.proyecto-over').height($('.proyecto').height() - 40);
     //$('.proyecto-over-contenido').height($('.proyecto').height() - 40);
