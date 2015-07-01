@@ -111,6 +111,8 @@ $(document).ready(function () {
             animation: "fade",
             animationLoop: true,
             itemWidth: 1,
+            minItems: 1,
+            maxItems: 1,
             directionNav: false,
             move: 1
 
