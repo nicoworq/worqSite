@@ -1,14 +1,22 @@
 
 
-
-
-$(document).ready(function () {
-
+if (document.querySelector('#slide-home') !== null) {
     imagesLoaded(document.querySelector('#slide-home'), function (instance) {
         console.log('images loaded')
         $('header, #botonera-container , #slide-home , #ultimos-proyectos').removeClass('loaderAnim');
-        $("#page-loader").fadeOut({easing: 'easeOutCubic', duration: 500,done:function(){$("#page-loader").hide()}});
+        $("#page-loader").fadeOut({easing: 'easeOutCubic', duration: 500, done: function () {
+                $("#page-loader").hide()
+            }});
     });
+} else {
+    $('header, #botonera-container , #slide-home , #ultimos-proyectos').removeClass('loaderAnim');
+    $("#page-loader").fadeOut({easing: 'easeOutCubic', duration: 500, done: function () {
+            $("#page-loader").hide()
+        }});
+}
+
+
+$(document).ready(function () {
 
 
     $('#form-contacto input[type=submit]').mouseenter(function () {
