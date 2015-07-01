@@ -14,7 +14,7 @@
             </ul>
         </section>
         <section id="slide-home" class="loaderAnim">            
-            <div id="slide-home-bg">
+            <div id="slide-home-bg" style="background: url(img/bg2.jpg) no-repeat 50%;">
 
                 <div class='flexslider'>
                     <ul class='slides'>
