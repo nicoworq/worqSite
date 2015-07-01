@@ -28,15 +28,58 @@ $(document).ready(function () {
 
     });
 
-    $('#botonera a').click(function () {
+    $('#botonera a , #navegacion-fixed a').click(function (e) {
+        e.preventDefault();
+        var nav = $(this).attr('href');
 
-        var nav = $(this).attr('data-nav');
-
-        $('#' + nav).animatescroll({scrollSpeed: 2000, easing: 'easeOutQuart'});
-
-
+        if (nav !== '#contacto') {
+            $(nav).animatescroll({scrollSpeed: 2000, easing: 'easeOutQuart'});
+        }
     });
 
+
+    $('input[type=text]').focus(function () {
+        $(this).parent().addClass('activo');
+    });
+   
+    $('input[type=text]').blur(function () {
+        $(this).parent().removeClass('activo');
+    });
+    
+    
+    
+        var topMenu = $("#navegacion-fixed"),
+            topMenuHeight = topMenu.outerHeight() + 80,
+            // All list items
+            menuItems = topMenu.find("li a"),
+            // Anchors corresponding to menu items
+            scrollItems = menuItems.map(function () {
+                var item = $($(this).attr("href"));
+                if (item.length) {
+                    return item;
+                }
+            });
+
+
+    $(window).scroll(function () {
+
+        var fromTop = $(this).scrollTop() + topMenuHeight;
+
+        var cur = scrollItems.map(function () {
+            if ($(this).offset().top < fromTop)
+                return this;
+        });
+
+        cur = cur[cur.length - 1];
+        var id = cur && cur.length ? cur[0].id : "";
+
+        menuItems
+                .parent().removeClass("activo")
+                .end().filter("[href=#" + id + "]").parent().addClass("activo");
+
+    });
+    
+    
 
     var alturaHeader = $('header').innerHeight();
 
@@ -52,9 +95,9 @@ $(document).ready(function () {
             var y = $(window).scrollTop();
             if (y > (h * .25) && y < (h * .75)) {
                 // if we are show keyboardTips
-                
+
             } else {
-              
+
             }
         }
 

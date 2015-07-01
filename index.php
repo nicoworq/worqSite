@@ -17,10 +17,10 @@ and open the template in the editor.
         <?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container"> 
             <ul id="botonera">
-                <li><a href="#" data-nav="pro-web">PROFESIONAL WEBSITE</a></li>
-                <li><a href="#" data-nav="apps">CUSTOM APPLICATIONS</a></li>
-                <li><a href="#" data-nav="servicios">BRAND CONSULTING</a></li>
-                <li><a href="#" data-nav="servicios2">MARKETING & REPORTS</a></li>
+                <li><a href="#proweb" >PROFESIONAL WEBSITE</a></li>
+                <li><a href="#apps">CUSTOM APPLICATIONS</a></li>
+                <li><a href="#servicios">BRAND CONSULTING</a></li>
+                <li><a href="#servicios2">MARKETING & REPORTS</a></li>
             </ul>
         </section>
         <section id="banner">            
@@ -174,7 +174,7 @@ and open the template in the editor.
                     <span>RESPONSIVE & USABLE</span>    
                     <span>NON TEMPLATE DESIGN</span>    
                 </div>
-                <a href ="">Get your Website</a>
+                <a href ="#" class="mostrarContacto">Get your Website</a>
             </div>
         </section>
 
@@ -183,11 +183,14 @@ and open the template in the editor.
                 <h3><span>We make</span> APPS</h3>
                 <div class="separador"></div>
                 <h4>CUSTOM APPLICATIONS</h4>
-                <a href="">View Case Study</a>
-
                 <p>bring <b>ideas</b> to <b>reality</b></p>
+                <a href="#" class="mostrarContacto">I want my APP!</a>
             </div>
-            <div class="imagen-apps"></div>
+            <div class="imagen-apps">
+                <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
+                    <img src="img/imagen_taxista_virtual-min.png" alt="TaxistaVirtual"/>
+                </a>
+            </div>
         </section>
 
         <section id="servicios">

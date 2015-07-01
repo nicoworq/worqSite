@@ -6,7 +6,7 @@
         <span>IMPULSE YOUR PROJECT </span>
     </div>
     <div class="header-center">
-        <ul>
+        <ul id="navigation-center">
             <li><a href="press.php">PRESS</a></li>
             <li><a href="#">AWARDS</a></li>
             <li><a href="thecompany.php">THE COMPANY</a></li>
@@ -26,11 +26,11 @@
         <div class="botonera-bg">
             <span id="logo-botonera">WORQ</span>
             <ul id="navegacion-fixed">
-                <li><a href="#">PROFESIONAL WEBSITE</a></li>
-                <li><a href="#">CUSTOM APPLICATIONS</a></li>
-                <li><a href="#">BRAND CONSULTING</a></li>
-                <li><a href="#">MARKETING & REPORTS</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#pro-web">PROFESIONAL WEBSITE</a></li>
+                <li><a href="#apps">CUSTOM APPLICATIONS</a></li>
+                <li><a href="#servicios">BRAND CONSULTING</a></li>
+                <li><a href="#servicios2">MARKETING & REPORTS</a></li>
+                <li><a class="nav-fixed-contacto mostrarContacto" href="#contacto">CONTACT US</a></li>
             </ul>
         </div>
     </div>
