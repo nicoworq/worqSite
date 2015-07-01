@@ -3,7 +3,7 @@
         <a id="logo-worq" href="index.php">
             <img  src="img/logo-worq.png" alt="WORQ" title="WORQ" />
         </a>
-        <span>IMPULSE YOUR PROJECT </span>
+        <a href="index.php"><span>IMPULSE YOUR PROJECT </span></a>
     </div>
     <div class="header-center">
         <ul id="navigation-center">

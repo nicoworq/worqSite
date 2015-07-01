@@ -129,6 +129,9 @@ header ul{
 
     width: 29%;
 }
+.header-left a{
+    color: white;
+}
 
 .header-center{
     text-align: center;

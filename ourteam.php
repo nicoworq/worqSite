@@ -1,18 +1,7 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <meta charset="UTF-8">
 
-        <link href="css/estilos.css" media="all" rel="stylesheet"/>
-        <title>WORQ</title>
-
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    </head>
+<html lang="es">
+    <?php include_once './php/layout/head.php'; ?>
     <body>
 
         <?php include_once './php/layout/header.php'; ?>
