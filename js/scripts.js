@@ -41,14 +41,14 @@ $(document).ready(function () {
     $('input[type=text]').focus(function () {
         $(this).parent().addClass('activo');
     });
-   
+
     $('input[type=text]').blur(function () {
         $(this).parent().removeClass('activo');
     });
-    
-    
-    
-        var topMenu = $("#navegacion-fixed"),
+
+
+
+    var topMenu = $("#navegacion-fixed"),
             topMenuHeight = topMenu.outerHeight() + 80,
             // All list items
             menuItems = topMenu.find("li a"),
@@ -78,8 +78,8 @@ $(document).ready(function () {
                 .end().filter("[href=#" + id + "]").parent().addClass("activo");
 
     });
-    
-    
+
+
 
     var alturaHeader = $('header').innerHeight();
 
@@ -110,21 +110,21 @@ $(document).ready(function () {
     });
 
 
-    /*
-     var slider = $('.flexslider');
-     
-     if (slider.length > 0) {
-     slider.flexslider({
-     animation: "slide",
-     animationLoop: true,
-     itemWidth: 1,
-     minItems: 1,
-     maxItems: 1,
-     move: 1
-     
-     });
-     }
-     */
+
+    var slider = $('.flexslider');
+
+    if (slider.length > 0) {
+        slider.flexslider({
+            animation: "fade",
+            animationLoop: true,
+            itemWidth: 1,
+            minItems: 1,
+            maxItems: 1,
+            move: 1
+
+        });
+    }
+
 
     //$('#bg').height(alturaVentana - (alturaHeader + alturaFooter) - 40);
 
@@ -147,7 +147,7 @@ $(document).ready(function () {
         });
     }
 
-    timeOut = setTimeout(animarWorq1, 2500)
+    //timeOut = setTimeout(animarWorq1, 2500)
 
 
     $(window).on('resize', function () {

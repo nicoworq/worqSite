@@ -9,29 +9,47 @@
         <?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container"> 
             <ul id="botonera">
-                <li><a href="#proweb" >PROFESIONAL WEBSITE</a></li>
+                <li><a href="#proweb" ><?php echo _("PROFESIONAL WEBSITE") ?></a></li>
                 <li><a href="#apps">CUSTOM APPLICATIONS</a></li>
                 <li><a href="#servicios">BRAND CONSULTING</a></li>
                 <li><a href="#servicios2">MARKETING & REPORTS</a></li>
             </ul>
         </section>
-        <section id="banner">            
-            <div id="bg">
+        <section id="slide-home">            
+            <div id="slide-home-bg">
 
-                <div id="call-action1">
-                    <span>Mejora tu presencia en Internet</span><br>
-                    <div class="bt-form mostrarContacto">Get your website</div>
+                <div class='flexslider'>
+                    <ul class='slides'>
+                        <li>
+                            <div class='slide'>
+                                <div class="slide-text">
+                                    <h1>WORQ</h1>
+                                </div>
+                                <div class="slide-action">
+                                    <img src="img/slide-mobile-min.png"/>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class='slide'>
+                                <div class="slide-text">
+                                    <h2 class="">WE LAUCH WEB PROJECTS <br/> WITH <b>SUPERIOR QUALITY</b></h2>                                                       
+                                </div>
+                                <div class="slide-action">
+                                    <div class="cta-slide">
+                                        <span>Mejora tu presencia en Internet</span><br>
+                                        <div class="bt-form mostrarContacto">Get your website</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="intro slide1">
-                    <h1>WORQ</h1>
-                    <!--<div class="separador"></div>-->
 
-                </div>
-                <div class="intro slide2">
-                    <h2 class="">WE LAUCH WEB PROJECTS <br/> WITH <b>SUPERIOR QUALITY</b></h2>                        
-                    <!--<p class="">Desarrollamos aplicaciones web a medida</p>-->
-                </div>
 
             </div>
         </section>

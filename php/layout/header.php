@@ -24,7 +24,7 @@
 <section id="botonera-fixed">
     <div class="botonera-marco">
         <div class="botonera-bg">
-            <span id="logo-botonera"><a href='#banner'><img src='img/logo-worq-fixed.png' alt='WORQ'/></a></span>
+            <span id="logo-botonera"><a href='#slide-home'><img src='img/logo-worq-fixed.png' alt='WORQ'/></a></span>
             <ul id="navegacion-fixed">
                 <li><a href="#pro-web">PROFESIONAL WEBSITE</a></li>
                 <li><a href="#apps">CUSTOM APPLICATIONS</a></li>
