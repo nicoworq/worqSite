@@ -890,10 +890,10 @@ img.contadores-ipad {
 }
 
 .proyecto.oh-noo img{
-    animation: blkOn 0.6s ease-in-out forwards;
+    animation: blkOff 0.6s ease-in-out forwards;
 }
 .proyecto.oh-yeah img{
-    animation: blkOff 0.6s ease-in-out forwards;
+    animation: blkOn 0.6s ease-in-out forwards;
 
 }
 
