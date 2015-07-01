@@ -1,4 +1,8 @@
-<header>
+<div id="page-loader">
+    <img src="img/loader.svg" alt="Loading"/>
+</div>
+
+<header class="loaderAnim">
     <div class="header-left">
         <a id="logo-worq" href="index.php">
             <img  src="img/logo-worq.png" alt="WORQ" title="WORQ" />

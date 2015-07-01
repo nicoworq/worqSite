@@ -1,28 +1,15 @@
-var supports3DTransforms = document.body.style['webkitPerspective'] !== undefined ||
-        document.body.style['MozPerspective'] !== undefined;
 
-function linkify(selector) {
-    if (supports3DTransforms) {
-
-        var nodes = document.querySelectorAll(selector);
-
-        for (var i = 0, len = nodes.length; i < len; i++) {
-            var node = nodes[i];
-
-            if (!node.className || !node.className.match(/roll/g)) {
-                node.className += ' roll';
-                node.innerHTML = '<span data-title="' + node.text + '">' + node.innerHTML + '</span>';
-            }
-        }
-        ;
-    }
-}
-
-//linkify('#botonera a');
 
 
 
 $(document).ready(function () {
+
+    imagesLoaded(document.querySelector('#slide-home'), function (instance) {
+        console.log('images loaded')
+        $('header, #botonera-container , #slide-home , #ultimos-proyectos').removeClass('loaderAnim');
+        $("#page-loader").fadeOut({easing: 'easeOutCubic', duration: 500,done:function(){$("#page-loader").hide()}});
+    });
+
 
     $('#form-contacto input[type=submit]').mouseenter(function () {
 
@@ -49,19 +36,37 @@ $(document).ready(function () {
 
 
     var topMenu = $("#navegacion-fixed"),
-            topMenuHeight = topMenu.outerHeight() + 80,
+            topMenuHeight = topMenu.outerHeight() + 40,
             // All list items
             menuItems = topMenu.find("li a"),
             // Anchors corresponding to menu items
             scrollItems = menuItems.map(function () {
                 var item = $($(this).attr("href"));
-                if (item.length) {
+                console.log(item)
+                if (item.length && item.selector !== '#contacto') {
                     return item;
                 }
             });
 
 
+
+    /*
+     var alturaHeader = $('header').innerHeight();
+     var alturaFooter = $('#botonera').innerHeight();
+     var alturaVentana = $(window).height();*/
+
     $(window).scroll(function () {
+        // get the height of #wrap
+        /*
+         if ($('#pro-web').length > 0) {
+         var h = $('#pro-web').position().top;
+         var y = $(window).scrollTop();
+         if (y > (h * .25) && y < (h * .75)) {
+         // if we are show keyboardTips
+         } else {
+         
+         }
+         }*/
 
         var fromTop = $(this).scrollTop() + topMenuHeight;
 
@@ -73,33 +78,10 @@ $(document).ready(function () {
         cur = cur[cur.length - 1];
         var id = cur && cur.length ? cur[0].id : "";
 
+        console.log(id)
         menuItems
                 .parent().removeClass("activo")
                 .end().filter("[href=#" + id + "]").parent().addClass("activo");
-
-    });
-
-
-
-    var alturaHeader = $('header').innerHeight();
-
-    var alturaFooter = $('#botonera').innerHeight();
-
-    var alturaVentana = $(window).height();
-
-    $(window).scroll(function () {
-        // get the height of #wrap
-
-        if ($('#pro-web').length > 0) {
-            var h = $('#pro-web').position().top;
-            var y = $(window).scrollTop();
-            if (y > (h * .25) && y < (h * .75)) {
-                // if we are show keyboardTips
-
-            } else {
-
-            }
-        }
 
 
     });

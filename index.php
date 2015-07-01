@@ -2,12 +2,10 @@
 <html lang="es">
 
     <?php include_once './php/layout/head.php'; ?>
-
-
     <body>
 
         <?php include_once './php/layout/header.php'; ?>
-        <section id="botonera-container"> 
+        <section id="botonera-container" class="loaderAnim"> 
             <ul id="botonera">
                 <li><a href="#proweb" ><?php echo _("PROFESIONAL WEBSITE") ?></a></li>
                 <li><a href="#apps">CUSTOM APPLICATIONS</a></li>
@@ -15,7 +13,7 @@
                 <li><a href="#servicios2">MARKETING & REPORTS</a></li>
             </ul>
         </section>
-        <section id="slide-home">            
+        <section id="slide-home" class="loaderAnim">            
             <div id="slide-home-bg">
 
                 <div class='flexslider'>
@@ -58,53 +56,7 @@
 
 
 
-
-        <!--
-                <section id="ultimos-proyectos-slider" class="flexslider">
-        
-        
-        
-                    <ul class="slides">
-        
-                        <li>  
-                            <div id="slide-falazairroo" class="slide-proyecto">
-                                <div class="slide-proyecto-imagen">
-                                    <img class="fala-mac" src="img/falazairroo1.png"/>
-                                </div>
-                                <div class="slide-proyecto-contenido">
-                                    <img class="laureles wow bounceIn" src="img/laureles.png" />
-                                    <img src="img/logo-falazairroo.png"/>
-                                    <span class="slide-proyecto-titulo">FALAZAIRROO</span>
-                                    <span class="slide-proyecto-proweb">PRO<span>≈</span>WEBSITE</span>
-                                    <span class="slide-proyecto-texto">SITIO INSTITUCIONAL</span>
-                                    <a href="#" class="slide-proyecto-link">Ver Caso de &Eacute;xito</a>
-                                </div>
-                                <div class="slide-proyecto-imagen">
-                                    <img class="fala-ipad" src="img/falazairroo2.png"/>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div id="slide-contadores" class="slide-proyecto">
-                                <div class="slide-proyecto-imagen">
-                                    <img class="contadores-mac" src="img/contadores1.png"/>
-                                </div>
-                                <div class="slide-proyecto-contenido">
-        
-                                    <span class="slide-proyecto-titulo wow fadeInDown" data-wow-delay="2s">CONTADORES ROSARIO.COM</span>
-                                    <span class="slide-proyecto-proweb">PRO<span>≈</span>WEBSITE</span>
-                                    <span class="slide-proyecto-texto">PORTAL DE NOTICIAS DE ECONOM&Iacute;A & INVERSIONES DE LA REGI&Oacute;N</span>
-                                    <a href="#" class="slide-proyecto-link">Ver Caso de &Eacute;xito</a>
-                                </div>
-                                <div class="slide-proyecto-imagen">
-                                    <img class="contadores-ipad" src="img/contadores2.png"/>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>            
-                </section> -->
-
-        <section id="ultimos-proyectos">
+        <section id="ultimos-proyectos" class="loaderAnim">
             <h3><span>&#8776;</span>&nbsp;LATEST PROJECTS</h3>
 
             <div class="fila-proyectos">
@@ -275,9 +227,6 @@
 
         </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <!--
-        <script src="js/flexslider.js"></script>
-         <script src="js/wow.js"></script>-->
         <script src="js/plugins.js"></script>
         <script src="js/scripts.js"></script>
     </body>
