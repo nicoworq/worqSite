@@ -28,7 +28,7 @@ $(document).ready(function () {
 
     });
 
-    $('#botonera a , #navegacion-fixed a').click(function (e) {
+    $('#botonera a , #navegacion-fixed a, #logo-botonera a').click(function (e) {
         e.preventDefault();
         var nav = $(this).attr('href');
 
