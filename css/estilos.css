@@ -980,6 +980,12 @@ img.contadores-ipad {
     position: relative;
 }
 
+.apps-contenedor {
+    overflow: hidden;
+    width: 1305px;
+    margin: 0 auto;
+    position: relative;
+}
 .contenido-apps{
     /* width: 100%; */
     float: left;
@@ -990,7 +996,7 @@ img.contadores-ipad {
     color:white;
     box-sizing: border-box;
     margin-left: 84px;
-    position: relative;
+    /* position: relative; */
 }
 
 .contenido-apps h3{

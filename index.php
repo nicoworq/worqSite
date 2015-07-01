@@ -171,17 +171,19 @@
         </section>
 
         <section id="apps">
-            <div class="contenido-apps">
-                <h3><span>We make</span> APPS</h3>
-                <div class="separador"></div>
-                <h4>CUSTOM APPLICATIONS</h4>
-                <p>bring <b>ideas</b> to <b>reality</b></p>
-                <a href="#" class="mostrarContacto">I want my APP!</a>
-            </div>
-            <div class="imagen-apps">
-                <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
-                    <img src="img/imagen_taxista_virtual-min.png" alt="TaxistaVirtual"/>
-                </a>
+            <div class="apps-contenedor">
+                <div class="contenido-apps">
+                    <h3><span>We make</span> APPS</h3>
+                    <div class="separador"></div>
+                    <h4>CUSTOM APPLICATIONS</h4>
+                    <p>bring <b>ideas</b> to <b>reality</b></p>
+                    <a href="#" class="mostrarContacto">I want my APP!</a>
+                </div>
+                <div class="imagen-apps">
+                    <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
+                        <img src="img/imagen_taxista_virtual-min.png" alt="TaxistaVirtual"/>
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -196,7 +198,7 @@
         </section>
         <section id="servicios2">
             <div class="contenido-servicios">
-                <h3>ONLINE MARKETING <span>&</span>REPORTS</h3>
+                <h3>ONLINE MARKETING <br/><span>&</span>REPORTS</h3>
                 <div class="nuestros-servicios">
                     <span>STATS AND METRICS</span>
                     <span>SOCIAL MEDIA</span>
