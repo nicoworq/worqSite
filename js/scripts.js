@@ -1,8 +1,10 @@
 
+var imgLoaded = false;
 
 if (document.querySelector('#slide-home') !== null) {
     imagesLoaded(document.querySelector('#slide-home'), function (instance) {
 
+        imgLoaded = true;
 
         var elements = document.querySelectorAll('header, #botonera-container , #slide-home , #ultimos-proyectos')
 
@@ -13,6 +15,8 @@ if (document.querySelector('#slide-home') !== null) {
 
     });
 } else {
+
+    imgLoaded = true;
     $('header, #botonera-container , #slide-home , #ultimos-proyectos').removeClass('loaderAnim');
     $("#page-loader").fadeOut({easing: 'easeOutCubic', duration: 500, done: function () {
             $("#page-loader").hide()
@@ -22,9 +26,14 @@ if (document.querySelector('#slide-home') !== null) {
 
 $(document).ready(function () {
     var hideLoader = function () {
-        $("#page-loader").hide()
-    }
-    setTimeout(hideLoader, 1500);
+        if (imgLoaded) {
+            $("#page-loader").hide();
+            clearInterval(hideIntervalID);
+        }
+    };
+
+    var hideIntervalID = setInterval(hideLoader, 500);
+
 
     $('#form-contacto input[type=submit]').mouseenter(function () {
 
