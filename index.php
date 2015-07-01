@@ -15,7 +15,7 @@
         </section>
         <section id="slide-home" class="loaderAnim">            
             <div id="slide-home-bg">
-
+                <img class="img-bg" src="img/bg2.jpg" alt="WORQ"/>
                 <div class='flexslider'>
                     <ul class='slides'>
                         <li>
