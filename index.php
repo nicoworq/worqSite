@@ -5,7 +5,7 @@ putenv("LANG=".$locale);
 setlocale(LC_ALL, $locale);
 
 $domain = 'example';
-bindtextdomain($domain, 'Locale');
+bindtextdomain($domain, 'lang');
 bind_textdomain_codeset($domain, 'UTF-8');
 
 textdomain($domain)
