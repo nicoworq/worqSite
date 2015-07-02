@@ -1,13 +1,17 @@
 <?php 
+
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+
 $locale = 'es_AR';
 
 putenv("LANG=".$locale);
 setlocale(LC_ALL, $locale);
 
-echo getcwd();
+
 $domain = 'es';
-bindtextdomain($domain, 'F:\wamp\www\worq\lang');
-bind_textdomain_codeset($domain, 'UTF-8');
+echo bindtextdomain($domain, 'locale');
+//bind_textdomain_codeset($domain, 'UTF-8');
 
 textdomain($domain)
 ?>
