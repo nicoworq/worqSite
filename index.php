@@ -1,17 +1,16 @@
-<?php 
-
+<?php
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
 $locale = 'es_AR';
 
-putenv("LANG=".$locale);
+putenv("LANG=" . $locale);
 setlocale(LC_ALL, $locale);
 
 
 $domain = 'es';
-echo bindtextdomain($domain, 'locale');
-//bind_textdomain_codeset($domain, 'UTF-8');
+bindtextdomain($domain, 'locale');
+bind_textdomain_codeset($domain, 'UTF-8');
 
 textdomain($domain)
 ?>
@@ -146,30 +145,88 @@ textdomain($domain)
         <section id="pro-web">
             <div class="bg-pro-web">
                 <h4>PRO<span>&#8776;</span>WEBSITES</h4>
-
                 <div class="propiedades">
-                    <span>100% MADE TO MEASURE</span>    
-                    <span>HIGH DESIGN QUALITY</span>    
-                    <span>POWERFULL & STRONG</span>    
-                    <span>RESPONSIVE & USABLE</span>    
-                    <span>NON TEMPLATE DESIGN</span>    
+                    <span><font color="#68c023">100%</font> MADE TO MEASURE</span>    
+                    <span>HIGH <font color="#68c023">DESIGN</font> QUALITY</span>    
+                    <span>POWERFULL <font color="#68c023">&</font> STRONG</span>                    
                 </div>
+                <div class="section-col">
+                    <div class="section-text">
+                        <h3>PLAN</h3>
+                        <p>We construct a framework for your project to take<br/> shape within in terms of strategy, production and time.</p>
+                    </div>
+                    <div class="section-text">
+                        <h3>DESIGN</h3>
+                        <p>We distill planning into purposeful designs that reflect<br/> your objectives and outline a visual aesthetic.</p>
+                    </div>
+
+
+                </div>
+                <div class="section-col section-col2">
+                    <div class="section-text">
+                        <h3>DISCOVER</h3>
+                        <p>We ask and listen toward a thorough understanding of<br/> your company, project, audience and objectives.</p>
+                    </div>
+                    <div class="section-text">
+                        <h3>GROW</h3>
+                        <p>We track, analyze and correct your project’s growth<br/> through ongoing campaigns and retainers.</p>
+                    </div>
+
+                </div>
+
                 <a href ="#" class="mostrarContacto">Get your Website</a>
+                <div class="section-footer">
+                    <p>Visual Design ~ Branding & Identity Design ~ Concept Development ~ Usability Testing & Research ~ Interaction Design ~ Information Architecture ~ Content Creation ~ Prototyping ~ Wireframing ~ Platform Design ~ Interface Design</p> 
+                </div>
             </div>
         </section>
 
         <section id="apps">
             <div class="apps-contenedor">
+
+                <div class="imagen-app1">
+                    <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
+                        <img src="img/imagen_taxista_virtual1.png" alt="TaxistaVirtual"/>
+                    </a>
+                </div>
                 <div class="contenido-apps">
                     <h3><?php echo _('<span>We make</span> APPS'); ?></h3>
-                    <div class="separador"></div>
-                    <h4>CUSTOM APPLICATIONS</h4>
+                    <div class="separador"></div>                    
                     <p>bring <b>ideas</b> to <b>reality</b></p>
-                    <a href="#" class="mostrarContacto">I want my APP!</a>
+                    <div class="section-col">
+                        <div class="section-text">
+                            <p>We're a Startup Studio. A company that builds companies.<br/>
+                                Sharing people, resources and technologies to accelerate<br/>
+                                our successes. We make the complex simple through<br/>
+                                digital strategy and design.<br/>
+                                <br/>
+                                We create products, platforms and campaigns that move<br/>
+                                products as well as culture.</p>
+                        </div>
+                        <div class="section-text">
+                            <p>
+                                Our passion for design goes beyond beautiful imagery<br/>
+                                and into the mind of the consumer, where we believe<br/>
+                                good design should solve problems and position a<br/>
+                                brand so it stands out as well as stands for something.<br/>
+                                <br/>
+
+                                We design identity systems, digital platforms and brand<br/> campaigns that engage today’s consumer. 
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <a href="#" class="mostrarContacto">Get your APP!</a>
+                    <div class="section-footer">
+                        <p>Digital Strategy -Website Design - User Interface Design<br/>
+                            -User Experience Design- Social Campaigns-eCommerce / Retail -Content Development-Digital Installations-Web Apps / Products-Mobile Design</p>
+                    </div>
                 </div>
-                <div class="imagen-apps">
+
+                <div class="imagen-app2">
                     <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
-                        <img src="img/imagen_taxista_virtual-min.png" alt="TaxistaVirtual"/>
+                        <img src="img/imagen_taxista_virtual2.png" alt="TaxistaVirtual"/>
                     </a>
                 </div>
             </div>
@@ -181,6 +238,11 @@ textdomain($domain)
                 <div class="nuestros-servicios">
                     <span>WEB PERFORMANCE ANALYSIS&nbsp;&nbsp;|&nbsp;&nbsp;OPTIMIZE RESULTS&nbsp;&nbsp;|&nbsp;&nbsp;NAMING ADVICE</span>
                 </div>
+                <h4>The <b>boost</b> that your<br/>
+                    project <b>need</b></h4>
+                <p>At work we develop strategies to put your business to the top.<br/>
+                    We are a design and innovation consultancy agency that helps bring innovative<br/>
+                    products to market. Helping clients to develop product strategies ranging from<br/> simple product refresh to big innovations.</p>
 
             </div>
         </section>
@@ -227,6 +289,6 @@ textdomain($domain)
         </section>
         -->
 
-         <?php include_once './php/layout/footer.php'; ?>
+        <?php include_once './php/layout/footer.php'; ?>
     </body>
 </html>
