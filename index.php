@@ -1,3 +1,16 @@
+<?php 
+$locale = 'es_AR';
+
+putenv("LANG=".$locale);
+setlocale(LC_ALL, $locale);
+
+$domain = 'example';
+bindtextdomain($domain, 'Locale');
+bind_textdomain_codeset($domain, 'UTF-8');
+
+textdomain($domain)
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -8,9 +21,9 @@
         <section id="botonera-container" class="loaderAnim"> 
             <ul id="botonera">
                 <li><a href="#proweb" ><?php echo _("PROFESIONAL WEBSITE") ?></a></li>
-                <li><a href="#apps">CUSTOM APPLICATIONS</a></li>
-                <li><a href="#servicios">BRAND CONSULTING</a></li>
-                <li><a href="#servicios2">MARKETING & REPORTS</a></li>
+                <li><a href="#apps"><?php echo _('CUSTOM APPLICATIONS'); ?></a></li>
+                <li><a href="#servicios"><?php echo _('BRAND CONSULTING'); ?></a></li>
+                <li><a href="#servicios2"><?php echo _('MARKETING & REPORTS'); ?></a></li>
             </ul>
         </section>
         <section id="slide-home" class="loaderAnim">            
@@ -32,12 +45,12 @@
                         <li>
                             <div class='slide'>
                                 <div class="slide-text">
-                                    <h2 class="">WE LAUCH WEB PROJECTS <br/> WITH <b>SUPERIOR QUALITY</b></h2>                                                       
+                                    <h2 class=""><?php echo _('WE LAUCH WEB PROJECTS <br/> WITH <b>SUPERIOR QUALITY</b>'); ?></h2>                                                       
                                 </div>
                                 <div class="slide-action">
                                     <div class="cta-slide">
-                                        <span>Mejora tu presencia en Internet</span><br>
-                                        <div class="bt-form mostrarContacto">Get your website</div>
+                                        <span><?php echo _('Impulse your project '); ?></span><br>
+                                        <div class="bt-form mostrarContacto"><?php echo _('Get your website'); ?></div>
                                     </div>
 
                                 </div>
@@ -57,7 +70,7 @@
 
 
         <section id="ultimos-proyectos" class="loaderAnim">
-            <h3><span>&#8776;</span>&nbsp;LATEST PROJECTS</h3>
+            <h3><span>&#8776;</span>&nbsp;<?php echo _('OUR WORK'); ?></h3>
 
             <div class="fila-proyectos">
                 <div class="proyecto" >
@@ -143,7 +156,7 @@
         <section id="apps">
             <div class="apps-contenedor">
                 <div class="contenido-apps">
-                    <h3><span>We make</span> APPS</h3>
+                    <h3><?php echo _('<span>We make</span> APPS'); ?></h3>
                     <div class="separador"></div>
                     <h4>CUSTOM APPLICATIONS</h4>
                     <p>bring <b>ideas</b> to <b>reality</b></p>

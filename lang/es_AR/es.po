@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WORQ SITE\n"
+"POT-Creation-Date: 2015-07-01 20:53-0300\n"
+"PO-Revision-Date: 2015-07-01 20:56-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_AR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _(\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:10 php/layout/header.php:34
+msgid "PROFESIONAL WEBSITE"
+msgstr "SITIOS PROFESIONALES"
+
+#: index.php:11 php/layout/header.php:35
+msgid "CUSTOM APPLICATIONS"
+msgstr "APLICACIONES PERSONALIZADAS"
+
+#: index.php:12 php/layout/header.php:36
+msgid "BRAND CONSULTING"
+msgstr "CONSULTORIA DE MARCA"
+
+#: index.php:13
+msgid "MARKETING & REPORTS"
+msgstr "MARKETING & REPORTES"
+
+#: index.php:35
+msgid "WE LAUCH WEB PROJECTS <br/> WITH <b>SUPERIOR QUALITY</b>"
+msgstr "LANZAMOS PROYECTOS WEB </br> DE <b>CALIDAD SUPERIOR</b>"
+
+#: index.php:39
+msgid "Impulse your project "
+msgstr "Impulsa tu proyecto"
+
+#: index.php:40
+msgid "Get your website"
+msgstr "Ten tu sitio"
+
+#: php/layout/header.php:10
+msgid "IMPULSE YOUR PROJECT"
+msgstr "IMPULSA TU PROYECTO"
+
+#: php/layout/header.php:14
+msgid "PRESS"
+msgstr "PRENSA"
+
+#: php/layout/header.php:16
+msgid "THE COMPANY"
+msgstr "LA COMPAñia"
+
+#: php/layout/header.php:17
+msgid "PORTFOLIO"
+msgstr "PORTFOLIO"
+
+#: php/layout/header.php:24 php/layout/header.php:25
+msgid "CALL US"
+msgstr "Llamanos"
+
+#: php/layout/header.php:37
+msgid "MARKETING & REPORT"
+msgstr "MARKETING & REPORTES"
+
+#: php/layout/header.php:38
+msgid "CONTACT US"
+msgstr "CONTACTANOS"
+
+#: php/layout/header.php:50
+msgid "LETS TALK ABOUT YOUR PROJECT"
+msgstr ""
+
+#: php/layout/header.php:52
+msgid "WE ARE EAGER TO HEAR YOUR IDEAS"
+msgstr ""
+
+#: php/layout/header.php:62
+msgid "LETS GET IN TOUCH"
+msgstr ""
+
+#: php/layout/header.php:68
+msgid "We will contact you shortly!"
+msgstr ""
+
+#: php/layout/header.php:76
+msgid "OR JUST CALL US"
+msgstr ""
+
+#: php/layout/header.php:78
+msgid "SEND AN EMAIL TO"
+msgstr ""
+
+#: php/layout/header.php:79
+msgid "IF YOU WANT TO TALK<br> WITH JUAN:"
+msgstr ""
+
+#: php/layout/header.php:80
+msgid "IF YOU WANT TALK <br> WITH NICOLAS:"
+msgstr ""
+
+#: php/layout/header.php:81
+msgid "FIND US IN:"
+msgstr ""
