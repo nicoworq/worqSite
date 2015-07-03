@@ -123,7 +123,8 @@ $(document).ready(function () {
             minItems: 1,
             maxItems: 1,
             directionNav: false,
-            move: 1
+            move: 1,
+            controlNav:false
 
         });
     }
