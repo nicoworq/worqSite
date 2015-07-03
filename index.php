@@ -40,24 +40,21 @@ textdomain($domain)
                                 <div class="slide-text">
                                     <h1>WORQ</h1>
                                 </div>
-                                <div class="slide-action">
-                                    <img src="img/slide-mobile-min.png"/>
+                                <div class="slide-action slide-notebook">
+                                    <img src="img/slide-home1-min.png"/>
                                 </div>
 
                             </div>
                         </li>
                         <li>
-                            <div class='slide'>
+                            <div class='slide slide-cta'>
                                 <div class="slide-text">
-                                    <h2 class=""><?php echo _('WE LAUCH WEB PROJECTS <br/> WITH <b>SUPERIOR QUALITY</b>'); ?></h2>                                                       
-                                </div>
-                                <div class="slide-action">
-                                    <div class="cta-slide">
-                                        <span><?php echo _('Impulse your project '); ?></span><br>
+                                    <h2 class=""><?php echo _('WE LAUCH WEB PROJECTS  WITH <br/> <b>SUPERIOR QUALITY</b>'); ?></h2>   
+                                    <div class="cta-slide">                                        
                                         <div class="bt-form mostrarContacto"><?php echo _('Get your website'); ?></div>
                                     </div>
-
                                 </div>
+
                             </div>
 
                         </li>
@@ -186,7 +183,7 @@ textdomain($domain)
 
                 <div class="imagen-app1">
                     <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
-                        <img src="img/imagen_taxista_virtual1.png" alt="TaxistaVirtual"/>
+                        <img src="img/imagen_taxista_virtual1-min.png" alt="TaxistaVirtual"/>
                     </a>
                 </div>
                 <div class="contenido-apps">
@@ -226,7 +223,7 @@ textdomain($domain)
 
                 <div class="imagen-app2">
                     <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
-                        <img src="img/imagen_taxista_virtual2.png" alt="TaxistaVirtual"/>
+                        <img src="img/imagen_taxista_virtual2-min.png" alt="TaxistaVirtual"/>
                     </a>
                 </div>
             </div>
