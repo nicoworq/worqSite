@@ -1415,12 +1415,27 @@ footer{
     color:white;
 }
 
-
+#press-head{
+    color: white;
+    font-family: 'MuseoSans';
+    text-align: center;
+    padding: 13px 0 1px;
+    background: url(../img/press-head-bg.jpg);
+    background-size: cover;
+}
+#press-head h1{
+    font-weight: 900;
+    font-size: 140px;
+    text-transform: uppercase;
+    margin: 114px 0;
+}
 #press{
-    background:#202022;
+    /* background:#202022; */
     margin: 0 40px 40px 40px;
-    padding: 1px 160px;
+    padding: 24px 117px;
     color:white;
+    width: 998px;
+    margin: 0 auto;
 }
 #press h1{
     font-family: 'MuseoSans';
@@ -1442,14 +1457,53 @@ footer{
 
 
 #press li{
-    border-top:1px solid #373739;
-    padding: 65px 60px;
+    /* border-top:1px solid #373739; */
+    padding: 65px 0 23px;
     overflow: hidden;
+    position: relative;
 }
 
 #press li img {
     float: left;
 }
+
+.prensa-logo{
+    float: left;
+    background: url(../img/sprite-prensa.jpg)no-repeat;
+    width: 240px;
+    height: 70px;
+}
+
+.prensa-forbes{
+    background-position: 0px -108px;
+}
+
+.prensa-telam{
+    background-position: 0px 0px;
+    height: 112px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+.prensa-on{
+    background-position: 0px -323px;
+    margin: 6px 11px;
+}
+.prensa-mdz{
+    background-position: 0px -177px;
+    height: 80px;
+    margin: 3px 15px;
+}
+.prensa-rosario3{
+    background-position: 0px -386px;
+    width: 277px;
+    margin: 17px -2px;
+}
+.prensa-ciudadano{
+    background-position: 0px -258px;
+    margin: 11px 16px;
+}
+
 
 #press li span {
     float: right;
@@ -1457,17 +1511,18 @@ footer{
     font-weight: bold;
     color: #BF015A;
     line-height: 73px;
-    margin-top: 20px;
-    margin-right: 24px;
+    margin-top: 32px;
+    margin-right: 38px;
 }
 #press li p {
     float: right;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 14px;
     color: #FFF;
-    font-family: 'Open Sans';
-    width: 55%;
-    line-height: 37px;
+    width: 59%;
+    line-height: 26px;
+    font-family: 'MuseoSans';
+    font-weight: 300;
+    margin-top: 23px;
 }
 
 #team{
