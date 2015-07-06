@@ -118,8 +118,9 @@ textdomain($domain)
                 <div class="proyecto" >
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
-                            <span>&#8776;</span><br>
-                            <span>VIEW CASE</span>
+                            <span>&#8776;</span><br/>
+                            <span>VIEW CASE</span><br/>
+                            <span class="site-description"></span>
                         </div>
 
                     </div>

@@ -22,7 +22,7 @@
     <div class="header-right">
         <span class="idioma"><b>EN</b>/ES</span>
         <span class="llamar"><?php echo _('CALL US'); ?> +54 (9) 3416 280427</span>
-        <span class="contacto"><b><a href="#" class="mostrarContacto"><?php echo _('CALL US'); ?>x</a></b></span>
+        <span class="contacto"><b><a href="#" class="mostrarContacto"><?php echo _('CALL US'); ?></a></b></span>
     </div>
 
 </header>
@@ -34,8 +34,8 @@
                 <li><a href="#pro-web"><?php echo _('Profesional Websites'); ?></a></li>
                 <li><a href="#apps"><?php echo _('Custom Applications'); ?></a></li>
                 <li><a href="#servicios"><?php echo _('Brand Consulting'); ?></a></li>
-                <li><a href="#servicios2"><?php echo _('Marketing & Consulting'); ?>S</a></li>
-                <li><a class="nav-fixed-contacto mostrarContacto" href="#contacto"><?php echo _('CONTACT US'); ?></a></li>
+                <li><a href="#servicios2"><?php echo _('Marketing & Consulting'); ?></a></li>
+                <li class="nav-fixed-contacto"><a class="mostrarContacto" href="#contacto"><?php echo _('Contact Us'); ?></a></li>
             </ul>
         </div>
     </div>
@@ -44,33 +44,66 @@
     <div id="cerrar-contacto" class="mostrarContacto">
         <img src="img/close.png">
     </div>
-    <div class="contacto-parte">
 
-        <div class="contenido-contacto">
-            <h2><?php echo _('LETS TALK ABOUT YOUR PROJECT'); ?></h2>
-            <div class="separador"></div>
-            <h3><?php echo _('WE ARE EAGER TO HEAR YOUR IDEAS'); ?></h3>
-        </div>
-
-    </div>
-    <div class="contacto-parte">
-
+    <div class="contenido-contacto">
+        <h2><?php echo _('Lets Talk<br/>About Your Project'); ?></h2>       
 
         <form id="form-contacto" method="post" action="php/ajax-form-contacto.php">
             <div id="contacto-progress"></div>
 
-            <h3><?php echo _('LETS GET IN TOUCH'); ?></h3>
+            
 
-            <input type="text" name="nombre" placeholder="Name" />
-            <input type="text" name="email" placeholder="Email"/>
-            <textarea rows="5" name="mensaje" placeholder="Message"></textarea>
-            <input type="submit" value="Contact Us" />
-            <span><?php echo _('We will contact you shortly!'); ?></span>
+            <div class="necesito">
+                <h5><?php echo _('what do you need?'); ?></h5>
+                <label>
+                    <input type="checkbox" name="necesito" value="Branding"/>
+                    <div class="necesito-bt">Branding</div>
+                </label>
+                <label>
+                    <input type="checkbox" name="necesito" value="Pro Website"/>
+                    <div class="necesito-bt">Pro Website</div>
+                </label>
+                <label>
+                    <input type="checkbox" name="necesito" value="APP"/>
+                    <div class="necesito-bt">APP</div>
+                </label>
+                <label>
+                    <input type="checkbox" name="necesito" value="Web Application"/>
+                    <div class="necesito-bt">Web Application</div>
+                </label>
+                <label>
+                    <input type="checkbox" name="necesito" value="Other"/>
+                    <div class="necesito-bt">Other</div>
+                </label>
+
+            </div>
+            <div class="separador-contacto"></div>
+            <div class="invertir">
+                <h5><?php echo _('How much do you want to invest?'); ?></h5>
+
+                <div class="slider-invertir">
+                    <div class="linea"></div>
+                    <div class="pelota"></div>
+                    <div class="valor">$7000</div>
+                </div>
+            </div>
+            <div class="separador-contacto separador2"></div>
+            <div class="datos-cliente">
+                <h5><?php echo _('please complete this form, we will contact you soon'); ?></h5>
+                <input type="text" name="nombre" placeholder="Your Name *" />
+                <input type="text" name="email" placeholder="Email"/>
+                <input type="text" name="telefono" placeholder="Phone"/>
+
+                <textarea rows="5" name="mensaje" placeholder="Message"></textarea>
+            </div>
+
+
+            <input type="submit" value="Send Message" />
 
         </form>
-
-
     </div>
+
+
     <div class="contacto-parte contacto-telefonos">
 
         <h4><?php echo _('OR JUST CALL US'); ?>: <br> +54 9 3416280427</h4>

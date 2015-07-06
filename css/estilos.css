@@ -372,9 +372,9 @@ header ul{
 }
 #contacto{
     overflow: hidden;
-    background: url(../img/pattern.gif);
-    position: relative;
-    margin:0 40px;
+
+    position: absolute;
+    margin: 0;
     -webkit-transition: all 900ms cubic-bezier(0.19, 1, 0.22, 1);
     -moz-transition: all 900ms cubic-bezier(0.19, 1, 0.22, 1) ;
     -o-transition: all 900ms cubic-bezier(0.19, 1, 0.22, 1) ;
@@ -384,14 +384,18 @@ header ul{
     -moz-transition-duration: 900ms;
     -moz-transition-timing: cubic-bezier(0.19, 1, 0.22, 1);
     -moz-transition-delay: 0;
-    padding: 0;
-    height: 0;
+    width: 100%;
 
+    background-color: #000;
+    opacity: 0;
 }
 #contacto.mostrar{
     padding: 25px 0 75px 0;
-    height: 500px;
+    height: auto;
     box-sizing: border-box;
+    text-align: center;
+    z-index: 100000000;
+    opacity: 1;
 }
 
 #contacto .separador{
@@ -404,19 +408,18 @@ header ul{
     position: relative;
 }
 .contenido-contacto{
-    text-align: right;
+    /* text-align: right; */
     color: white;
 }
 .contenido-contacto h2{
     font-family: 'MuseoSans';    
     font-size: 60px;
-    text-align: right;
-    margin-bottom: 0;
+    margin-bottom: 44px;
 }
 
 #contacto .contacto-parte{
-    width: 33%;
-    float: left;
+    /* width: 33%; */
+    /* float: left; */
 }
 
 #contacto .contacto-telefonos{
@@ -434,64 +437,152 @@ header ul{
 
 
 #form-contacto{
+
     position: relative;
-    width: 254px;
-    border-radius: 6px;
+
+
+    width: 800px;
+
     text-align: center;
-    padding: 20px;
+
+
+    padding: 48px 20px;
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
     -o-transition: all .2s linear;
     -transition: all .2s linear;
-    border: 3px solid white;
+
     margin: 0 auto;
-    background:none;
+    background: white;
+
+
+    border-radius: 2px;
+
+    overflow: hidden;
 
 }
 
 
-#form-contacto h3{
-    font-family: Arial;
-    color:white;
-    font-size: 18px;
+#form-contacto h5{
+    font-family: 'MuseoSans';
+    color:#5c5c5c;
+    font-size: 24px;
     text-transform: uppercase;
+    font-size: 24px;
     margin-top:0;
+    text-align: center;
 
+    font-weight: 100;
 }
 
-#form-contacto input[type=text],textarea{
-    border:1px solid #25405b;
-    box-shadow: 0 0 2px #25322f;
+#form-contacto input[type=text], #form-contacto textarea{
+    border: 2px solid #595959;
     border-radius: 3px;
-    color:#040404;
-    width:100%;    
-    font-family: Arial;
-    padding:20px 0;
-    padding: 15px 0;
+    color: #595959;
+    width: 28%;    
+    font-family: MuseoSans;
+    padding: 12px 0;
     text-indent: 10px;
-    background:#f4f4f4;
+    background: white;
     margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 300;
 
+    display: inline-block;
+    margin: 2%;
+}
+#form-contacto textarea{
+    width: 94%;
+    margin-bottom: 31px;
 }
 
 #form-contacto input[type=submit]{
-    background:#6dc822;
+    background:#72d224;
     color:white;
     font-size: 21px;
     font-weight: 500;
     border: 0;
     border-radius: 2px;
-    width: 75%;
-    padding:20px;    
-    margin-bottom: 10px;
-    box-shadow: 0px 0px 10px #494949;
+    padding: 13px 54px;    
+    margin-bottom: -21px;
+    display: inline-block;
+    float: right;
+    margin-right: 23px;
+    margin-top: 6px;
+}
+.separador-contacto{
+    background: #d6d6d6;
+    height: 1px;
+    width: 123px;
+    display: inline-block;
+    margin: 53px 0;
+}
+.separador-contacto.separador2{
+    margin: 35px 0;
+    
+}
+.necesito{}
 
 
-
+#form-contacto .necesito h5{
+    margin-bottom: 28px;
 
 }
+
+.necesito input{
+    display: none;
+}
+
+.invertir {
+    margin-top: -16px;
+}
+
+.necesito-bt {
+    background-color: #EFF3F4;
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 4px;
+    color: #121212;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: MuseoSans;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0 19px;
+}
+
+#form-contacto .datos-cliente h5{
+    margin-bottom: 49px;
+
+}
+
+input:checked + .necesito-bt{
+    background: #0169fe;
+    color: white;
+}
+
+.slider-invertir{
+    position: relative;
+    display: inline-block;
+    margin-top: 6px;
+}
+.slider-invertir .pelota{
+    background: #4d5257;
+    width: 23px;
+    height: 23px;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+}
+.slider-invertir .linea{
+    background: #bbcdd1;
+    height: 7px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.slider-invertir .valor{}
+
 
 #form-contacto input[type=submit]:hover{
     background:#6BA836;
@@ -899,6 +990,10 @@ img.contadores-ipad {
     display: inline-block;
     margin-top: 62px;
     color: white;
+}
+#ultimos-proyectos a:hover{
+    background-color: #FFF;
+    color: #4A4A4A;
 }
 .fila-proyectos{
     position: relative;
@@ -1387,6 +1482,8 @@ footer{
 }
 .botonera-marco{
     padding: 0 40px;
+    width: 1240px;
+    margin: 0 auto;
 }
 .botonera-bg{
     background: white;
@@ -1408,9 +1505,9 @@ footer{
 }
 #navegacion-fixed{
     overflow: hidden;   
-    display: inline-block;
+    display: block;
     position: relative;
-    margin-left: 18%;
+    margin-left: 25%;
 }
 #navegacion-fixed li{
     /* float: left; */
@@ -1418,15 +1515,11 @@ footer{
     height: 62px;
     display: inline-block;
 }
-
-#navegacion-fixed li a.nav-fixed-contacto{
-    /* background: #4242C3; */
-    /* color: white; */
-    /* float: right; */
-    /* position: absolute; */
-    left: 0;
-    right: 0;
+.nav-fixed-contacto{
+    float: right;
 }
+
+
 #navegacion-fixed li a{
     color: #505867;
     font-size: 13px;
