@@ -67,10 +67,51 @@ textdomain($domain)
         </section>
 
 
+        <section id="pro-web" class="loaderAnim">
+            <div class="bg-pro-web">
+                <h4>PRO<span>&#8776;</span>WEBSITES</h4>
+                <div class="propiedades">
+                    <span><font color="#68c023">100%</font> MADE TO MEASURE</span>    
+                    <span>HIGH <font color="#68c023">DESIGN</font> QUALITY</span>    
+                    <span>POWERFULL <font color="#68c023">&</font> STRONG</span>                    
+                </div>
+
+                <div class="pro-web-container">
+                    <div class="section-col">
+                        <div class="section-text">
+                            <h3>PLAN</h3>
+                            <p>We construct a framework for your project to take<br/> shape within in terms of strategy, production and time.</p>
+                        </div>
+                        <div class="section-text">
+                            <h3>DESIGN</h3>
+                            <p>We distill planning into purposeful designs that reflect<br/> your objectives and outline a visual aesthetic.</p>
+                        </div>
+
+
+                    </div>
+                    <div class="section-col section-col2">
+                        <div class="section-text">
+                            <h3>DISCOVER</h3>
+                            <p>We ask and listen toward a thorough understanding of<br/> your company, project, audience and objectives.</p>
+                        </div>
+                        <div class="section-text">
+                            <h3>GROW</h3>
+                            <p>We track, analyze and correct your project’s growth<br/> through ongoing campaigns and retainers.</p>
+                        </div>
+
+                    </div>
+
+                    <a href ="#" class="mostrarContacto">Get started now</a>
+                    <div class="section-footer">
+                        <p>Visual Design ~ Branding & Identity Design ~ Concept Development ~ Usability Testing & Research ~ Interaction Design ~ Information Architecture ~ Content Creation ~ Prototyping ~ Wireframing ~ Platform Design ~ Interface Design</p> 
+                    </div>
+                </div>
 
 
 
-        <section id="ultimos-proyectos" class="loaderAnim">
+            </div>
+        </section>
+        <section id="ultimos-proyectos" >
             <h3><span>&#8776;</span>&nbsp;<?php echo _('OUR WORK'); ?></h3>
 
             <div class="fila-proyectos">
@@ -82,7 +123,7 @@ textdomain($domain)
                         </div>
 
                     </div>
-                    <img src="img/portfolio1.jpg"/>
+                    <img src="img/work-contadoresrosario.jpg"/>
                 </div>
                 <div class="proyecto">
                     <div class="proyecto-over">
@@ -91,7 +132,7 @@ textdomain($domain)
                             <span>VIEW CASE</span>
                         </div>
                     </div>     
-                    <img src="img/portfolio2.jpg"/>
+                    <img src="img/work-gruposerval.jpg"/>
                 </div>
                 <div class="proyecto">
                     <div class="proyecto-over">
@@ -100,12 +141,8 @@ textdomain($domain)
                             <span>VIEW CASE</span>
                         </div>
                     </div>     
-                    <img src="img/portfolio3.jpg"/>
+                    <img src="img/work-falazairroo.jpg"/>
                 </div>
-
-            </div>
-
-            <div class="fila-proyectos">
                 <div class="proyecto" >
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
@@ -113,71 +150,16 @@ textdomain($domain)
                             <span>VIEW CASE</span>
                         </div>
                     </div>   
-                    <img src="img/portfolio4.jpg"/>
+                    <img src="img/work-fourtech.jpg"/>
                 </div>
-                <div class="proyecto">
-                    <div class="proyecto-over">
-                        <div class="proyecto-over-contenido">
-                            <span>&#8776;</span><br>
-                            <span>VIEW CASE</span>
-                        </div>
-                    </div>     
-                    <img src="img/portfolio5.jpg"/>
-                </div>
-                <div class="proyecto" >
-                    <div class="proyecto-over">
-                        <div class="proyecto-over-contenido">
-                            <span>&#8776;</span><br>
-                            <span>VIEW CASE</span>
-                        </div>
-                    </div>
-                    <img src="img/portfolio6.jpg"/>
-                </div>
+
             </div>
+
+            <a href="#">View More</a>
 
             <!-- <div class="bg-separador"></div>-->
 
         </section>
-
-        <section id="pro-web">
-            <div class="bg-pro-web">
-                <h4>PRO<span>&#8776;</span>WEBSITES</h4>
-                <div class="propiedades">
-                    <span><font color="#68c023">100%</font> MADE TO MEASURE</span>    
-                    <span>HIGH <font color="#68c023">DESIGN</font> QUALITY</span>    
-                    <span>POWERFULL <font color="#68c023">&</font> STRONG</span>                    
-                </div>
-                <div class="section-col">
-                    <div class="section-text">
-                        <h3>PLAN</h3>
-                        <p>We construct a framework for your project to take<br/> shape within in terms of strategy, production and time.</p>
-                    </div>
-                    <div class="section-text">
-                        <h3>DESIGN</h3>
-                        <p>We distill planning into purposeful designs that reflect<br/> your objectives and outline a visual aesthetic.</p>
-                    </div>
-
-
-                </div>
-                <div class="section-col section-col2">
-                    <div class="section-text">
-                        <h3>DISCOVER</h3>
-                        <p>We ask and listen toward a thorough understanding of<br/> your company, project, audience and objectives.</p>
-                    </div>
-                    <div class="section-text">
-                        <h3>GROW</h3>
-                        <p>We track, analyze and correct your project’s growth<br/> through ongoing campaigns and retainers.</p>
-                    </div>
-
-                </div>
-
-                <a href ="#" class="mostrarContacto">Get your Website</a>
-                <div class="section-footer">
-                    <p>Visual Design ~ Branding & Identity Design ~ Concept Development ~ Usability Testing & Research ~ Interaction Design ~ Information Architecture ~ Content Creation ~ Prototyping ~ Wireframing ~ Platform Design ~ Interface Design</p> 
-                </div>
-            </div>
-        </section>
-
         <section id="apps">
             <div class="apps-contenedor">
 

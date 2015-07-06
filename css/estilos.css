@@ -76,14 +76,11 @@ body{
 
 /* loading animations*/
 
-header.loaderAnim,#botonera-container.loaderAnim,#slide-home.loaderAnim,#ultimos-proyectos.loaderAnim{
+header.loaderAnim,#botonera-container.loaderAnim,#slide-home.loaderAnim,#pro-web.loaderAnim{
     transform: translateY(200px);
     -webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
     transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
     transition-property: transform;
-
-
-
 }
 
 header{
@@ -872,26 +869,37 @@ img.contadores-ipad {
 
 #ultimos-proyectos{
     position: relative;
-    background: url(../img/pattern.gif) #24449b;
-    padding: 43px 40px 33px;
-    margin-top: 0;    
-    transform: translate(0);
-    transition-duration: 0.6s;
+    background: #121212;
+    padding: 86px 40px 140px;
+    margin-top: 0;      
+    text-align: center;
 }
 #ultimos-proyectos h3{
     color:white;
-    font-size: 24px;
+    font-size: 75px;
     font-family: 'MuseoSans';
     font-weight: 900;
     margin-top:0;
-    margin-bottom: 14px;
+    margin-bottom: 61px;
+    text-align: center;
 }
 #ultimos-proyectos h3 span{
-    font-size: 36px;
+    font-size: 75px;
     line-height: 0;
     font-weight: 500;
 }
 
+#ultimos-proyectos a{
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+    padding: 16px 72px;
+    display: inline-block;
+    margin-top: 62px;
+    color: white;
+}
 .fila-proyectos{
     position: relative;
     z-index: 10;
@@ -901,12 +909,14 @@ img.contadores-ipad {
 .proyecto {
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 25%;
     will-change:transform;
     overflow: hidden;
-    height: 300px;
+    height: 445px;
     background-size: cover;
     background-position: 50%;
+    padding: 0 25px 0 0;
+    box-sizing: border-box;
 }
 .proyecto img{
     max-width: 100%;
@@ -938,8 +948,13 @@ img.contadores-ipad {
 #pro-web{
     padding: 0;
     font-family: 'MuseoSans';
+    transform: translate(0);
+    transition-duration: 0.6s;
 }
-
+.pro-web-container{
+    width: 1200px;
+    margin: 0 auto;
+}
 .bg-pro-web{
     padding: 8% 90px 6%;
     background: url(../img/que-hacemos-bg.jpg)no-repeat #f8fafb;       
@@ -962,6 +977,8 @@ img.contadores-ipad {
 .propiedades{
     margin-bottom: 45px;
     overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
 }
 .propiedades span{
     font-size: 23px;
@@ -1158,6 +1175,9 @@ img.contadores-ipad {
     font-family: 'MuseoSans';
     text-align: center;
     margin-top: -7px;
+    background: url(../img/brand-bg.jpg)no-repeat;
+    background-size: cover;
+    padding-bottom: 74px;
 }
 #servicios h4{
     font-weight: 300;
@@ -1204,8 +1224,8 @@ img.contadores-ipad {
 }
 
 .contenido-servicios{
-    background: url(../img/bg-consulting.jpg) #b70178 no-repeat 50%;
-    background-size: cover;
+    /* background: url(../img/bg-consulting.jpg) #b70178 no-repeat 50%; */
+    /* background-size: cover; */
     padding-bottom: 127px;
 }
 #servicios2 .contenido-servicios h3{
@@ -1362,15 +1382,17 @@ footer{
     left: 0;
     z-index: 1000000;
     width: 100%;
+    background: #FFF;
+    box-shadow: 1px 0px 5px #757474;
 }
 .botonera-marco{
     padding: 0 40px;
 }
 .botonera-bg{
     background: white;
-    border-bottom: 1px solid #b1b1b1;
+    /* border-bottom: 1px solid #b1b1b1; */
     overflow: hidden;
-    box-shadow: 1px 0px 5px #757474;
+    /* box-shadow: 1px 0px 5px #757474; */
 }
 #logo-botonera{
 
@@ -1386,33 +1408,38 @@ footer{
 }
 #navegacion-fixed{
     overflow: hidden;   
-    float: right;
+    display: inline-block;
+    position: relative;
+    margin-left: 18%;
 }
 #navegacion-fixed li{
-    float: left;
-    border-left: 1px solid #CDCDCD;
+    /* float: left; */
+    /* border-left: 1px solid #CDCDCD; */
     height: 62px;
-    display: table;
+    display: inline-block;
 }
 
 #navegacion-fixed li a.nav-fixed-contacto{
-    background: #4242C3;
-    color: white;
+    /* background: #4242C3; */
+    /* color: white; */
+    /* float: right; */
+    /* position: absolute; */
+    left: 0;
+    right: 0;
 }
 #navegacion-fixed li a{
-    color:black;
-    font-size: 14px;
+    color: #505867;
+    font-size: 13px;
     font-weight: bold;
-    font-family: 'Arial';
-    display: table-cell;
+    font-family: MuseoSans;
+    display: inline-block;
     vertical-align: middle;
-    padding: 0 15px;
+    padding: 26px 19px;
 }
 
 
 #navegacion-fixed li a:hover , #navegacion-fixed li.activo a{
-    background: #00C900;
-    color:white;
+    color: #70c32f;
 }
 
 #press-head{

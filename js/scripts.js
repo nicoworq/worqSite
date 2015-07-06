@@ -6,7 +6,7 @@ if (document.querySelector('#slide-home') !== null) {
 
         imgLoaded = true;
 
-        var elements = document.querySelectorAll('header, #botonera-container , #slide-home , #ultimos-proyectos')
+        var elements = document.querySelectorAll('header, #botonera-container , #slide-home , #ultimos-proyectos, #pro-web')
 
         for (var elm in elements) {
             elements[elm].className = '';

@@ -29,12 +29,12 @@
 <section id="botonera-fixed">
     <div class="botonera-marco">
         <div class="botonera-bg">
-            <span id="logo-botonera"><a href='#slide-home'><img src='img/logo-worq-fixed.png' alt='WORQ'/></a></span>
+            <span id="logo-botonera"><a href='#slide-home'><img src='img/logo-worq-fixed.jpg' alt='WORQ'/></a></span>
             <ul id="navegacion-fixed">
-                <li><a href="#pro-web"><?php echo _('PROFESIONAL WEBSITE'); ?></a></li>
-                <li><a href="#apps"><?php echo _('CUSTOM APPLICATIONS'); ?></a></li>
-                <li><a href="#servicios"><?php echo _('BRAND CONSULTING'); ?></a></li>
-                <li><a href="#servicios2"><?php echo _('MARKETING & REPORT'); ?>S</a></li>
+                <li><a href="#pro-web"><?php echo _('Profesional Websites'); ?></a></li>
+                <li><a href="#apps"><?php echo _('Custom Applications'); ?></a></li>
+                <li><a href="#servicios"><?php echo _('Brand Consulting'); ?></a></li>
+                <li><a href="#servicios2"><?php echo _('Marketing & Consulting'); ?>S</a></li>
                 <li><a class="nav-fixed-contacto mostrarContacto" href="#contacto"><?php echo _('CONTACT US'); ?></a></li>
             </ul>
         </div>
