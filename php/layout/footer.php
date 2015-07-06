@@ -1,7 +1,7 @@
 <section id="suscribir">
     <div class="contenido-suscribir">
-        <h3>suscribite a las &uacute;ltimas<br/>
-            <strong>novedades en tecnología</strong>
+        <h3>SUBSCRIBE to the latest<br/>
+            <strong>technology trends</strong>
         </h3>
         <form id="form-suscribir">
             <input type="text" placeholder="Ingresa tu Email"/>

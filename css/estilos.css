@@ -322,7 +322,7 @@ header ul{
 }
 
 .cta-slide {
-   
+
     margin-top: 62px;
 }
 
@@ -1168,7 +1168,7 @@ img.contadores-ipad {
 
 #servicios p{
     color: white
-;
+        ;
     line-height: 24px;
     margin-top: -3px;
     margin-bottom: -26px;
@@ -1570,6 +1570,160 @@ footer{
 
 
 }
+
+#we-are{
+    font-family: 'MuseoSans';
+    text-align: center;
+    color: white;
+    background:url(../img/we-are-bg.jpg) #3d1f51;
+    background-size: cover;
+    padding: 20px 0 308px;
+}
+#we-are h1{
+    font-size: 140px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    margin: 209px 0 -28px 0;
+}
+#we-are h3{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+#we-are-2{
+    font-family: 'MuseoSans';
+    background: #f7f8fa;
+    overflow: hidden;
+    padding: 14px 0 81px;
+}
+.we-are-container{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.we-are-col{
+    width: 50%;
+    float: left;   
+    /* padding-right: 101px; */
+    box-sizing: border-box;
+}
+
+
+#we-are-2 h3{
+    font-weight: 100;
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 62px;
+    word-break: break-word;
+}
+#we-are-2 h4{
+    color: #828b91;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 55px;
+    line-height: 47px;
+    margin-bottom: -3px;
+}
+#we-are-2 h4 img{
+    margin-right: 7px;
+}
+.we-are-content{
+    padding-right: 70px;
+}
+#we-are-2 p{
+    color: #828b91;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 31px;
+}
+
+
+#what-we-do{
+    font-family: 'MuseoSans';
+    background: url(../img/we-do-bg.jpg) #115af5;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 83px 0 126px;
+}
+#what-we-do h2{
+    font-weight: 900;
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.what-we-do-container{
+    width: 1145px;
+    margin: 0 auto;
+}
+.what-we-do-container p{
+    text-align: left;
+
+    width: 33%;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 55px;
+}
+.we-do-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.we-do-list li{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 27px;
+}
+
+#what-we-do h4{
+    color: #040d1a;
+    font-size: 13px;
+    margin-top: 53px;
+}
+
+.section-footer.we-do-everyday p{
+    color: #9cc5ff;
+    margin-top: -8px;
+}
+
+
+#rosario{
+    font-family: 'MuseoSans';
+    color: white;
+    text-align: center;
+    background: url(../img/rosario1.jpg);
+    background-size: cover;
+    padding: 210px 0;
+    position:   relative;
+    height: 207px;
+}
+#rosario h2{
+    font-size: 75px;
+    font-weight: 900;
+
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+#rosario p{
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.rosario-content{
+    position: absolute;
+    top: 59%;
+    width: 100%;
+}
+
 
 
 .shake:hover {
