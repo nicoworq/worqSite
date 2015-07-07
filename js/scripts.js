@@ -164,7 +164,8 @@ $(document).ready(function () {
 
     //timeOut = setTimeout(animarWorq1, 2500)
 
-    $('#cerrar-form').click(function () {
+    $('#cerrar-form').click(function (e) {
+        e.preventDefault();
         $('#contacto-ok').fadeOut(function () {
             $('#contacto').removeClass('mostrar');
             $('#form-contacto')[0].reset()
