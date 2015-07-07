@@ -454,6 +454,7 @@ header ul{
     border-radius: 2px;
     overflow: hidden;
     z-index: 1000000000;
+    font-family: 'MuseoSans';
 
 }
 
@@ -473,6 +474,7 @@ header ul{
     font-weight: 100;
 }
 
+
 #form-contacto input[type=text], #form-contacto textarea{
     border: 2px solid #595959;
     border-radius: 3px;
@@ -485,19 +487,35 @@ header ul{
     margin-bottom: 5px;
     font-size: 15px;
     font-weight: 300;
-
     display: inline-block;
     margin: 2%;
     outline: none;
-    /* box-shadow: 0 0 5px #8B8585; */
+    -webkit-transition: all 400ms cubic-bezier(0.19, 1, 0.22, 1) 0;
+    -moz-transition: all 400ms cubic-bezier(0.19, 1, 0.22, 1) 0;
+    -o-transition: all 400ms cubic-bezier(0.19, 1, 0.22, 1) 0;
+    -ms-transition: all 400ms cubic-bezier(0.19, 1, 0.22, 1) 0;
+    transition: all 400ms cubic-bezier(0.19, 1, 0.22, 1) 0;
+
 }
+
+#form-contacto input[name=sex]{
+    position: absolute;
+    left: -50000px;
+    top: -9666666px;
+}
+
+#form-contacto input[type=text]:focus, #form-contacto textarea:focus{  box-shadow: 0 0 10px #6C6868;}
+#form-contacto input[type=text]:active, #form-contacto textarea:active{  box-shadow: 0 0 5px #15C710;}
 #form-contacto textarea{
     width: 94%;
     margin-bottom: 31px;
 }
-
+#form-contacto input[type=text].input-error, #form-contacto textarea.input-error{
+    border-color: #da0080;
+    color: #da0080;
+}
 #form-contacto input[type=submit]{
-    background:#72d224;
+    background: #72d224;
     color:white;
     font-size: 21px;
     font-weight: 500;
@@ -519,7 +537,7 @@ header ul{
 }
 .separador-contacto.separador2{
     margin: 35px 0;
-
+    display: none;
 }
 .necesito{}
 
@@ -535,6 +553,7 @@ header ul{
 
 .invertir {
     margin-top: -16px;
+    display: none;
 }
 
 .necesito-bt {
@@ -549,13 +568,26 @@ header ul{
     cursor: pointer;
     border-radius: 3px;
     margin: 0 19px;
+    -webkit-touch-callout: none;      -webkit-user-select: none;      -khtml-user-select: none;      -moz-user-select: none;      -ms-user-select: none;      user-select: none;
 }
 
 #form-contacto .datos-cliente h5{
     margin-bottom: 49px;
+    position: relative;
 
 }
-
+.datos-cliente{
+    position: relative;
+}
+.form-invalid{
+    color: #da0080;
+    font-size: 14px;
+    font-weight: 900;
+    position: absolute;
+    top: 59px;
+    display: none;
+    left: 21px;
+}
 input:checked + .necesito-bt{
     background: #0169fe;
     color: white;
@@ -577,7 +609,7 @@ input:checked + .necesito-bt{
 .slider-invertir .linea{
     background: #bbcdd1;
     height: 7px;
-    width: 200px;
+    width: 380px;
     display: inline-block;
     border-radius: 4px;
 }
@@ -594,7 +626,7 @@ input:checked + .necesito-bt{
 
 
 #form-contacto input[type=submit]:hover{
-    background:#6BA836;
+    background: #56AB10;
     cursor:pointer;
 }
 
@@ -607,19 +639,22 @@ input:checked + .necesito-bt{
 
 
 #contacto-progress{
-    display: none;
-    background: url(../img/bx_loader.gif) 65% 32% #FFF no-repeat;        
-    opacity: 0.5;
-    position: absolute;
-    font-weight: bold;
-    font-size: 24px;
-    padding: 24px 65px;
-    border-radius: 3px;
-    margin-top: 10px;
+    display: none;            
+    position: absolute;   
     right: 0;
-    width: 100%;
-    height: 600px;
-    top:-10px;
+    background-color: rgba(255, 255, 255, 0.61);
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+#contacto-progress img{
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
 }
 
 .telefonos{

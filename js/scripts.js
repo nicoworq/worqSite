@@ -44,8 +44,8 @@ $(document).ready(function () {
         $('#contacto').removeClass('mostrar');
 
     });
-    
-    $('#form-contacto').click(function(e){
+
+    $('#form-contacto').click(function (e) {
         e.stopPropagation();
     });
 
@@ -170,58 +170,55 @@ $(document).ready(function () {
         // $('#bg').height(alturaVentana - (alturaHeader + alturaFooter));
     });
 
+
+    $('#form-contacto input, #form-contacto textarea ').keydown(function () {
+        $(this).removeClass('input-error');
+        $('.form-invalid').stop().fadeOut();
+    });
+
     $('#form-contacto').submit(function (event) {
         event.preventDefault();
 
         var formOK = true;
 
-        var borderOld = $(this).css('border');
-        $('#form-contacto input[type=text] , #form-contacto textarea').each(function () {
-            $(this).css('border', borderOld);
+
+        $('#form-contacto input[type=text] , #form-contacto textarea').not('input[name=sex]').each(function () {
             if ($(this).val() === '') {
                 formOK = false;
-                $(this).css('border', '2px solid #E76F6F');
+                $(this).addClass('input-error');
             }
         });
 
-        if (!formOK) {
-            alert("Debe completar todos los campos.");
-            return false;
+        if (!validateEmail($('#form-contacto input[name=email]').val())) {
+            formOK = false;
+            $('#form-contacto input[name=email]').addClass('input-error');
+        } else {
+            $('#form-contacto input[name=email]').removeClass('input-error');
         }
 
+        if (!formOK) {
+            $('.form-invalid').stop().fadeIn();
+            return false;
+        }
+        $('.form-invalid').stop().fadeOut();
         var url = $(this).attr('action');
 
+        $('#contacto-progress').stop().fadeIn();
         $.post(url, $('#form-contacto').serialize(), function (json) {
+            $('#contacto-progress').stop().fadeOut();
             if (json.enviado) {
-
-                $('#form-contacto input , #form-contacto textarea ').hide(100);
-                $('#form-contacto h3').html('Gracias por Enviar su Consulta !').css('margin', 0);
+                alert('Gracias por comunicarte')
             } else {
-                $('#form-contacto h3').html('Error al enviar su consulta. Intente nuevamente.');
+                alert('Ocurrio un error');
             }
         });
 
 
     });
-
-    $(document).ajaxStart(function () {
-        $('#contacto-progress').show();
-    });
-    $(document).ajaxStop(function () {
-        $('#contacto-progress').hide();
-    });
-
-
-    //$('.proyecto-over').height($('.proyecto').height() - 40);
-    //$('.proyecto-over-contenido').height($('.proyecto').height() - 40);
-
 
 
     $(document).on('scroll', function () {
         var $window = $(window);
-
-
-        //557 & 683
 
 
         if ($window.scrollTop() > 557) {
@@ -236,3 +233,8 @@ $(document).ready(function () {
 
 });
 
+
+function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}

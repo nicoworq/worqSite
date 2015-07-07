@@ -49,30 +49,30 @@
         <h2><?php echo _('Lets Talk<br/>About Your Project'); ?></h2>       
 
         <form id="form-contacto" method="post" action="php/ajax-form-contacto.php">
-            <div id="contacto-progress"></div>
-
-
+            <div id="contacto-progress">
+                <img src="img/loader.svg" alt="Progreso"/>
+            </div>
 
             <div class="necesito">
                 <h5><?php echo _('what do you need?'); ?></h5>
-                <label>
-                    <input type="checkbox" name="necesito" value="Branding"/>
+                <label tabindex="0">
+                    <input type="checkbox" name="necesito[]" value="Branding"/>
                     <div class="necesito-bt">Branding</div>
                 </label>
                 <label>
-                    <input type="checkbox" name="necesito" value="Pro Website"/>
+                    <input type="checkbox" name="necesito[]" value="Pro Website"/>
                     <div class="necesito-bt">Pro Website</div>
                 </label>
                 <label>
-                    <input type="checkbox" name="necesito" value="APP"/>
+                    <input type="checkbox" name="necesito[]" value="APP"/>
                     <div class="necesito-bt">APP</div>
                 </label>
                 <label>
-                    <input type="checkbox" name="necesito" value="Web Application"/>
+                    <input type="checkbox" name="necesito[]" value="Web Application"/>
                     <div class="necesito-bt">Web Application</div>
                 </label>
                 <label>
-                    <input type="checkbox" name="necesito" value="Other"/>
+                    <input type="checkbox" name="necesito[]" value="Other"/>
                     <div class="necesito-bt">Other</div>
                 </label>
 
@@ -89,29 +89,19 @@
             </div>
             <div class="separador-contacto separador2"></div>
             <div class="datos-cliente">
+                <div class="form-invalid">
+                    Some inputs are empty or wrong, please fill them right
+                </div>
                 <h5><?php echo _('please complete this form, we will contact you soon'); ?></h5>
-                <div class="contenedor-input">
-                    <input type="text" name="nombre" placeholder="Your Name *" />
-                </div>
-                <div class="contenedor-input">
-                    <input type="text" name="email" placeholder="Email"/>
-                </div>
-                <div class="contenedor-input">
-                    <input type="text" name="telefono" placeholder="Phone"/>
-                </div>
-                <div class="contenedor-input">
-                    <textarea rows="5" name="mensaje" placeholder="Message"></textarea>
-                </div>
-
-
-
-
-
-
+                <input type="text" name="nombre" placeholder="Your Name *" tabindex="1"/>
+                <input type="text" name="email" placeholder="Email" tabindex="2"/>
+                <input type="text" name="telefono" placeholder="Phone" tabindex="3"/>
+                <input type="text" name="sex" value=""/>
+                <textarea rows="5" name="mensaje" placeholder="Message" tabindex="4"></textarea>
             </div>
 
 
-            <input type="submit" value="Send Message" />
+            <input type="submit" value="Send Message" tabindex="5" />
 
         </form>
         <div class="telefonos">

@@ -5,16 +5,30 @@ header('Content-type: application/json');
 include_once 'class.phpmailer.php';
 
 
+if (isset($_POST['sex']) && $_POST['sex'] !== '') {
+    //descarto por ser un bot
+    echo json_encode(array('enviado' => TRUE));
+    exit;
+}
+
+$nombre = strip_tags($_POST['nombre']);
+$mensaje = strip_tags($_POST['mensaje']);
+$email = strip_tags($_POST['email']);
+$telefono = strip_tags($_POST['telefono']);
+$necesito = $_POST['necesito'];
 
 
-$nombre = $_POST['nombre'];
-$mensaje = $_POST['mensaje'];
-$email = $_POST['email'];
+$necesito_txt = '';
+foreach ($necesito as $n) {
+    $necesito_txt = $necesito_txt . ' --  ' . strip_tags($n);
+}
 
 $cuerpo_email = "<h3>Nueva Consulta desde el Formulario Web de WORQ</h3>
-                    <p>Nombre: <b>{$nombre}</b> </p>                    
+                    <p>Nombre: <b>{$nombre}</b> </p>     
                     <p>Email: <b>{$email}</b></p>
-                    <p>Mensaje: <b>{$mensaje}</b></p>";
+                    <p>Telefono: <b>{$telefono}</b></p>                    
+                    <p>Mensaje: <b>{$mensaje}</b></p>
+                    <p>Necesito: <b>{$necesito_txt}</b></p>";
 
 
 $mail = new PHPMailer;
@@ -50,4 +64,4 @@ if (!$mail->send()) {
 echo json_encode(array('enviado' => TRUE));
 
 exit;
-?>
+
