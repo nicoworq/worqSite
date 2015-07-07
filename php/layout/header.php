@@ -51,7 +51,7 @@
         <form id="form-contacto" method="post" action="php/ajax-form-contacto.php">
             <div id="contacto-progress"></div>
 
-            
+
 
             <div class="necesito">
                 <h5><?php echo _('what do you need?'); ?></h5>
@@ -90,30 +90,35 @@
             <div class="separador-contacto separador2"></div>
             <div class="datos-cliente">
                 <h5><?php echo _('please complete this form, we will contact you soon'); ?></h5>
-                <input type="text" name="nombre" placeholder="Your Name *" />
-                <input type="text" name="email" placeholder="Email"/>
-                <input type="text" name="telefono" placeholder="Phone"/>
+                <div class="contenedor-input">
+                    <input type="text" name="nombre" placeholder="Your Name *" />
+                </div>
+                <div class="contenedor-input">
+                    <input type="text" name="email" placeholder="Email"/>
+                </div>
+                <div class="contenedor-input">
+                    <input type="text" name="telefono" placeholder="Phone"/>
+                </div>
+                <div class="contenedor-input">
+                    <textarea rows="5" name="mensaje" placeholder="Message"></textarea>
+                </div>
 
-                <textarea rows="5" name="mensaje" placeholder="Message"></textarea>
+
+
+
+
+
             </div>
 
 
             <input type="submit" value="Send Message" />
 
         </form>
-    </div>
-
-
-    <div class="contacto-parte contacto-telefonos">
-
-        <h4><?php echo _('OR JUST CALL US'); ?>: <br> +54 9 3416280427</h4>
-
-        <p><?php echo _('SEND AN EMAIL TO'); ?>:  <span>CONTACTO@WORQ.COM.AR</span></p>
-        <p><?php echo _('IF YOU WANT TO TALK<br> WITH JUAN:'); ?> <br> <span>JUAN@WORQ.COM.AR</span></p>
-        <p><?php echo _('IF YOU WANT TALK <br> WITH NICOLAS:'); ?> <br> <span>NICOLAS@WORQ.COM.AR</span></p>
-        <p><?php echo _('FIND US IN:'); ?> <br> <span>ROSARIO, SANTA FE<br>ARGENTINA</span></p>
-
-
+        <div class="telefonos">
+            <h4 class="email">Email us:contacto@worq.com.ar</h4>
+            <h4 class="ciudad">Rosario, Argentina</h4>
+            <h4 class="cel">Call us: +54 (9) 3416280427</h4>
+        </div>
     </div>
 
 </section>

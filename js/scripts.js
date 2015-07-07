@@ -39,6 +39,16 @@ $(document).ready(function () {
 
     });
 
+    $('#contacto').not('#form-contacto').click(function (e) {
+
+        $('#contacto').removeClass('mostrar');
+
+    });
+    
+    $('#form-contacto').click(function(e){
+        e.stopPropagation();
+    });
+
     $('#botonera a , #navegacion-fixed a, #logo-botonera a').click(function (e) {
         e.preventDefault();
         var nav = $(this).attr('href');
@@ -107,7 +117,8 @@ $(document).ready(function () {
     });
 
 
-    $('.mostrarContacto').click(function () {
+    $('.mostrarContacto').click(function (e) {
+        e.preventDefault();
         $('#contacto').toggleClass('mostrar');
     });
 
@@ -124,7 +135,7 @@ $(document).ready(function () {
             maxItems: 1,
             directionNav: false,
             move: 1,
-            controlNav:false
+            controlNav: false
 
         });
     }
