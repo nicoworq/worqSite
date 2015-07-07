@@ -164,7 +164,12 @@ $(document).ready(function () {
 
     //timeOut = setTimeout(animarWorq1, 2500)
 
-
+    $('#cerrar-form').click(function () {
+        $('#contacto-ok').fadeOut(function () {
+            $('#contacto').removeClass('mostrar');
+            $('#form-contacto')[0].reset()
+        });
+    });
     $(window).on('resize', function () {
 
         // $('#bg').height(alturaVentana - (alturaHeader + alturaFooter));
@@ -207,7 +212,7 @@ $(document).ready(function () {
         $.post(url, $('#form-contacto').serialize(), function (json) {
             $('#contacto-progress').stop().fadeOut();
             if (json.enviado) {
-                alert('Gracias por comunicarte')
+                $('#contacto-ok').fadeIn();
             } else {
                 alert('Ocurrio un error');
             }

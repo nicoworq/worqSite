@@ -112,10 +112,10 @@ textdomain($domain)
             </div>
         </section>
         <section id="ultimos-proyectos" >
-            <h3><span>&#8776;</span>&nbsp;<?php echo _('OUR WORK'); ?></h3>
+            <h3><span>&#8776;</span>&nbsp;<?php echo _('CASES'); ?></h3>
 
             <div class="fila-proyectos">
-                <div class="proyecto" >
+                <a class="proyecto" target="blank" href="http://contadoresrosario.com">
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br/>
@@ -125,8 +125,11 @@ textdomain($domain)
 
                     </div>
                     <img src="img/work-contadoresrosario.jpg"/>
-                </div>
-                <div class="proyecto">
+                </a>
+
+
+
+                <a class="proyecto" target="blank" href="http://gruposerval.com.ar">
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
@@ -134,8 +137,8 @@ textdomain($domain)
                         </div>
                     </div>     
                     <img src="img/work-gruposerval.jpg"/>
-                </div>
-                <div class="proyecto">
+                </a>
+                <a class="proyecto" target="blank" href="http://falazairroo.com">
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
@@ -143,8 +146,8 @@ textdomain($domain)
                         </div>
                     </div>     
                     <img src="img/work-falazairroo.jpg"/>
-                </div>
-                <div class="proyecto" >
+                </a>
+                <a class="proyecto" target="blank" href="http://fourtech.com.ar">
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
@@ -152,11 +155,11 @@ textdomain($domain)
                         </div>
                     </div>   
                     <img src="img/work-fourtech.jpg"/>
-                </div>
+                </a>
 
             </div>
 
-            <a href="#">View More</a>
+            <a href="#" class="ver-mas">View More</a>
 
             <!-- <div class="bg-separador"></div>-->
 

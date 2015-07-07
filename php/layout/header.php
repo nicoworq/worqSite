@@ -52,6 +52,12 @@
             <div id="contacto-progress">
                 <img src="img/loader.svg" alt="Progreso"/>
             </div>
+            <div id="contacto-ok">
+                <h3>Thanks for your submission</h3>
+                <h4>We’ll respond to you<br/>
+                    as soon as we can!</h4>
+                <button id="cerrar-form">Continue at worq</button>
+            </div>
 
             <div class="necesito">
                 <h5><?php echo _('what do you need?'); ?></h5>
