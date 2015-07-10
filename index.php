@@ -1,11 +1,22 @@
+<?php system('locale -a') ?>
 <?php
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-$locale = 'es_AR';
+
+
+$locale = 'Spanish_Argentina';
 
 putenv("LANG=" . $locale);
-setlocale(LC_ALL, $locale);
+
+$loc = setlocale(LC_ALL, $locale);
+if (!$loc) {
+    echo "false";
+} else {
+    echo $loc;
+};
+
+
 
 
 $domain = 'es';
@@ -14,14 +25,13 @@ bind_textdomain_codeset($domain, 'UTF-8');
 
 textdomain($domain)
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 
-    <?php include_once './php/layout/head.php'; ?>
+<?php include_once './php/layout/head.php'; ?>
     <body>
 
-        <?php include_once './php/layout/header.php'; ?>
+<?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container" class="loaderAnim"> 
             <ul id="botonera">
                 <li><a href="#proweb" ><?php echo _("PROFESIONAL WEBSITE") ?></a></li>
@@ -272,6 +282,6 @@ textdomain($domain)
         </section>
         -->
 
-        <?php include_once './php/layout/footer.php'; ?>
+<?php include_once './php/layout/footer.php'; ?>
     </body>
 </html>
