@@ -25,7 +25,7 @@
             <a href="<?php echo $current_page . '?lang=es'; ?>" class="<?php if($lang ==='es'){echo 'active';} ?>">ES</a>
         </span>
         <span class="llamar"><?php echo _('CALL US'); ?> +54 (9) 3416 280427</span>
-        <span class="contacto"><b><a href="#" class="mostrarContacto"><?php echo _('CALL US'); ?></a></b></span>
+        <span class="contacto"><b><a href="#" class="mostrarContacto"><?php echo _('CONTACT'); ?></a></b></span>
     </div>
 
 </header>
