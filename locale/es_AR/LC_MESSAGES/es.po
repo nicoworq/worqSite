@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
 "POT-Creation-Date: 2015-07-09 23:26-0300\n"
-"PO-Revision-Date: 2015-07-09 23:39-0300\n"
+"PO-Revision-Date: 2015-07-09 23:41-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -280,7 +280,7 @@ msgstr "Llamanos"
 
 #: php/layout/header.php:28
 msgid "CONTACT"
-msgstr "CONTACTO"
+msgstr "CONTACT"
 
 #: php/layout/header.php:37
 msgid "Profesional Websites"
