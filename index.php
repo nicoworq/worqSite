@@ -5,7 +5,7 @@ ini_set("display_errors", 1);
 
 
 
-$locale = 'es_AR';
+$locale = 'es_AR.utf8';
 
 putenv("LANG=" . $locale);
 
