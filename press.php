@@ -1,3 +1,4 @@
+<?php include_once './php/layout/language.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
     <?php include_once './php/layout/head.php'; ?>

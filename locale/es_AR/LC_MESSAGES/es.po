@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
 "POT-Creation-Date: 2015-07-09 22:09-0300\n"
-"PO-Revision-Date: 2015-07-09 22:18-0300\n"
+"PO-Revision-Date: 2015-07-09 23:20-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -117,23 +117,23 @@ msgstr ""
 
 #: index.php:108
 msgid "CASES"
-msgstr ""
+msgstr "CASOS"
 
 #: index.php:115 index.php:129 index.php:138 index.php:147
 msgid "VIEW CASE"
-msgstr ""
+msgstr "VER CASO"
 
 #: index.php:155
 msgid "View More"
-msgstr ""
+msgstr "Ver M&aacute;s"
 
 #: index.php:169
 msgid "<span>We make</span> APPS"
-msgstr ""
+msgstr "<span>Creamos </span>APPS"
 
 #: index.php:171
 msgid "bring <b>ideas</b> to <b>reality</b>"
-msgstr ""
+msgstr "Transformamos <b>ideas</b> en <b>realidad</b>"
 
 #: index.php:174
 msgid ""
@@ -148,6 +148,13 @@ msgid ""
 "that move<br/>\n"
 "                                products as well as culture."
 msgstr ""
+"Somos WORQ, diseñamos sitios web profesionales y aplicaciones desde Rosario. "
+"<br/>\n"
+"Tenemos el impulso que su proyecto necesita.<br/> Somos una empresa que crea "
+"empresas, somos un estudio de Startups, hacemos simple lo complejo con "
+"estrategias digitales y diseño.<br/> A través de una estrategia de marca y "
+"diseño aplicado de forma inteligente, creamos experiencias que ayudan a las "
+"marcas a estar a la vanguardia. "
 
 #: index.php:184
 msgid ""
@@ -166,7 +173,7 @@ msgstr ""
 
 #: index.php:196
 msgid "Get your APP!"
-msgstr ""
+msgstr "Ten tu APP!"
 
 #: index.php:198
 msgid ""
@@ -178,19 +185,21 @@ msgstr ""
 
 #: index.php:213
 msgid "WEB<span>&</span>BRAND<span>CONSULTING</span>"
-msgstr ""
+msgstr "WEB<span>&</span>CONSULTORIacute;<span>DE MARCA</span>"
 
 #: index.php:215
 msgid ""
 "WEB PERFORMANCE ANALYSIS&nbsp;&nbsp;|&nbsp;&nbsp;OPTIMIZE RESULTS&nbsp;"
 "&nbsp;|&nbsp;&nbsp;NAMING ADVICE"
 msgstr ""
+"ANAacute;LISIS DE RENDIMIENTO WEB&nbsp;&nbsp;|&nbsp;&nbsp;OPTIMIZACIOacute;N "
+"DE RESULTADOS&nbsp;&nbsp;|&nbsp;&nbsp;CONSEJOS DE NAMING"
 
 #: index.php:217
 msgid ""
 "The <b>boost</b> that your<br/>\n"
 "                    project <b>need</b>"
-msgstr ""
+msgstr "EL <b>impulso</b></br> que <b>necesita</b> tu proyecto"
 
 #: index.php:219
 msgid ""
@@ -200,32 +209,38 @@ msgid ""
 "                    products to market. Helping clients to develop product "
 "strategies ranging from<br/> simple product refresh to big innovations."
 msgstr ""
+"En WORQ desarrollamos estrategias para llevar su proyecto a la cima.<br/>\n"
+"Somos una agencia de consultoría aplicada al diseño y las nuevas "
+"tecnologias, que ayuda a llevar productos innovadores al mercado.<br/>\n"
+"Ayudamos a nuestros clientes a desarrollar estrategias de producto que van "
+"desde<br/> una simple actualización de producto hasta grandes innovaciones y "
+"startups."
 
 #: index.php:227
 msgid "ONLINE MARKETING <br/><span>&</span>REPORTS"
-msgstr ""
+msgstr "MARKETING ONLINE<br/><span>&</span> Y REPORTES"
 
 #: index.php:229
 msgid "STATS AND METRICS"
-msgstr ""
+msgstr "ESTADISTICAS Y METRICAS"
 
 #: index.php:230
 msgid "SOCIAL MEDIA"
-msgstr ""
+msgstr "SOCIAL MEDIA"
 
 #: index.php:232
 msgid "MOBILE FRIENDLY"
-msgstr ""
+msgstr "MOBILE FRIENDLY"
 
 #: index.php:233
 msgid "EMAIL AND CONTENT"
-msgstr ""
+msgstr "EMAIL MARKETING & GENERACION DE CONTENIDO"
 
 #: php/layout/footer.php:3
 msgid ""
 "SUBSCRIBE to the latest<br/>\n"
 "            <strong>technology trends</strong>"
-msgstr ""
+msgstr "SUSCRIBITE a las ultimas <br/><strong>tendencias tecnologicas</strong>"
 
 #: php/layout/footer.php:7
 msgid "Ingresa tu Email"
@@ -273,23 +288,23 @@ msgstr ""
 
 #: php/layout/header.php:36
 msgid "Brand Consulting"
-msgstr ""
+msgstr "Consultoria de marca"
 
 #: php/layout/header.php:37
 msgid "Marketing & Consulting"
-msgstr ""
+msgstr "Marketing & Consultoria"
 
 #: php/layout/header.php:38
 msgid "Contact Us"
-msgstr ""
+msgstr "Contactenos"
 
 #: php/layout/header.php:49
 msgid "Lets Talk<br/>About Your Project"
-msgstr ""
+msgstr "Hablemos<br/>de tu Proyecto"
 
 #: php/layout/header.php:63
 msgid "what do you need?"
-msgstr ""
+msgstr "que necesitas?"
 
 #: php/layout/header.php:88
 msgid "How much do you want to invest?"
@@ -297,15 +312,15 @@ msgstr ""
 
 #: php/layout/header.php:101
 msgid "please complete this form, we will contact you soon"
-msgstr ""
+msgstr "por favor completa el formulario, te contactaremos a la brevedad"
 
 #: thecompany.php:11
 msgid "We are WORQ"
-msgstr ""
+msgstr "Somos WORQ"
 
 #: thecompany.php:12
 msgid "Strategic innovation to boost your project"
-msgstr ""
+msgstr "Innovacion estrategica para impulsar tu proyecto"
 
 #: thecompany.php:20
 msgid "Great experiences <br/> build great brands"

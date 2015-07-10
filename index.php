@@ -1,13 +1,4 @@
-<?php
-/* Translations */
-$locale = 'es_AR.utf8';
-putenv("LANG=" . $locale);
-setlocale(LC_ALL, $locale);
-$domain = 'es';
-bindtextdomain($domain, 'locale');
-bind_textdomain_codeset($domain, 'UTF-8');
-textdomain($domain)
-?>
+<?php include_once './php/layout/language.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 

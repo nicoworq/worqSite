@@ -196,6 +196,8 @@ header ul{
 }
 
 .header-right .idioma{}
+.header-right .idioma a{color: white;}
+.header-right .idioma a.active{color: #6DC823;}
 .header-right .llamar{}
 .header-right .contacto{}
 
