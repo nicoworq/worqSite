@@ -1,17 +1,17 @@
 <section id="suscribir">
     <div class="contenido-suscribir">
-        <h3>SUBSCRIBE to the latest<br/>
-            <strong>technology trends</strong>
+        <h3><?php echo _("SUBSCRIBE to the latest<br/>
+            <strong>technology trends</strong>"); ?>
         </h3>
         <form id="form-suscribir">
-            <input type="text" placeholder="Ingresa tu Email"/>
-            <input type="submit" value="Suscribite"/>
+            <input type="text" placeholder="<?php echo _("Ingresa tu Email"); ?>"/>
+            <input type="submit" value="<?php echo _("Suscribite"); ?>"/>
         </form>
     </div>
 </section>
 <footer>          
-    <span class="float-l">WORQ &COPY; SINCE 2012 | ALL RIGHTS RESERVED. ROSARIO, ARGENTINA</span>
-    <span class="float-r">DEVELOPED BY <b>WORQ</b></span>
+    <span class="float-l"><?php echo _("WORQ &COPY; SINCE 2012 | ALL RIGHTS RESERVED. ROSARIO, ARGENTINA"); ?></span>
+    <span class="float-r"><?php echo _("DEVELOPED BY <b>WORQ</b>"); ?></span>
 
 
 </footer>

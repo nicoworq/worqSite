@@ -1,37 +1,20 @@
-<?php system('locale -a') ?>
 <?php
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-
-
-
+/* Translations */
 $locale = 'es_AR.utf8';
-
 putenv("LANG=" . $locale);
-
-$loc = setlocale(LC_ALL, $locale);
-if (!$loc) {
-    echo "false";
-} else {
-    echo $loc;
-};
-
-
-
-
+setlocale(LC_ALL, $locale);
 $domain = 'es';
 bindtextdomain($domain, 'locale');
 bind_textdomain_codeset($domain, 'UTF-8');
-
 textdomain($domain)
 ?>
 <!DOCTYPE html>
 <html lang="es">
 
-<?php include_once './php/layout/head.php'; ?>
+    <?php include_once './php/layout/head.php'; ?>
     <body>
 
-<?php include_once './php/layout/header.php'; ?>
+        <?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container" class="loaderAnim"> 
             <ul id="botonera">
                 <li><a href="#proweb" ><?php echo _("PROFESIONAL WEBSITE") ?></a></li>
@@ -79,41 +62,41 @@ textdomain($domain)
 
         <section id="pro-web" class="loaderAnim">
             <div class="bg-pro-web">
-                <h4>PRO<span>&#8776;</span>WEBSITES</h4>
+                <h4><?php echo _("PRO<span>&#8776;</span>WEBSITES"); ?></h4>
                 <div class="propiedades">
-                    <span><font color="#68c023">100%</font> MADE TO MEASURE</span>    
-                    <span>HIGH <font color="#68c023">DESIGN</font> QUALITY</span>    
-                    <span>POWERFULL <font color="#68c023">&</font> STRONG</span>                    
+                    <span><?php echo _('<font color="#68c023">100%</font> MADE TO MEASURE'); ?></span>  
+                    <span><?php echo _('HIGH <font color="#68c023">DESIGN</font> QUALITY'); ?></span>
+                    <span><?php echo _('POWERFULL <font color="#68c023">&</font> STRONG'); ?></span>                    
                 </div>
 
                 <div class="pro-web-container">
                     <div class="section-col">
                         <div class="section-text">
-                            <h3>PLAN</h3>
-                            <p>We construct a framework for your project to take<br/> shape within in terms of strategy, production and time.</p>
+                            <h3><?php echo _("PLAN"); ?></h3>
+                            <p><?php echo _("We construct a framework for your project to take<br/> shape within in terms of strategy, production and time."); ?></p>
                         </div>
                         <div class="section-text">
-                            <h3>DESIGN</h3>
-                            <p>We distill planning into purposeful designs that reflect<br/> your objectives and outline a visual aesthetic.</p>
+                            <h3><?php echo _('DESIGN'); ?></h3>
+                            <p><?php echo _('We distill planning into purposeful designs that reflect<br/> your objectives and outline a visual aesthetic.'); ?></p>
                         </div>
 
 
                     </div>
                     <div class="section-col section-col2">
                         <div class="section-text">
-                            <h3>DISCOVER</h3>
-                            <p>We ask and listen toward a thorough understanding of<br/> your company, project, audience and objectives.</p>
+                            <h3><?php echo _('DISCOVER'); ?></h3>
+                            <p><?php echo _('We ask and listen toward a thorough understanding of<br/> your company, project, audience and objectives.'); ?></p>
                         </div>
                         <div class="section-text">
-                            <h3>GROW</h3>
-                            <p>We track, analyze and correct your project’s growth<br/> through ongoing campaigns and retainers.</p>
+                            <h3><?php echo _('GROW'); ?></h3>
+                            <p><?php echo _("We track, analyze and correct your project's growth<br/> through ongoing campaigns and retainers."); ?></p>
                         </div>
 
                     </div>
 
-                    <a href ="#" class="mostrarContacto">Get started now</a>
+                    <a href ="#" class="mostrarContacto"><?php echo _('Get started now'); ?></a>
                     <div class="section-footer">
-                        <p>Visual Design ~ Branding & Identity Design ~ Concept Development ~ Usability Testing & Research ~ Interaction Design ~ Information Architecture ~ Content Creation ~ Prototyping ~ Wireframing ~ Platform Design ~ Interface Design</p> 
+                        <p><?php echo _('Visual Design ~ Branding & Identity Design ~ Concept Development ~ Usability Testing & Research ~ Interaction Design ~ Information Architecture ~ Content Creation ~ Prototyping ~ Wireframing ~ Platform Design ~ Interface Design'); ?></p>
                     </div>
                 </div>
 
@@ -129,7 +112,7 @@ textdomain($domain)
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br/>
-                            <span>VIEW CASE</span><br/>
+                            <span><?php echo _('VIEW CASE'); ?></span><br/>
                             <span class="site-description"></span>
                         </div>
 
@@ -143,7 +126,7 @@ textdomain($domain)
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
-                            <span>VIEW CASE</span>
+                            <span><?php echo _('VIEW CASE'); ?></span>
                         </div>
                     </div>     
                     <img src="img/work-gruposerval.jpg"/>
@@ -152,7 +135,7 @@ textdomain($domain)
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
-                            <span>VIEW CASE</span>
+                            <span><?php echo _('VIEW CASE'); ?></span>
                         </div>
                     </div>     
                     <img src="img/work-falazairroo.jpg"/>
@@ -161,7 +144,7 @@ textdomain($domain)
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
-                            <span>VIEW CASE</span>
+                            <span><?php echo _('VIEW CASE'); ?></span>
                         </div>
                     </div>   
                     <img src="img/work-fourtech.jpg"/>
@@ -169,7 +152,7 @@ textdomain($domain)
 
             </div>
 
-            <a href="#" class="ver-mas">View More</a>
+            <a href="#" class="ver-mas"><?php echo _('View More'); ?></a>
 
             <!-- <div class="bg-separador"></div>-->
 
@@ -185,35 +168,35 @@ textdomain($domain)
                 <div class="contenido-apps">
                     <h3><?php echo _('<span>We make</span> APPS'); ?></h3>
                     <div class="separador"></div>                    
-                    <p>bring <b>ideas</b> to <b>reality</b></p>
+                    <p><?php echo _('bring <b>ideas</b> to <b>reality</b>'); ?></p>
                     <div class="section-col">
                         <div class="section-text">
-                            <p>We're a Startup Studio. A company that builds companies.<br/>
+                            <p> <?php echo _(" We're a Startup Studio. A company that builds companies.<br/>
                                 Sharing people, resources and technologies to accelerate<br/>
                                 our successes. We make the complex simple through<br/>
                                 digital strategy and design.<br/>
                                 <br/>
                                 We create products, platforms and campaigns that move<br/>
-                                products as well as culture.</p>
+                                products as well as culture."); ?></p>
                         </div>
                         <div class="section-text">
                             <p>
-                                Our passion for design goes beyond beautiful imagery<br/>
+                                <?php echo _("Our passion for design goes beyond beautiful imagery<br/>
                                 and into the mind of the consumer, where we believe<br/>
                                 good design should solve problems and position a<br/>
                                 brand so it stands out as well as stands for something.<br/>
                                 <br/>
 
-                                We design identity systems, digital platforms and brand<br/> campaigns that engage today’s consumer. 
+                                We design identity systems, digital platforms and brand<br/> campaigns that engage today's consumer."); ?> 
 
                             </p>
 
                         </div>
                     </div>
-                    <a href="#" class="mostrarContacto">Get your APP!</a>
+                    <a href="#" class="mostrarContacto"><?php echo _("Get your APP!"); ?></a>
                     <div class="section-footer">
-                        <p>Digital Strategy -Website Design - User Interface Design<br/>
-                            -User Experience Design- Social Campaigns-eCommerce / Retail -Content Development-Digital Installations-Web Apps / Products-Mobile Design</p>
+                        <p><?php echo _("Digital Strategy -Website Design - User Interface Design<br/>
+                            -User Experience Design- Social Campaigns-eCommerce / Retail -Content Development-Digital Installations-Web Apps / Products-Mobile Design"); ?></p>
                     </div>
                 </div>
 
@@ -227,27 +210,27 @@ textdomain($domain)
 
         <section id="servicios">
             <div class="contenido-servicios">
-                <h3>WEB<span>&</span>BRAND<span>CONSULTING</span></h3>
+                <h3><?php echo _("WEB<span>&</span>BRAND<span>CONSULTING</span>"); ?></h3>
                 <div class="nuestros-servicios">
-                    <span>WEB PERFORMANCE ANALYSIS&nbsp;&nbsp;|&nbsp;&nbsp;OPTIMIZE RESULTS&nbsp;&nbsp;|&nbsp;&nbsp;NAMING ADVICE</span>
+                    <span><?php echo _("WEB PERFORMANCE ANALYSIS&nbsp;&nbsp;|&nbsp;&nbsp;OPTIMIZE RESULTS&nbsp;&nbsp;|&nbsp;&nbsp;NAMING ADVICE"); ?></span>
                 </div>
-                <h4>The <b>boost</b> that your<br/>
-                    project <b>need</b></h4>
-                <p>At work we develop strategies to put your business to the top.<br/>
+                <h4><?php echo _("The <b>boost</b> that your<br/>
+                    project <b>need</b>"); ?></h4>
+                <p><?php echo _("At work we develop strategies to put your business to the top.<br/>
                     We are a design and innovation consultancy agency that helps bring innovative<br/>
-                    products to market. Helping clients to develop product strategies ranging from<br/> simple product refresh to big innovations.</p>
+                    products to market. Helping clients to develop product strategies ranging from<br/> simple product refresh to big innovations."); ?></p>
 
             </div>
         </section>
         <section id="servicios2">
             <div class="contenido-servicios">
-                <h3>ONLINE MARKETING <br/><span>&</span>REPORTS</h3>
+                <h3><?php echo _("ONLINE MARKETING <br/><span>&</span>REPORTS"); ?></h3>
                 <div class="nuestros-servicios">
-                    <span>STATS AND METRICS</span>
-                    <span>SOCIAL MEDIA</span>
+                    <span><?php echo _("STATS AND METRICS"); ?></span>
+                    <span><?php echo _("SOCIAL MEDIA"); ?></span>
                     <span class="seo">SEO</span>
-                    <span>MOBILE FRIENDLY</span>
-                    <span>EMAIL AND CONTENT</span>
+                    <span><?php echo _("MOBILE FRIENDLY"); ?></span>
+                    <span><?php echo _("EMAIL AND CONTENT"); ?></span>
                 </div>
 
             </div>
@@ -282,6 +265,6 @@ textdomain($domain)
         </section>
         -->
 
-<?php include_once './php/layout/footer.php'; ?>
+        <?php include_once './php/layout/footer.php'; ?>
     </body>
 </html>
