@@ -21,8 +21,12 @@
     </div>
     <div class="header-right">
         <span class="idioma">
-            <a href="<?php echo $current_page . '?lang=en'; ?>" class="<?php if($lang ==='en'){echo 'active';} ?>">EN</a>/ 
-            <a href="<?php echo $current_page . '?lang=es'; ?>" class="<?php if($lang ==='es'){echo 'active';} ?>">ES</a>
+            <a href="<?php echo $current_page . '?lang=en'; ?>" class="<?php if ($lang === 'en') {
+    echo 'active';
+} ?>">EN</a>/ 
+            <a href="<?php echo $current_page . '?lang=es'; ?>" class="<?php if ($lang === 'es') {
+    echo 'active';
+} ?>">ES</a>
         </span>
         <span class="llamar"><?php echo _('CALL US'); ?> +54 (9) 3416 280427</span>
         <span class="contacto"><b><a href="#" class="mostrarContacto"><?php echo _('CONTACT'); ?></a></b></span>
@@ -43,10 +47,17 @@
         </div>
     </div>
 </section>
+<section id="contacto-ok">
+    <h3>Thanks for your submission</h3>
+    <h4>We’ll respond to you<br/>
+        as soon as we can!</h4>
+    <button id="cerrar-form">Continue at worq</button>
+</section>
 <section id="contacto">
     <div id="cerrar-contacto" class="mostrarContacto">
         <img src="img/close.png">
     </div>
+
 
     <div class="contenido-contacto">
         <h2><?php echo _('Lets Talk<br/>About Your Project'); ?></h2>       
@@ -55,12 +66,7 @@
             <div id="contacto-progress">
                 <img src="img/loader.svg" alt="Progreso"/>
             </div>
-            <div id="contacto-ok">
-                <h3>Thanks for your submission</h3>
-                <h4>We’ll respond to you<br/>
-                    as soon as we can!</h4>
-                <button id="cerrar-form">Continue at worq</button>
-            </div>
+
 
             <div class="necesito">
                 <h5><?php echo _('what do you need?'); ?></h5>

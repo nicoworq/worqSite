@@ -661,14 +661,17 @@ input:checked + .necesito-bt{
 
 #contacto-ok{
     position: absolute;
-    top: 0;
+    top: 16px;
     bottom: 0;
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.85);
-    z-index: 10000;
     font-family: MuseoSans;
     display: none;
+    color: white;
+    padding-top: 137px;
+    text-align: center;
+    z-index: 10000000000;
 }
 #contacto-ok h3{
     font-family: MuseoSans;

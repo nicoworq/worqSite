@@ -166,8 +166,7 @@ $(document).ready(function () {
 
     $('#cerrar-form').click(function (e) {
         e.preventDefault();
-        $('#contacto-ok').fadeOut(function () {
-            $('#contacto').removeClass('mostrar');
+        $('#contacto-ok').fadeOut(function () {            
             $('#form-contacto')[0].reset()
         });
     });
@@ -214,6 +213,7 @@ $(document).ready(function () {
             $('#contacto-progress').stop().fadeOut();
             if (json.enviado) {
                 $('#contacto-ok').fadeIn();
+                $('#contacto').removeClass('mostrar');
             } else {
                 alert('Ocurrio un error');
             }
