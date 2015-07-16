@@ -135,7 +135,8 @@ $(document).ready(function () {
             maxItems: 1,
             directionNav: false,
             move: 1,
-            controlNav: false
+            controlNav: false,
+            slideshowSpeed: 3500
 
         });
     }

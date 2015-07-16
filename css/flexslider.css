@@ -47,7 +47,7 @@
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
-  height: 75vh;
+  height: 87vh;
 }
 .flexslider .slides img {
   /* width: 100%; */
@@ -74,7 +74,7 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  height: 75vh;
+  height: 87vh;
   /* margin: 0 0 60px; */
   /* background: #ffffff; */
   /* border: 4px solid #ffffff; */
@@ -90,7 +90,7 @@ html[xmlns] .flexslider .slides {
 }
 .flexslider .slides {
   zoom: 1;
-  height: 75vh;
+  height: 87vh;
 }
 .flexslider .slides img {
   height: auto;

@@ -7,28 +7,32 @@
         <a id="logo-worq" href="index.php">
             <img  src="img/logo-worq.png" alt="WORQ" title="WORQ" />
         </a>
-        <a href="index.php" class='shake'><span><?php echo _('IMPULSE YOUR PROJECT'); ?></span></a>
+        <a href="index.php" class='shake'><span><?php echo _('BOOST YOUR PROJECT'); ?></span></a>
     </div>
     <div class="header-center">
         <ul id="navigation-center">
             <li><a href="press.php"><?php echo _('PRESS') ?></a></li>
             <!--<li><a href="#">AWARDS</a></li>-->
             <li><a href="thecompany.php"><?php echo _('THE COMPANY') ?></a></li>
-            <li><a href="thecompany.php"><?php echo _('PORTFOLIO') ?></a></li>
-            <!--<li><a href="ourteam.php">OUR TEAM</a></li>
+            <!--<li><a href="thecompany.php"><?php echo _('PORTFOLIO') ?></a></li>
+            <li><a href="ourteam.php">OUR TEAM</a></li>
             <li><a href="#">BLOG</a></li>-->
         </ul>
     </div>
     <div class="header-right">
         <span class="idioma">
-            <a href="<?php echo $current_page . '?lang=en'; ?>" class="<?php if ($lang === 'en') {
-    echo 'active';
-} ?>">EN</a>/ 
-            <a href="<?php echo $current_page . '?lang=es'; ?>" class="<?php if ($lang === 'es') {
-    echo 'active';
-} ?>">ES</a>
+            <a href="<?php echo $current_page . '?lang=en'; ?>" class="<?php
+            if ($lang === 'en') {
+                echo 'active';
+            }
+            ?>">EN</a>/ 
+            <a href="<?php echo $current_page . '?lang=es'; ?>" class="<?php
+               if ($lang === 'es') {
+                   echo 'active';
+               }
+            ?>">ES</a>
         </span>
-        <span class="llamar"><?php echo _('CALL US'); ?> +54 (9) 3416 280427</span>
+        <span class="llamar"><?php //echo _('CALL US'); ?> +54 (9) 3416 280427</span>
         <span class="contacto"><b><a href="#" class="mostrarContacto"><?php echo _('CONTACT'); ?></a></b></span>
     </div>
 
@@ -92,7 +96,7 @@
                 </label>
 
             </div>
-            <div class="separador-contacto"></div>
+           
             <div class="invertir">
                 <h5><?php echo _('How much do you want to invest?'); ?></h5>
 

@@ -33,18 +33,21 @@
                         <li>
                             <div class='slide slide-cta'>
                                 <div class="slide-text">
-                                    <h2 class=""><?php echo _('WE LAUCH WEB PROJECTS  WITH <br/> <b>SUPERIOR QUALITY</b>'); ?></h2>   
+                                    <h2 class=""><?php echo _('WE LAUNCH WEB PROJECTS <br/>  WITH <span>SUPERIOR QUALITY</span>'); ?></h2>   
                                     <div class="cta-slide">                                        
                                         <div class="bt-form mostrarContacto"><?php echo _('Get your website'); ?></div>
                                     </div>
                                 </div>
-
                             </div>
 
                         </li>
                     </ul>
                 </div>
 
+                <a href="" class="slide-home-arrow">
+                    <div><?php echo _('Scroll for more'); ?></div>
+                    <img src="img/flecha.png" alt="WORQ" />
+                </a>
 
 
             </div>
@@ -201,28 +204,28 @@
 
         <section id="servicios">
             <div class="contenido-servicios">
-                <h3><?php echo _("WEB<span>&</span>BRAND<span>CONSULTING</span>"); ?></h3>
+                <h3><?php echo _("WEB<span>&</span>BRAND<span> CONSULTING</span>"); ?></h3>
                 <div class="nuestros-servicios">
                     <span><?php echo _("WEB PERFORMANCE ANALYSIS&nbsp;&nbsp;|&nbsp;&nbsp;OPTIMIZE RESULTS&nbsp;&nbsp;|&nbsp;&nbsp;NAMING ADVICE"); ?></span>
                 </div>
                 <h4><?php echo _("The <b>boost</b> that your<br/>
                     project <b>need</b>"); ?></h4>
-                <p><?php echo _("At work we develop strategies to put your business to the top.<br/>
+                <p><?php echo _("At WORQ we develop strategies to put your business to the top.<br/>
                     We are a design and innovation consultancy agency that helps bring innovative<br/>
                     products to market. Helping clients to develop product strategies ranging from<br/> simple product refresh to big innovations."); ?></p>
 
+                <a href="#" class="mostrarContacto">Get started now</a>
             </div>
         </section>
         <section id="servicios2">
             <div class="contenido-servicios">
                 <h3><?php echo _("ONLINE MARKETING <br/><span>&</span>REPORTS"); ?></h3>
                 <div class="nuestros-servicios">
-                    <span><?php echo _("STATS AND METRICS"); ?></span>
-                    <span><?php echo _("SOCIAL MEDIA"); ?></span>
-                    <span class="seo">SEO</span>
-                    <span><?php echo _("MOBILE FRIENDLY"); ?></span>
-                    <span><?php echo _("EMAIL AND CONTENT"); ?></span>
+                    <span><?php echo _("STATS AND METRICS&nbsp;&nbsp;|&nbsp;&nbsp;SOCIAL MEDIA&nbsp;&nbsp;|&nbsp;&nbsp;SEO&nbsp;&nbsp;|&nbsp;&nbsp;MOBILE FRIENDLY&nbsp;&nbsp;|&nbsp;&nbsp;EMAIL AND CONTENT"); ?></span>
+
+
                 </div>
+                <a href="#" class="mostrarContacto">Get started now</a>
 
             </div>
         </section>
