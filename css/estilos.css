@@ -397,7 +397,7 @@ header ul{
     position: absolute;
     cursor: pointer;
     right: 50px;
-    top: 53px;
+    top: 60px;
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
     -o-transition: all .2s linear;
@@ -705,7 +705,7 @@ input:checked + .necesito-bt{
     right: 0;
     background: rgba(0, 0, 0, 0.85);
     font-family: MuseoSans;
-    display: none;
+    /* display: none; */
     color: white;
     padding-top: 137px;
     text-align: center;
@@ -1704,8 +1704,13 @@ footer{
     color: #70c32f;
 }
 
-.press #botonera-fixed, .the-company #botonera-fixed{display: none !important}
+.press #botonera-fixed, .the-company #botonera-fixed, .press #page-loader, .the-company #page-loader{display: none !important}
 
+.press header, .the-company header{
+    transform: translate(0) !important;
+}
+
+.press #contacto , .the-company #contacto{  top: -52px;}
 
 #press-head{
     color: white;

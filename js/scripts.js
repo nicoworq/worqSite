@@ -52,7 +52,7 @@ $(document).ready(function () {
 
     });
 
-    $('#form-contacto').click(function (e) {
+    $('#form-contacto , .telefonos h4').click(function (e) {
         e.stopPropagation();
     });
 
@@ -108,6 +108,8 @@ $(document).ready(function () {
          }
          }*/
 
+
+
         var fromTop = $(this).scrollTop() + topMenuHeight;
 
         var cur = scrollItems.map(function () {
@@ -126,6 +128,11 @@ $(document).ready(function () {
 
     $('.mostrarContacto').click(function (e) {
         e.preventDefault();
+
+        var fromTop = $(window).scrollTop() + 50;
+
+        $('.contenido-contacto').css('top', fromTop);
+        $('#cerrar-contacto ,#contacto-ok').css('top', fromTop);
         $('#contacto').toggleClass('mostrar');
     });
 
