@@ -1630,7 +1630,9 @@ img.contadores-ipad {
     padding: 14px 15px 15px;
     cursor: pointer;
 }
-#form-suscribir.form-error{}
+#form-suscribir.form-error{
+    border: 2px solid #F00;
+}
 #form-suscribir-ok{
     padding: 14px;
     text-align: center;

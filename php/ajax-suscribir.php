@@ -35,7 +35,6 @@ $mail->FromName = 'Formulario de Contacto Worq';
 $mail->addAddress('nicolas@worq.com.ar', 'Nicolas');  // Add a recipient
 //$mail->addAddress('juan@worq.com.ar', 'Juan');  // Add a recipient
 
-$mail->addReplyTo($email, $nombre);
 
 $mail->isHTML(true);                                  // Set email format to HTML
 
