@@ -33,7 +33,7 @@
                         <li>
                             <div class='slide slide-cta'>
                                 <div class="slide-text">
-                                    <h2 class=""><?php echo _('WE LAUNCH WEB PROJECTS <br/>  WITH <span>SUPERIOR QUALITY</span>'); ?></h2>   
+                                    <h2 class=""><?php echo _('WE LAUNCH WEB PROJECTS <br/>  <span>WITH SUPERIOR QUALITY</span>'); ?></h2>   
                                     <div class="cta-slide">                                        
                                         <div class="bt-form mostrarContacto"><?php echo _('Get your website'); ?></div>
                                     </div>
@@ -187,7 +187,7 @@
 
                         </div>
                     </div>
-                    <a href="#" class="mostrarContacto"><?php echo _("Get your APP!"); ?></a>
+                    <a href="#" class="mostrarContacto"><?php echo _("Get your APP"); ?></a>
                     <div class="section-footer">
                         <p><?php echo _("Digital Strategy -Website Design - User Interface Design<br/>
                             -User Experience Design- Social Campaigns-eCommerce / Retail -Content Development-Digital Installations-Web Apps / Products-Mobile Design"); ?></p>

@@ -3,8 +3,8 @@
         <h3><?php echo _("SUBSCRIBE to the latest<br/>
             <strong>technology trends</strong>"); ?>
         </h3>
-        <form id="form-suscribir">
-            <input type="text" placeholder="<?php echo _("Enter your Email"); ?>"/>
+        <form id="form-suscribir" action="php/ajax-suscribir.php">
+            <input type="text" name="email" placeholder="<?php echo _("Enter your Email"); ?>"/>
             <input type="submit" value="<?php echo _("Subscribe"); ?>"/>
         </form>
     </div>

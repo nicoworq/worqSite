@@ -72,7 +72,7 @@
                     <?php echo _("Those who still promise 'Full-Service' end up delivering<br/> only half the possible results. That's why we concentrate<br/> on what our clients really need to be successful."); ?>
                 </p>
                 <p>
-                    <?php echo _("We guide the digital transformation of companies<br/> and organizations by pioneering ground-breaking<br/> marketing solutions, products and business models."); ?>
+                    <?php echo _("We create web & digital experiences that transform <br/>brands, grow businesses and make people’s lives better. <br/>We have the energy to boost your project."); ?>
                 </p>
 
 

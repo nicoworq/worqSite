@@ -32,6 +32,13 @@ $(document).ready(function () {
         }
     };
 
+    $('.shake').mouseenter(function () {
+        $('header').addClass('flashh')
+    });
+    $('.shake').mouseleave(function () {
+        $('header').removeClass('flashh')
+    });
+
     var hideIntervalID = setInterval(hideLoader, 500);
 
 
@@ -227,11 +234,10 @@ $(document).ready(function () {
     $(document).on('scroll', function () {
         var $window = $(window);
 
-
         if ($window.scrollTop() > 557) {
-            $('#botonera-fixed').fadeIn();
+            $('#botonera-fixed').stop().fadeIn();
         } else {
-            $('#botonera-fixed').fadeOut();
+            $('#botonera-fixed').stop().fadeOut();
         }
 
 
