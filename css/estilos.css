@@ -46,8 +46,9 @@ body{
     margin:0;
     padding:0;
     font-family: Arial;
-    background: #040404;
+    background: #0A0A0A;
     position: relative;
+    /* min-width: 1366px; */
 }
 
 
@@ -1112,13 +1113,15 @@ img.contadores-ipad {
     font-family: 'MuseoSans';
     font-weight: 900;
     margin-top:0;
-    margin-bottom: 61px;
+    margin-bottom: 40px;
     text-align: center;
+    /* text-indent: -1%; */
 }
 #ultimos-proyectos h3 span{
     font-size: 75px;
     line-height: 0;
     font-weight: 500;
+    color: #272727;
 }
 
 #ultimos-proyectos a.ver-mas{
@@ -1129,7 +1132,7 @@ img.contadores-ipad {
     border-radius: 4px;
     padding: 16px 72px;
     display: inline-block;
-    margin-top: 62px;
+    margin-top: 20px;
     color: white;
 }
 #ultimos-proyectos a.ver-mas:hover{
@@ -1593,10 +1596,13 @@ img.contadores-ipad {
     font-family: Arial;
     font-size: 15px;
     color: #343434;
-    padding: 10px 16px;
+    padding: 15px 55px 15px 16px;
     float: left;
     outline: none;
     /* box-shadow: 0px 0px 16px #BAA7B6; */;
+}
+#form-suscribir input[type=submit]:hover{
+    background-color: #71C727;
 }
 #form-suscribir input[type=submit]{
     background-color: #5fb514;
@@ -1607,7 +1613,8 @@ img.contadores-ipad {
     font-weight: bold;
     font-size: 16px;
     float: right;
-    padding: 10px;
+    padding: 14px 15px 15px;
+    cursor: pointer;
 }
 
 footer{
@@ -1695,6 +1702,7 @@ footer{
     padding: 13px 0 1px;
     background: url(../img/press-head-bg.jpg);
     background-size: cover;
+    background-position: 100%;
 }
 #press-head h1{
     font-weight: 900;
@@ -1906,6 +1914,7 @@ footer{
     background:url(../img/we-are-bg.jpg) #3d1f51;
     background-size: cover;
     padding: 20px 0 308px;
+    background-position: 100%;
 }
 #we-are h1{
     font-size: 140px;

@@ -2,10 +2,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <?php include_once './php/layout/head.php'; ?>
-
-
-    <body>
-
+    <body class="press">
         <?php include_once './php/layout/header.php'; ?>
 
         <section id="press-head">

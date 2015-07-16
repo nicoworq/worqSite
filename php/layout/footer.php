@@ -4,8 +4,8 @@
             <strong>technology trends</strong>"); ?>
         </h3>
         <form id="form-suscribir">
-            <input type="text" placeholder="<?php echo _("Ingresa tu Email"); ?>"/>
-            <input type="submit" value="<?php echo _("Suscribite"); ?>"/>
+            <input type="text" placeholder="<?php echo _("Enter your Email"); ?>"/>
+            <input type="submit" value="<?php echo _("Subscribe"); ?>"/>
         </form>
     </div>
 </section>

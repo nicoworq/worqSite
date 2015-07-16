@@ -99,7 +99,7 @@
             </div>
         </section>
         <section id="ultimos-proyectos" >
-            <h3><span>&#8776;</span>&nbsp;<?php echo _('CASES'); ?></h3>
+            <h3><span>&#8776;</span>&nbsp;<?php echo _('CASES'); ?>&nbsp;<span>&#8776;</span></h3>
 
             <div class="fila-proyectos">
                 <a class="proyecto" target="blank" href="http://contadoresrosario.com">

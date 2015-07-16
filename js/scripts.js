@@ -167,7 +167,7 @@ $(document).ready(function () {
 
     $('#cerrar-form').click(function (e) {
         e.preventDefault();
-        $('#contacto-ok').fadeOut(function () {            
+        $('#contacto-ok').fadeOut(function () {
             $('#form-contacto')[0].reset()
         });
     });

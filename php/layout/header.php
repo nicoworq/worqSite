@@ -27,12 +27,12 @@
             }
             ?>">EN</a>/ 
             <a href="<?php echo $current_page . '?lang=es'; ?>" class="<?php
-               if ($lang === 'es') {
-                   echo 'active';
-               }
+            if ($lang === 'es') {
+                echo 'active';
+            }
             ?>">ES</a>
         </span>
-        <span class="llamar"><?php //echo _('CALL US'); ?> +54 (9) 3416 280427</span>
+        <span class="llamar"><?php //echo _('CALL US');  ?> +54 (9) 3416 280427</span>
         <span class="contacto"><b><a href="#" class="mostrarContacto"><?php echo _('CONTACT'); ?></a></b></span>
     </div>
 
@@ -96,7 +96,7 @@
                 </label>
 
             </div>
-           
+
             <div class="invertir">
                 <h5><?php echo _('How much do you want to invest?'); ?></h5>
 
