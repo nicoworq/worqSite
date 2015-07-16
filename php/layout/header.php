@@ -32,7 +32,7 @@
             }
             ?>">ES</a>
         </span>
-        <span class="llamar"><?php //echo _('CALL US');  ?> +54 (9) 3416 280427</span>
+        <span class="llamar"><?php //echo _('CALL US');   ?> +54 (9) 3416 280427</span>
         <span class="contacto"><b><a href="#" class="mostrarContacto"><?php echo _('CONTACT'); ?></a></b></span>
     </div>
 
@@ -52,10 +52,13 @@
     </div>
 </section>
 <section id="contacto-ok">
-    <h3>Thanks for your submission</h3>
-    <h4>We’ll respond to you<br/>
-        as soon as we can!</h4>
-    <button id="cerrar-form">Continue at worq</button>
+    <div class="contacto-ok-contenido">
+        <h3>Thanks for your submission</h3>
+        <h4>We’ll respond to you<br/>
+            as soon as we can!</h4>
+        <button id="cerrar-form">Continue at worq</button>
+    </div>
+
 </section>
 <section id="contacto">
     <div id="cerrar-contacto" class="mostrarContacto">

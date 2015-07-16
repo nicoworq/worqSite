@@ -33,7 +33,7 @@ $mail->Password = "f0rmulario_de_worq_con_q";            // SMTP server password
 $mail->From = 'formulario@worq.com.ar';
 $mail->FromName = 'Formulario de Contacto Worq';
 $mail->addAddress('nicolas@worq.com.ar', 'Nicolas');  // Add a recipient
-$mail->addAddress('juan@worq.com.ar', 'Juan');  // Add a recipient
+//$mail->addAddress('juan@worq.com.ar', 'Juan');  // Add a recipient
 
 $mail->addReplyTo($email, $nombre);
 

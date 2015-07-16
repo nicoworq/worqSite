@@ -1,4 +1,7 @@
 <section id="suscribir">
+    <div id="suscribir-progress">
+        <img src="img/loader.svg" alt="Progreso"/>
+    </div>
     <div class="contenido-suscribir">
         <h3><?php echo _("SUBSCRIBE to the latest<br/>
             <strong>technology trends</strong>"); ?>
@@ -6,6 +9,7 @@
         <form id="form-suscribir" action="php/ajax-suscribir.php">
             <input type="text" name="email" placeholder="<?php echo _("Enter your Email"); ?>"/>
             <input type="submit" value="<?php echo _("Subscribe"); ?>"/>
+            <div id="form-suscribir-ok"><?php echo _('Thanks for your subscription!') ?></div>
         </form>
     </div>
 </section>
