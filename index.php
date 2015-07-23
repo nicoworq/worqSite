@@ -8,7 +8,7 @@
         <?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container" class="loaderAnim"> 
             <ul id="botonera">
-                <li><a href="#proweb" ><?php echo _("PROFESIONAL WEBSITES") ?></a></li>
+                <li><a href="#pro-web" ><?php echo _("PROFESIONAL WEBSITES") ?></a></li>
                 <li><a href="#apps"><?php echo _('CUSTOM APPLICATIONS'); ?></a></li>
                 <li><a href="#servicios"><?php echo _('WEB & BRAND CONSULTING'); ?></a></li>
                 <li><a href="#servicios2"><?php echo _('MARKETING & REPORTS'); ?></a></li>
@@ -225,7 +225,7 @@
 
 
                 </div>
-                <a href="#" class="mostrarContacto">Get started now</a>
+                <a href="#" class="mostrarContacto"><?php echo _('Get started now!');?></a>
 
             </div>
         </section>
