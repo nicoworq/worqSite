@@ -53,10 +53,9 @@
 </section>
 <section id="contacto-ok">
     <div class="contacto-ok-contenido">
-        <h3>Thanks for your submission</h3>
-        <h4>We’ll respond to you<br/>
-            as soon as we can!</h4>
-        <button id="cerrar-form">Continue at worq</button>
+        <h3><?php echo _('Thanks for your submission');?></h3>
+        <h4><?php echo _("We'll respond to you<br/>as soon as we can!");?></h4>
+        <button id="cerrar-form"><?php echo _('Continue at worq');?></button>
     </div>
 
 </section>
@@ -91,11 +90,11 @@
                 </label>
                 <label>
                     <input type="checkbox" name="necesito[]" value="Web Application"/>
-                    <div class="necesito-bt">Web Application</div>
+                    <div class="necesito-bt"><?php echo _('Web Application'); ?></div>
                 </label>
                 <label>
                     <input type="checkbox" name="necesito[]" value="Other"/>
-                    <div class="necesito-bt">Other</div>
+                    <div class="necesito-bt"><?php echo _('Other');?></div>
                 </label>
 
             </div>
@@ -112,24 +111,22 @@
             <div class="separador-contacto separador2"></div>
             <div class="datos-cliente">
                 <div class="form-invalid">
-                    Some inputs are empty or wrong, please fill them right
+                    <?php echo _('Some inputs are empty or wrong, please fill them right') ?>
                 </div>
                 <h5><?php echo _('please complete this form, we will contact you soon'); ?></h5>
-                <input type="text" name="nombre" placeholder="Your Name *" tabindex="1"/>
+                <input type="text" name="nombre" placeholder="<?php echo _('Your Name *') ?>" tabindex="1"/>
                 <input type="text" name="email" placeholder="Email" tabindex="2"/>
-                <input type="text" name="telefono" placeholder="Phone" tabindex="3"/>
+                <input type="text" name="telefono" placeholder="<?php echo _('Phone'); ?>" tabindex="3"/>
                 <input type="text" name="sex" value=""/>
-                <textarea rows="5" name="mensaje" placeholder="Message" tabindex="4"></textarea>
+                <textarea rows="5" name="mensaje" placeholder="<?php echo _('Message'); ?>" tabindex="4"></textarea>
             </div>
-
-
-            <input type="submit" value="Send Message" tabindex="5" />
+            <input type="submit" value="<?php echo _('Send Message')?>" tabindex="5" />
 
         </form>
         <div class="telefonos">
-            <h4 class="email">Email us:contacto@worq.com.ar</h4>
+            <h4 class="email"><?php echo _('Email us:');?>contacto@worq.com.ar</h4>
             <h4 class="ciudad">Rosario, Argentina</h4>
-            <h4 class="cel">Call us: +54 (9) 3416280427</h4>
+            <h4 class="cel"><?php echo _('Call us'); ?>: +54 (9) 3416280427</h4>
         </div>
     </div>
 

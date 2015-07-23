@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
-"POT-Creation-Date: 2015-07-23 18:40-0300\n"
-"PO-Revision-Date: 2015-07-23 18:58-0300\n"
+"POT-Creation-Date: 2015-07-23 19:06-0300\n"
+"PO-Revision-Date: 2015-07-23 19:13-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -51,7 +51,7 @@ msgstr "PRO<span>&#8776;</span>WEBSITES"
 
 #: index.php:61
 msgid "<font color=\"#68c023\">100%</font> MADE TO MEASURE"
-msgstr "<font color=\"#68c023\">100%</font> A MEDIDA"
+msgstr "<font color=\"#68c023\">100%</font>HECHO A MEDIDA"
 
 #: index.php:62
 msgid "HIGH <font color=\"#68c023\">DESIGN</font> QUALITY"
@@ -59,7 +59,7 @@ msgstr " <font color=\"#68c023\">DISEÑO</font> DE ALTA CALIDAD"
 
 #: index.php:63
 msgid "<font color=\"#68c023\">MOBILE </font>FRIENDLY"
-msgstr "PREPARADOS PARA <font color=\"#68c023\">MÓVILES</font>"
+msgstr "LISTOS PARA <font color=\"#68c023\">MÓVILES</font>"
 
 #: index.php:69
 msgid "PLAN"
@@ -111,7 +111,7 @@ msgstr ""
 
 #: index.php:91
 msgid "Get started now"
-msgstr "Comienza ahora"
+msgstr "Comenzá tu sitio"
 
 #: index.php:93
 msgid ""
@@ -119,9 +119,10 @@ msgid ""
 "Testing & Research ~ Interaction Design ~ Information Architecture ~ Content "
 "Creation ~ Prototyping ~ Wireframing ~ Platform Design ~ Interface Design"
 msgstr ""
-"Visual Design ~ Branding & Identity Design ~ Concept Development ~ Usability "
-"Testing & Research ~ Interaction Design ~ Information Architecture ~ Content "
-"Creation ~ Prototyping ~ Wireframing ~ Platform Design ~ Interface Design"
+"Diseño gráfico ~ Identidad corporativa & imagen de marca ~ Desarrollo ~ "
+"Usabilidad testing & research ~ Diseño interactivo ~ Arquitectura de la "
+"información ~ Creación de contenido ~ Prototipos ~ Wireframes ~ Diseño "
+"multiplataforma ~ Diseño de interfaces"
 
 #: index.php:102
 msgid "CASES"
@@ -296,21 +297,69 @@ msgstr "Marketing & Consultoria"
 msgid "Contact Us"
 msgstr "Contacto"
 
-#: php/layout/header.php:70
+#: php/layout/header.php:56
+msgid "Thanks for your submission"
+msgstr "Gracias por tu consulta"
+
+#: php/layout/header.php:57
+msgid "We'll respond to you<br/>as soon as we can!"
+msgstr "Te responderemos <br/> a la brevedad"
+
+#: php/layout/header.php:58
+msgid "Continue at worq"
+msgstr "Continuar en WORQ"
+
+#: php/layout/header.php:69
 msgid "Lets Talk<br/>About Your Project"
-msgstr "Hablemos<br/>de tu Proyecto"
+msgstr "Hablemos sobre<br/>tu Proyecto"
 
-#: php/layout/header.php:79
+#: php/layout/header.php:78
 msgid "what do you need?"
-msgstr "que necesitas?"
+msgstr "¿QUÉ BUSCÁS?"
 
-#: php/layout/header.php:104
+#: php/layout/header.php:93
+msgid "Web Application"
+msgstr "Aplicación Web"
+
+#: php/layout/header.php:97
+msgid "Other"
+msgstr "Otro"
+
+#: php/layout/header.php:103
 msgid "How much do you want to invest?"
 msgstr "Cuánto quieres invertir ? "
 
-#: php/layout/header.php:117
+#: php/layout/header.php:114
+msgid "Some inputs are empty or wrong, please fill them right"
+msgstr "Algunos campos están mal. Por favor corregilos"
+
+#: php/layout/header.php:116
 msgid "please complete this form, we will contact you soon"
-msgstr "por favor completa el formulario, te contactaremos a la brevedad"
+msgstr "COMPLETÁ EL FORMULARIO, NOS CONTACTAREMOS PRONTO"
+
+#: php/layout/header.php:117
+msgid "Your Name *"
+msgstr "Tu Nombre *"
+
+#: php/layout/header.php:119
+msgid "Phone"
+msgstr "Teléfono"
+
+#: php/layout/header.php:121
+msgid "Message"
+msgstr "Mensaje"
+
+#: php/layout/header.php:123
+msgid "Send Message"
+msgstr "Enviar mensaje"
+
+#: php/layout/header.php:127
+msgid "Email us:"
+msgstr "Escr"
+
+#: php/layout/header.php:129
+msgid "Call us"
+msgstr ""
 
 #: thecompany.php:12
 msgid "We are WORQ"
