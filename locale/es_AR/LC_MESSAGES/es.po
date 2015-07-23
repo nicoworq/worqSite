@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
 "POT-Creation-Date: 2015-07-23 19:06-0300\n"
-"PO-Revision-Date: 2015-07-23 19:22-0300\n"
+"PO-Revision-Date: 2015-07-23 19:24-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -142,7 +142,7 @@ msgstr "<span>Creamos </span>APPS"
 
 #: index.php:165
 msgid "bring <b>ideas</b> to <b>reality</b>"
-msgstr "Llevamos a cabo tu <b>ideas</b>"
+msgstr "Llevamos a cabo tus <b>ideas</b>"
 
 #: index.php:168
 msgid ""
@@ -216,7 +216,7 @@ msgstr ""
 msgid ""
 "The <b>boost</b> that your<br/>\n"
 "                    project <b>need</b>"
-msgstr "Tenemos la energía necesaria para <b>impulsar tu proyecto</b>"
+msgstr "El <b>impulso</b> <br/> que tu empresa necesita"
 
 #: index.php:213
 msgid ""
