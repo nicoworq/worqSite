@@ -204,6 +204,7 @@ header ul{
 
 .header-right .idioma{
     margin-right: 30px;
+    display: none;
 }
 .header-right .idioma a{color: white;}
 .header-right .idioma a.active{color: #6DC823;}
@@ -1512,6 +1513,7 @@ img.contadores-ipad {
 }
 #servicios2 .contenido-servicios .nuestros-servicios span{
     margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 #botonera2{

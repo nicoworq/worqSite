@@ -10,9 +10,10 @@ if (isset($_GET['lang'])) {
 if ($lang === 'es') {
     $locale = 'es_AR.utf8';
 } else {
-    $locale = 'en_EN.utf8';
+    
 }
 
+$locale = 'en_EN.utf8';
 
 putenv("LANG=" . $locale);
 setlocale(LC_ALL, $locale);

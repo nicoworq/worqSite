@@ -88,8 +88,8 @@
             <div class="rosario-content">
                 <h2><?php echo _("Apps From Rosario to the World"); ?></h2>
                 <p>
-                    Alem 1377 P5 . Rosario, Santa Fe, Argentina <br/>
-                    +54 9 341123789 contacto@worq.com.ar
+                    Buenos aires 2235 . Rosario, Santa Fe, Argentina <br/>
+                    +54 9 3416 28 04 27 contacto@worq.com.ar
                 </p>
             </div>
 
