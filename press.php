@@ -6,7 +6,7 @@
         <?php include_once './php/layout/header.php'; ?>
 
         <section id="press-head">
-            <h1>Press</h1>
+            <h1><?php echo _('Press'); ?></h1>
         </section>
 
         <section id="press">
