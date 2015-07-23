@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
-"POT-Creation-Date: 2015-07-23 19:25-0300\n"
-"PO-Revision-Date: 2015-07-23 19:29-0300\n"
+"POT-Creation-Date: 2015-07-23 19:31-0300\n"
+"PO-Revision-Date: 2015-07-23 19:39-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -243,6 +243,13 @@ msgid ""
 "&nbsp;SEO&nbsp;&nbsp;|&nbsp;&nbsp;MOBILE FRIENDLY&nbsp;&nbsp;|&nbsp;&nbsp;"
 "EMAIL AND CONTENT"
 msgstr ""
+"Métricas y Estrategias&nbsp;&nbsp;|&nbsp;&nbsp;SOCIAL MEDIA&nbsp;&nbsp;|"
+"&nbsp;&nbsp;SEO&nbsp;&nbsp;|&nbsp;&nbsp;MOBILE FRIENDLY&nbsp;&nbsp;|&nbsp;"
+"&nbsp;Generación de Contenido"
+
+#: index.php:228
+msgid "Get started now!"
+msgstr "Hablemos de tu proyecto"
 
 #: php/layout/footer.php:6
 msgid ""
