@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
 "POT-Creation-Date: 2015-07-23 18:40-0300\n"
-"PO-Revision-Date: 2015-07-23 18:53-0300\n"
+"PO-Revision-Date: 2015-07-23 18:58-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -39,11 +39,11 @@ msgstr "LANZAMOS PROYECTOS WEB <br/> <span>DE CALIDAD SUPERIOR</span>"
 
 #: index.php:38
 msgid "Get your website"
-msgstr "Ten tu sitio"
+msgstr "Comenzá tu proyecto"
 
 #: index.php:48
 msgid "Scroll for more"
-msgstr "Hace scroll"
+msgstr "Hacé scroll"
 
 #: index.php:59
 msgid "PRO<span>&#8776;</span>WEBSITES"
@@ -266,7 +266,7 @@ msgstr "PRENSA"
 
 #: php/layout/header.php:16
 msgid "THE COMPANY"
-msgstr "LA COMPAÑÍA"
+msgstr "LA EMPRESA"
 
 #: php/layout/header.php:17
 msgid "PORTFOLIO"
