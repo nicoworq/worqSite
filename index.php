@@ -8,9 +8,9 @@
         <?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container" class="loaderAnim"> 
             <ul id="botonera">
-                <li><a href="#proweb" ><?php echo _("PROFESIONAL WEBSITE") ?></a></li>
+                <li><a href="#proweb" ><?php echo _("PROFESIONAL WEBSITES") ?></a></li>
                 <li><a href="#apps"><?php echo _('CUSTOM APPLICATIONS'); ?></a></li>
-                <li><a href="#servicios"><?php echo _('BRAND CONSULTING'); ?></a></li>
+                <li><a href="#servicios"><?php echo _('WEB & BRAND CONSULTING'); ?></a></li>
                 <li><a href="#servicios2"><?php echo _('MARKETING & REPORTS'); ?></a></li>
             </ul>
         </section>
@@ -60,7 +60,7 @@
                 <div class="propiedades">
                     <span><?php echo _('<font color="#68c023">100%</font> MADE TO MEASURE'); ?></span>  
                     <span><?php echo _('HIGH <font color="#68c023">DESIGN</font> QUALITY'); ?></span>
-                    <span><?php echo _('POWERFULL <font color="#68c023">&</font> STRONG'); ?></span>                    
+                    <span><?php echo _('<font color="#68c023">MOBILE </font>FRIENDLY'); ?></span>                    
                 </div>
 
                 <div class="pro-web-container">

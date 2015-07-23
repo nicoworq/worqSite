@@ -44,7 +44,7 @@
             <ul id="navegacion-fixed">
                 <li><a href="#pro-web"><?php echo _('Profesional Websites'); ?></a></li>
                 <li><a href="#apps"><?php echo _('Custom Applications'); ?></a></li>
-                <li><a href="#servicios"><?php echo _('Brand Consulting'); ?></a></li>
+                <li><a href="#servicios"><?php echo _('Web & Brand Consulting'); ?></a></li>
                 <li><a href="#servicios2"><?php echo _('Marketing & Consulting'); ?></a></li>
                 <li class="nav-fixed-contacto"><a class="mostrarContacto" href="#contacto"><?php echo _('Contact Us'); ?></a></li>
             </ul>
