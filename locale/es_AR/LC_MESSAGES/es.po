@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
 "POT-Creation-Date: 2015-07-23 19:06-0300\n"
-"PO-Revision-Date: 2015-07-23 19:16-0300\n"
+"PO-Revision-Date: 2015-07-23 19:22-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -179,6 +179,11 @@ msgid ""
 "                                We design identity systems, digital "
 "platforms and brand<br/> campaigns that engage today's consumer."
 msgstr ""
+"Nuestro caso de éxito más importante es TaxistaVirtual.com el mismo es un "
+"proyecto social que tuvo un gran impacto en medios y redes sociales. "
+"Taxistavirtual.com es una aplicación web de escritorio que registra 50.000 "
+"visitas mensuales y va en aumento. Creemos que el diseño debe ayudar a las "
+"personas creando un mejor contexto, y este es nuestro grano de arena."
 
 #: index.php:190
 msgid "Get your APP"
@@ -191,10 +196,13 @@ msgid ""
 "eCommerce / Retail -Content Development-Digital Installations-Web Apps / "
 "Products-Mobile Design"
 msgstr ""
+"Estrategias digitales ~ Diseño web ~ Diseño de interfaz y experiencia de "
+"usuario ~ Productos diseñados para móviles ~ Aplicaciones web ~ Aplicaciones "
+"para móviles"
 
 #: index.php:207
 msgid "WEB<span>&</span>BRAND<span> CONSULTING</span>"
-msgstr "CONSULTORÍA<span>WEB</span>"
+msgstr "CONSULTORÍA <span>WEB</span>"
 
 #: index.php:209
 msgid ""
@@ -208,7 +216,7 @@ msgstr ""
 msgid ""
 "The <b>boost</b> that your<br/>\n"
 "                    project <b>need</b>"
-msgstr "EL <b>impulso</b></br> que <b>necesita</b> tu proyecto"
+msgstr "Tenemos la energía necesaria para <b>impulsar tu proyecto</b>"
 
 #: index.php:213
 msgid ""
@@ -359,7 +367,7 @@ msgstr "Escr"
 
 #: php/layout/header.php:129
 msgid "Call us"
-msgstr ""
+msgstr "Llámanos"
 
 #: thecompany.php:12
 msgid "We are WORQ"
