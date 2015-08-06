@@ -153,7 +153,6 @@
         </section>
         <section id="apps">
             <div class="apps-contenedor">
-
                 <div class="imagen-app1">
                     <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
                         <img src="img/imagen_taxista_virtual1-min.png" alt="TaxistaVirtual"/>
