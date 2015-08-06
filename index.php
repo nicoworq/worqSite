@@ -173,7 +173,8 @@
                                 We create products, platforms and campaigns that move<br/>
                                 products as well as culture."); ?></p>
                         </div>
-                        <div class="section-text">
+                        <div class="text-separator"></div>
+                        <div class="section-text" style="padding-left: 45px;">
                             <p>
                                 <?php echo _("Our passion for design goes beyond beautiful imagery<br/>
                                 and into the mind of the consumer, where we believe<br/>
