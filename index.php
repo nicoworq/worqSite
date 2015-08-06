@@ -145,10 +145,10 @@
                 </a>
 
             </div>
-
+ <!-- 
             <a href="#" class="ver-mas"><?php echo _('View More'); ?></a>
 
-            <!-- <div class="bg-separador"></div>-->
+           <div class="bg-separador"></div>-->
 
         </section>
         <section id="apps">

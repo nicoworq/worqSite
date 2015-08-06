@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
 "POT-Creation-Date: 2015-07-23 19:52-0300\n"
-"PO-Revision-Date: 2015-07-23 19:52-0300\n"
+"PO-Revision-Date: 2015-08-06 19:12-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -396,13 +396,15 @@ msgstr "Innovación estratégica para impulsar tu proyecto"
 
 #: thecompany.php:21
 msgid "Great experiences <br/> build great brands"
-msgstr ""
+msgstr "Soluciones web <br/> Resultados concretos"
 
 #: thecompany.php:24
 msgid ""
 "Through brand strategy and design, we craft<br/> experiences that help "
 "brands stand out."
 msgstr ""
+"Somos un grupo de creativos que nos esforzamos<br/> por pensar soluciones "
+"concretas para tu negocio."
 
 #: thecompany.php:28
 msgid ""
@@ -410,6 +412,11 @@ msgid ""
 ">strategists. We partner with our clients to solve problems, realize<br/> "
 "opportunities and deliver truly exceptional experiences."
 msgstr ""
+"Nos dedicamos al diseño de sitios web profesionales y al desarrollo de "
+"aplicaciones nativas para móviles, aunque nuestro objetivo final es hacer "
+"crecer tu negocio, diferenciarte, brindarte una solución concreta que supere "
+"tus expectativas y posicionarte en internet por encima de tu competencia. "
+"Impulsá tu proyecto!"
 
 #: thecompany.php:31
 msgid ""
@@ -417,18 +424,27 @@ msgid ""
 "                            <br/>\n"
 "                            an exciting host of local creative outfits."
 msgstr ""
+"Hacemos foco en tu mercado y público específico, planteamos estrategias de "
+"marketing online, posicionamiento y branding para lograr objetivos "
+"concretos.\n"
+"<br/>\n"
+"Tenemos la energía y el know how para que tu proyecto crezca."
 
 #: thecompany.php:42
 msgid ""
 "Technology, Strategy<br/>\n"
 "                        and Creativity"
-msgstr ""
+msgstr "Elegí destacarte <br/> impulsá tu proyecto"
 
 #: thecompany.php:46
 msgid ""
 "We guide the digital transformation of companies and organizations <br/>by "
 "pioneering ground-breaking marketing solutions, products and business models."
 msgstr ""
+"Cada cliente, cada sitio web, aplicación o estrategia que hacemos es "
+"especial. Somo una agencia pequeña y por eso podemos darnos algunos gustos. "
+"Conocer a nuestros clientes, sus inquietudes y sentir sus proyectos como si "
+"fueran propios, nos encanta,  por eso creamos WORQ."
 
 #: thecompany.php:49
 msgid ""
@@ -438,6 +454,19 @@ msgid ""
 "results. That's why we concentrate on what our clients really need to be "
 "successful."
 msgstr ""
+"Nuestros sitios web se destacan por ser diferentes, \"a medida\", "
+"personalizados para lo que \"Tú\" proyecto necesita. Si elegís trabajar con "
+"nosotros, elegís destacarte, elegís estrategia, buscás ideas frescas y "
+"soluciones concretas. <br/><br/>\n"
+"Le damos vital importancia a los reportes y análisis de un sitio web, "
+"observamos como navegan los usuarios, o la cantidad de ventas que tiene un e-"
+"commerce. \n"
+"Google analitics o envialosimple, son algunas de las herramientas que nos "
+"ayudan a recolectar información. Con estos datos ideamos estrategias que "
+"mejoran los resultados de un sitio web, optimizando al máximo su "
+"rendimiento.\n"
+"<br/>\n"
+"Elegí impulsar tu proyecto, elegi a WORQ."
 
 #: thecompany.php:60
 msgid "What We Do"
@@ -449,7 +478,7 @@ msgstr "Soluciones 360"
 
 #: thecompany.php:65
 msgid "Boost Projects"
-msgstr "Impulsamos proyecto"
+msgstr "Impulsamos proyectos"
 
 #: thecompany.php:66
 msgid "Design & develop"
@@ -461,6 +490,9 @@ msgid ""
 "becoming more complex<br/>as new technologies and specializations emerge.<br/"
 ">"
 msgstr ""
+"  Conceptos como la nube, las redes, smartphones, dispositivos móviles y las "
+"nuevas tecnologías que nos sorprenden día a día se volvieron cotidianos para "
+"los "
 
 #: thecompany.php:72
 msgid ""
@@ -468,6 +500,9 @@ msgid ""
 "possible results. That's why we concentrate<br/> on what our clients really "
 "need to be successful."
 msgstr ""
+"negocios y en WORQ los entendemos a la perfección.<br>Nos mantenemos "
+"actualizados con las últimas tendencias en tecnología, por eso\n"
+"nuestros sitios web se adaptan "
 
 #: thecompany.php:75
 msgid ""
@@ -475,6 +510,8 @@ msgid ""
 "businesses and make people's lives better. <br/>We have the energy to boost "
 "your project."
 msgstr ""
+" a dispositivos móviles, se integran con herramientas<br>como google maps, y "
+"están diseñados para impactar.<br>Elegí WORQ, elegí impulsar tu proyecto "
 
 #: thecompany.php:82
 msgid "AND EVERYDAY WE DO"
