@@ -174,7 +174,7 @@
                                 products as well as culture."); ?></p>
                         </div>
                         <div class="text-separator"></div>
-                        <div class="section-text" style="padding-left: 45px;">
+                        <div class="section-text" style="padding-left: 45px;box-sizing: border-box;">
                             <p>
                                 <?php echo _("Our passion for design goes beyond beautiful imagery<br/>
                                 and into the mind of the consumer, where we believe<br/>
