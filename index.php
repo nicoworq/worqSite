@@ -66,11 +66,11 @@
                 <div class="pro-web-container">
                     <div class="section-col">
                         <div class="section-text">
-                            <h3><?php echo _("PLAN"); ?></h3>
+                            <h3>1 <span>&#8776;</span> <?php echo _("PLAN"); ?></h3>
                             <p><?php echo _("We construct a framework for your project to take<br/> shape within in terms of strategy, production and time."); ?></p>
                         </div>
                         <div class="section-text">
-                            <h3><?php echo _('DESIGN'); ?></h3>
+                            <h3>2 <span>&#8776;</span> <?php echo _('DESIGN'); ?></h3>
                             <p><?php echo _('We distill planning into purposeful designs that reflect<br/> your objectives and outline a visual aesthetic.'); ?></p>
                         </div>
 
@@ -78,11 +78,11 @@
                     </div>
                     <div class="section-col section-col2">
                         <div class="section-text">
-                            <h3><?php echo _('DISCOVER'); ?></h3>
+                            <h3>3 <span>&#8776;</span> <?php echo _('DISCOVER'); ?></h3>
                             <p><?php echo _('We ask and listen toward a thorough understanding of<br/> your company, project, audience and objectives.'); ?></p>
                         </div>
                         <div class="section-text">
-                            <h3><?php echo _('GROW'); ?></h3>
+                            <h3>4 <span>&#8776;</span> <?php echo _('GROW'); ?></h3>
                             <p><?php echo _("We track, analyze and correct your project's growth<br/> through ongoing campaigns and retainers."); ?></p>
                         </div>
 
