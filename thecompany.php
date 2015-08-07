@@ -22,15 +22,15 @@
                     <h3><?php echo _("Great experiences <br/> build great brands"); ?></h3>
                     <h4>
                         <img src="img/we-are-iso.png" alt="We Are WORQ"/>
-                        <?php echo _("Through brand strategy and design, we craft<br/> experiences that help brands stand out."); ?>
+                        <?php echo _("Through brand strategy and design, we craft experiences that help brands stand out."); ?>
                     </h4>
                     <div class="we-are-content">
                         <p>
-                            <?php echo _("Worq is a talented multi-disciplinary team of digital creators and <br/>strategists. We partner with our clients to solve problems, realize<br/> opportunities and deliver truly exceptional experiences."); ?>
+                            <?php echo _("Worq is a talented multi-disciplinary team of digital creators and strategists. We partner with our clients to solve problems, realize opportunities and deliver truly exceptional experiences."); ?>
                         </p>
                         <p>
                             <?php echo _("Our collaborators include both independent agencies, as well as
-                            <br/>
+                            
                             an exciting host of local creative outfits."); ?>
 
                         </p>
@@ -39,12 +39,12 @@
 
 
                 </div>
-                <div class="we-are-col">
-                    <h3><?php echo _("Technology, Strategy<br/>
+                <div class="we-are-col" style="margin-left: 10%;">
+                    <h3><?php echo _("Technology, Strategy
                         and Creativity"); ?></h3>
                     <div class="we-are-content">
                         <p>
-                            <?php echo _("We guide the digital transformation of companies and organizations <br/>by pioneering ground-breaking marketing solutions, products and business models."); ?>
+                            <?php echo _("We guide the digital transformation of companies and organizations by pioneering ground-breaking marketing solutions, products and business models."); ?>
                         </p>
                         <p>
                             <?php echo _("We know that today no agency can do everything. Tasks and projects are becoming more complex as new technologies and specializations emerge. Those who still promise 'Full-Service' end up delivering only half the possible results. That's why we concentrate on what our clients really need to be successful."); ?>
