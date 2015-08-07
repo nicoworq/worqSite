@@ -14,7 +14,7 @@
     </div>
 </section>
 <footer>          
-    <span class="float-l"><?php echo _("WORQ &COPY; SINCE 2012 | ALL RIGHTS RESERVED. ROSARIO, ARGENTINA"); ?></span>
+    <span class="float-l"><?php echo _("WORQ &COPY; BOOSTING PROYECTS SINCE 2012 | ALL RIGHTS RESERVED. ROSARIO, ARGENTINA"); ?></span>
     <span class="float-r"><?php echo _("DEVELOPED BY <b>WORQ</b>"); ?></span>
 
 
