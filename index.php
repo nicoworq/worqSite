@@ -187,7 +187,7 @@
 
                         </div>
                     </div>
-                    <a href="#" class="mostrarContacto"><?php echo _("Get your APP"); ?></a>
+                    <a href="#" class="mostrarContacto get-app"><?php echo _("Get your APP"); ?></a>
                     <div class="section-footer">
                         <p><?php echo _("Digital Strategy -Website Design - User Interface Design<br/>
                             -User Experience Design- Social Campaigns-eCommerce / Retail -Content Development-Digital Installations-Web Apps / Products-Mobile Design"); ?></p>
