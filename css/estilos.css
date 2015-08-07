@@ -1400,7 +1400,7 @@ img.contadores-ipad {
 .contenido-apps p b{
     font-weight: 500;
 }
-.contenido-apps a.get-app{
+.contenido-apps a{
     display: inline-block;
     /* color:white; */
     font-size: 22px;
@@ -1412,9 +1412,7 @@ img.contadores-ipad {
     color: #2D1B05;
     border-radius: 4px;  background-color: #fbca1d; box-shadow: 0 1px 5px rgba(0,0,0,.7);
 }
-.contenido-apps .link-taxista {color: white;font-weight: 600;}
-
-.contenido-apps a.get-app:hover{
+.contenido-apps a:hover{
     background: #FFB800;
 }
 
@@ -1651,7 +1649,6 @@ footer{
     padding: 27px 52px;
     height: 15px;
     letter-spacing: 2px;
-    margin-top: -58px;
     margin-bottom: 0;
 }
 
