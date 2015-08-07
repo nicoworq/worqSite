@@ -14,7 +14,6 @@
                 <a href="#" class="mostrarContacto"><?php echo("Let's get started now") ?></a>
             </div>
 
-
         </section>
 
         <section id="we-are-2">
