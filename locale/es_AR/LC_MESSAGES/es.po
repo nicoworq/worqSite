@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
-"POT-Creation-Date: 2015-08-07 18:48-0300\n"
-"PO-Revision-Date: 2015-08-07 18:49-0300\n"
+"POT-Creation-Date: 2015-08-07 19:22-0300\n"
+"PO-Revision-Date: 2015-08-07 19:26-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -402,19 +402,23 @@ msgstr "Somos WORQ"
 msgid "Strategic innovation to boost your project"
 msgstr "Innovación estratégica para impulsar tu proyecto"
 
-#: thecompany.php:21
+#: thecompany.php:14
+msgid "Let's get started now"
+msgstr "Comenzá tu proyecto"
+
+#: thecompany.php:22
 msgid "Great experiences <br/> build great brands"
 msgstr "Soluciones web <br/> Resultados concretos"
 
-#: thecompany.php:24
+#: thecompany.php:25
 msgid ""
 "Through brand strategy and design, we craft<br/> experiences that help "
 "brands stand out."
 msgstr ""
-"Somos un grupo de creativos que nos esforzamos<br/> por pensar soluciones "
-"concretas para tu negocio."
+" Somos un grupo de creativos que <br>nos esforzamos por pensar soluciones  "
+"<br>concretas para tu negocio. "
 
-#: thecompany.php:28
+#: thecompany.php:29
 msgid ""
 "Worq is a talented multi-disciplinary team of digital creators and <br/"
 ">strategists. We partner with our clients to solve problems, realize<br/> "
@@ -426,7 +430,7 @@ msgstr ""
 "tus expectativas y posicionarte en internet por encima de tu competencia. "
 "Impulsá tu proyecto!"
 
-#: thecompany.php:31
+#: thecompany.php:32
 msgid ""
 "Our collaborators include both independent agencies, as well as\n"
 "                            <br/>\n"
@@ -438,15 +442,15 @@ msgstr ""
 "<br/>\n"
 "Tenemos la energía y el know how para que tu proyecto crezca.<br/>\n"
 "Cada cliente, cada sitio web, aplicación o estrategia que hacemos es "
-"especial. Somo una agencia pequeña y por eso podemos darnos algunos gustos."
+"especial. Somos una agencia pequeña y por eso podemos darnos algunos gustos."
 
-#: thecompany.php:42
+#: thecompany.php:43
 msgid ""
 "Technology, Strategy<br/>\n"
 "                        and Creativity"
 msgstr "Elegí destacarte <br/> impulsá tu proyecto"
 
-#: thecompany.php:46
+#: thecompany.php:47
 msgid ""
 "We guide the digital transformation of companies and organizations <br/>by "
 "pioneering ground-breaking marketing solutions, products and business models."
@@ -454,7 +458,7 @@ msgstr ""
 "Conocer a nuestros clientes, sus inquietudes y sentir sus proyectos como si "
 "fueran propios, nos encanta,  por eso creamos WORQ."
 
-#: thecompany.php:49
+#: thecompany.php:50
 msgid ""
 "We know that today no agency can do everything. Tasks and projects are "
 "becoming more complex as new technologies and specializations emerge. Those "
@@ -476,23 +480,23 @@ msgstr ""
 "<br/>\n"
 "Elegí impulsar tu proyecto, elegi a WORQ."
 
-#: thecompany.php:60
+#: thecompany.php:61
 msgid "What We Do"
 msgstr "Que hacemos"
 
-#: thecompany.php:64
+#: thecompany.php:65
 msgid "360 Solutions"
 msgstr "Soluciones 360"
 
-#: thecompany.php:65
+#: thecompany.php:66
 msgid "Boost Projects"
 msgstr "Impulsamos proyectos"
 
-#: thecompany.php:66
+#: thecompany.php:67
 msgid "Design & develop"
 msgstr "DISEÑO Y DESARROLLO"
 
-#: thecompany.php:69
+#: thecompany.php:70
 msgid ""
 "Websites and mobile applications from Rosario. Tasks and projects are "
 "becoming more complex as new technologies and specializations emerge."
@@ -501,7 +505,7 @@ msgstr ""
 "y las nuevas tecnologías que nos sorprenden día a día para poder ofrecerte "
 "soluciones de vanguardia."
 
-#: thecompany.php:71
+#: thecompany.php:72
 msgid ""
 "Those who still promise 'Full-Service' end up delivering only half the "
 "possible results. That's why we concentrate on what our clients really need "
@@ -511,7 +515,7 @@ msgstr ""
 "google maps, redes sociales y diversas aplicaciones externas. Desarollamos "
 "sitios web sólidos, potentes y atractivos. "
 
-#: thecompany.php:74
+#: thecompany.php:75
 msgid ""
 "We create web & digital experiences that transform brands, grow businesses "
 "and make people's lives better. We have the energy to boost your project."
@@ -520,11 +524,11 @@ msgstr ""
 "usuario personalizadas. Nos encantan los startups y nos apasiona llevar tus "
 "ideas a la realidad."
 
-#: thecompany.php:81
+#: thecompany.php:82
 msgid "AND EVERYDAY WE DO"
 msgstr "NUESTRO TRABAJO DIARIO"
 
-#: thecompany.php:82
+#: thecompany.php:83
 msgid ""
 "Branding & Identity Design ~ Concept Development ~ Usability Testing & "
 "Research ~ Interaction Design ~ UX and UI design ~ Information Architecture "
@@ -535,7 +539,7 @@ msgstr ""
 "experiencia e interfaz de usuario ~ Arquitectura de la información ~ "
 "Creación de contenido"
 
-#: thecompany.php:88
+#: thecompany.php:89
 msgid "Apps From Rosario to the World"
 msgstr "Apps de Rosario al mundo"
 

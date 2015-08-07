@@ -11,7 +11,7 @@
             <div class="we-are-content-abs">
                 <h1><?php echo _("We are WORQ"); ?></h1>
                 <h3><?php echo _("Strategic innovation to boost your project"); ?></h3>
-                <a href="#" class="mostrarContacto"><?php echo("Let's get started now") ?></a>
+                <a href="#" class="mostrarContacto"><?php echo _("Let's get started now") ?></a>
             </div>
 
         </section>
