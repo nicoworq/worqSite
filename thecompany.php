@@ -39,7 +39,7 @@
 
 
                 </div>
-                <div class="we-are-col" style="margin-left: 10%;">
+                <div class="we-are-col">
                     <h3><?php echo _("Technology, Strategy
                         and Creativity"); ?></h3>
                     <div class="we-are-content">

@@ -1998,12 +1998,13 @@ footer{
     overflow: hidden;
 }
 .we-are-col{
-    width: 45%;
+    width: 48%;
     float: left;   
     /* padding-right: 101px; */
     box-sizing: border-box;
 }
 
+.we-are-col:last-child{margin-left: 4%}
 
 #we-are-2 h3{
     font-weight: 100;
@@ -2188,6 +2189,10 @@ footer{
         width: 1100px;       
     }
     #we-are-2 h3{font-size: 50px;}
+    
+    .we-are-col{width: 45%;}
+    
+    .we-are-col:last-child{margin-left: 10%}
 
 }
 
