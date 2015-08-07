@@ -2032,12 +2032,15 @@ footer{
 .what-we-do-container p{
     text-align: left;
 
-    width: 33%;
+    width: 40%;
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
     margin-top: 55px;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 0 25px;
 }
 .we-do-list{
     margin: 0;

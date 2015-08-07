@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
-"POT-Creation-Date: 2015-07-23 19:52-0300\n"
-"PO-Revision-Date: 2015-08-07 18:06-0300\n"
+"POT-Creation-Date: 2015-08-07 18:16-0300\n"
+"PO-Revision-Date: 2015-08-07 18:18-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -140,15 +140,15 @@ msgstr "VER CASO"
 msgid "View More"
 msgstr "Ver Más"
 
-#: index.php:163
+#: index.php:162
 msgid "<span>We make</span> APPS"
 msgstr "<span>Creamos </span>APPS"
 
-#: index.php:165
+#: index.php:164
 msgid "bring <b>ideas</b> to <b>reality</b>"
 msgstr "Llevamos a cabo tus <b>ideas</b>"
 
-#: index.php:168
+#: index.php:167
 msgid ""
 " We're a Startup Studio. A company that builds companies.<br/>\n"
 "                                Sharing people, resources and technologies "
@@ -275,9 +275,12 @@ msgid "Thanks for your subscription!"
 msgstr "Gracias por suscribirte!"
 
 #: php/layout/footer.php:17
-msgid "WORQ &COPY; SINCE 2012 | ALL RIGHTS RESERVED. ROSARIO, ARGENTINA"
+msgid ""
+"WORQ &COPY; BOOSTING PROYECTS SINCE 2012 | ALL RIGHTS RESERVED. ROSARIO, "
+"ARGENTINA"
 msgstr ""
-"WORQ &COPY;  DESDE 2012 | TODOS LOS DERECHOS RESERVADOS. ROSARIO, ARGENTINA"
+"WORQ &COPY; IMPULSANDO PROYECTOS DESDE 2012 | TODOS LOS DERECHOS RESERVADOS. "
+"ROSARIO, ARGENTINA"
 
 #: php/layout/footer.php:18
 msgid "DEVELOPED BY <b>WORQ</b>"
@@ -491,38 +494,31 @@ msgstr "DISEÑO Y DESARROLLO"
 
 #: thecompany.php:69
 msgid ""
-"Websites and mobile applications from Rosario.<br/>Tasks and projects are "
-"becoming more complex<br/>as new technologies and specializations emerge.<br/"
-">"
+"Websites and mobile applications from Rosario. Tasks and projects are "
+"becoming more complex as new technologies and specializations emerge. Those "
+"who still promise 'Full-Service' end up delivering only half the possible "
+"results."
 msgstr ""
-"  Conceptos como la nube, las redes, smartphones, dispositivos móviles y las "
+"Conceptos como la nube, las redes, smartphones, dispositivos móviles y las "
 "nuevas tecnologías que nos sorprenden día a día se volvieron cotidianos para "
-"los "
+"los negocios y en WORQ los entendemos a la perfección."
 
 #: thecompany.php:72
 msgid ""
-"Those who still promise 'Full-Service' end up delivering<br/> only half the "
-"possible results. That's why we concentrate<br/> on what our clients really "
-"need to be successful."
+"That's why we concentrate on what our clients really need to be successful. "
+"We create web & digital experiences that transform brands, grow businesses "
+"and make people's lives better. We have the energy to boost your project."
 msgstr ""
-"negocios y en WORQ los entendemos a la perfección.<br>Nos mantenemos "
-"actualizados con las últimas tendencias en tecnología, por eso\n"
-"nuestros sitios web se adaptan "
+"Nos mantenemos actualizados con las últimas tendencias en tecnología, por "
+"eso nuestros sitios web se adaptan  a dispositivos móviles, se integran con "
+"herramientas como google maps, y están diseñados para impactar. <br/>\n"
+"Elegí WORQ, elegí impulsar tu proyecto"
 
-#: thecompany.php:75
-msgid ""
-"We create web & digital experiences that transform <br/>brands, grow "
-"businesses and make people's lives better. <br/>We have the energy to boost "
-"your project."
-msgstr ""
-" a dispositivos móviles, se integran con herramientas<br>como google maps, y "
-"están diseñados para impactar.<br>Elegí WORQ, elegí impulsar tu proyecto "
-
-#: thecompany.php:82
+#: thecompany.php:79
 msgid "AND EVERYDAY WE DO"
 msgstr "NUESTRO TRABAJO DIARIO"
 
-#: thecompany.php:83
+#: thecompany.php:80
 msgid ""
 "Branding & Identity Design ~ Concept Development ~ Usability Testing & "
 "Research ~ Interaction Design ~ UX and UI design ~ Information Architecture "
@@ -533,9 +529,41 @@ msgstr ""
 "experiencia e interfaz de usuario ~ Arquitectura de la información ~ "
 "Creación de contenido"
 
-#: thecompany.php:89
+#: thecompany.php:86
 msgid "Apps From Rosario to the World"
 msgstr "Apps de Rosario al mundo"
+
+#~ msgid ""
+#~ "Websites and mobile applications from Rosario.<br/>Tasks and projects are "
+#~ "becoming more complex<br/>as new technologies and specializations emerge."
+#~ "<br/>"
+#~ msgstr ""
+#~ "  Conceptos como la nube, las redes, smartphones, dispositivos móviles y "
+#~ "las nuevas tecnologías que nos sorprenden día a día se volvieron "
+#~ "cotidianos para los "
+
+#~ msgid ""
+#~ "Those who still promise 'Full-Service' end up delivering<br/> only half "
+#~ "the possible results. That's why we concentrate<br/> on what our clients "
+#~ "really need to be successful."
+#~ msgstr ""
+#~ "negocios y en WORQ los entendemos a la perfección.<br>Nos mantenemos "
+#~ "actualizados con las últimas tendencias en tecnología, por eso\n"
+#~ "nuestros sitios web se adaptan "
+
+#~ msgid ""
+#~ "We create web & digital experiences that transform <br/>brands, grow "
+#~ "businesses and make people's lives better. <br/>We have the energy to "
+#~ "boost your project."
+#~ msgstr ""
+#~ " a dispositivos móviles, se integran con herramientas<br>como google "
+#~ "maps, y están diseñados para impactar.<br>Elegí WORQ, elegí impulsar tu "
+#~ "proyecto "
+
+#~ msgid "WORQ &COPY; SINCE 2012 | ALL RIGHTS RESERVED. ROSARIO, ARGENTINA"
+#~ msgstr ""
+#~ "WORQ &COPY;  DESDE 2012 | TODOS LOS DERECHOS RESERVADOS. ROSARIO, "
+#~ "ARGENTINA"
 
 #~ msgid "POWERFULL <font color=\"#68c023\">&</font> STRONG"
 #~ msgstr "<font color=\"#68c023\">&</font> POTENTES"
