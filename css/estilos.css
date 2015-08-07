@@ -1998,7 +1998,7 @@ footer{
     overflow: hidden;
 }
 .we-are-col{
-    width: 50%;
+    width: 45%;
     float: left;   
     /* padding-right: 101px; */
     box-sizing: border-box;
@@ -2024,7 +2024,7 @@ footer{
     margin-right: 7px;
 }
 .we-are-content{
-    padding-right: 70px;
+    /* padding-right: 70px; */
 }
 #we-are-2 p{
     color: #828b91;
@@ -2183,6 +2183,11 @@ footer{
 
         padding: 10px;
     }
+
+    .we-are-container {
+        width: 1100px;       
+    }
+    #we-are-2 h3{font-size: 50px;}
 
 }
 
