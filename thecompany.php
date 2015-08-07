@@ -11,7 +11,7 @@
 
             <h1><?php echo _("We are WORQ"); ?></h1>
             <h3><?php echo _("Strategic innovation to boost your project"); ?></h3>
-
+            <a href="#" class="mostrarContacto"><?php echo("Let's get started now") ?></a>
 
         </section>
 
@@ -66,10 +66,12 @@
                     <li><?php echo _("Design & develop"); ?></li>
                 </ul>
                 <p>
-                    <?php echo _("Websites and mobile applications from Rosario. Tasks and projects are becoming more complex as new technologies and specializations emerge. Those who still promise 'Full-Service' end up delivering only half the possible results."); ?>
+                    <?php echo _("Websites and mobile applications from Rosario. Tasks and projects are becoming more complex as new technologies and specializations emerge."); ?>
+              
+                    <?php echo _("Those who still promise 'Full-Service' end up delivering only half the possible results. That's why we concentrate on what our clients really need to be successful."); ?>
                 </p>
                 <p>
-                    <?php echo _("That's why we concentrate on what our clients really need to be successful. We create web & digital experiences that transform brands, grow businesses and make people's lives better. We have the energy to boost your project."); ?>
+                    <?php echo _("We create web & digital experiences that transform brands, grow businesses and make people's lives better. We have the energy to boost your project."); ?>
                 </p>
 
 

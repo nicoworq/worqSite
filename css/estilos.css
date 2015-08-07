@@ -470,6 +470,7 @@ header ul{
     font-family: 'MuseoSans';    
     font-size: 60px;
     margin-bottom: 44px;
+    margin-top: 0;
 }
 
 
@@ -1961,6 +1962,18 @@ footer{
 #we-are h3{
     font-size: 24px;
     font-weight: 100;
+}
+#we-are a{
+    color: white;
+    border: 2px solid white;
+    padding: 20px 34px;
+    margin-top: 35px;
+    display: inline-block;
+    font-size: 17px;
+}
+#we-are a:hover{
+    background: #78D32E;
+    border-color: #78D32E;
 }
 
 #we-are-2{
