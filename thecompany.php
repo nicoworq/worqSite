@@ -66,13 +66,10 @@
                     <li><?php echo _("Design & develop"); ?></li>
                 </ul>
                 <p>
-                    <?php echo _("Websites and mobile applications from Rosario.<br/>Tasks and projects are becoming more complex<br/>as new technologies and specializations emerge.<br/>"); ?>
+                    <?php echo _("Websites and mobile applications from Rosario. Tasks and projects are becoming more complex as new technologies and specializations emerge. Those who still promise 'Full-Service' end up delivering only half the possible results."); ?>
                 </p>
                 <p>
-                    <?php echo _("Those who still promise 'Full-Service' end up delivering<br/> only half the possible results. That's why we concentrate<br/> on what our clients really need to be successful."); ?>
-                </p>
-                <p>
-                    <?php echo _("We create web & digital experiences that transform <br/>brands, grow businesses and make people's lives better. <br/>We have the energy to boost your project."); ?>
+                    <?php echo _("That's why we concentrate on what our clients really need to be successful. We create web & digital experiences that transform brands, grow businesses and make people's lives better. We have the energy to boost your project."); ?>
                 </p>
 
 
