@@ -1948,16 +1948,26 @@ footer{
     color: white;
     background:url(../img/we-are-bg.jpg) #3d1f51;
     background-size: cover;
-    padding: 20px 0 308px;
+    padding: 0;
     background-position: 100%;
     margin-top: 57px;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.we-are-content-abs{
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+    margin-bottom: -130px;
 }
 #we-are h1{
     font-size: 140px;
     font-weight: 900;
     text-transform: uppercase;
 
-    margin: 209px 0 -28px 0;
+    margin: 0;
+    line-height: 105px;
 }
 #we-are h3{
     font-size: 24px;

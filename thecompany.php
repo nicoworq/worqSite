@@ -8,10 +8,12 @@
         <?php include_once './php/layout/header.php'; ?>
 
         <section id="we-are">
+            <div class="we-are-content-abs">
+                <h1><?php echo _("We are WORQ"); ?></h1>
+                <h3><?php echo _("Strategic innovation to boost your project"); ?></h3>
+                <a href="#" class="mostrarContacto"><?php echo("Let's get started now") ?></a>
+            </div>
 
-            <h1><?php echo _("We are WORQ"); ?></h1>
-            <h3><?php echo _("Strategic innovation to boost your project"); ?></h3>
-            <a href="#" class="mostrarContacto"><?php echo("Let's get started now") ?></a>
 
         </section>
 
@@ -67,7 +69,7 @@
                 </ul>
                 <p>
                     <?php echo _("Websites and mobile applications from Rosario. Tasks and projects are becoming more complex as new technologies and specializations emerge."); ?>
-              
+
                     <?php echo _("Those who still promise 'Full-Service' end up delivering only half the possible results. That's why we concentrate on what our clients really need to be successful."); ?>
                 </p>
                 <p>
