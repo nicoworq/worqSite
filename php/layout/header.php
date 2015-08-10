@@ -124,7 +124,7 @@
 
         </form>
         <div class="telefonos">
-            <h4 class="email"><?php echo _('Email us:');?>contacto@worq.com.ar</h4>
+            <h4 class="email"><?php echo _('Email us:');?> contacto@worq.com.ar</h4>
             <h4 class="ciudad">Rosario, Argentina</h4>
             <h4 class="cel"><?php echo _('Call us:'); ?>: +54 (9) 3416280427</h4>
         </div>
