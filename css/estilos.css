@@ -1415,8 +1415,12 @@ img.contadores-ipad {
     color: #2D1B05;
     border-radius: 4px;  background-color: #fbca1d; box-shadow: 0 1px 5px rgba(0,0,0,.7);
 }
-.contenido-apps a:hover{
+.contenido-apps a.get-app:hover{
     background: #FFB800;
+}
+a.link-taxista {
+    font-weight: bold;
+    color: #FFF;
 }
 
 .contenido-apps .separador{
@@ -2116,7 +2120,7 @@ footer{
     bottom: 0;
     right: 0;
     z-index: -1; 
-   
+
 }
 #rosario h2{
     font-size: 75px;
