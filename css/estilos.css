@@ -2099,11 +2099,24 @@ footer{
     font-family: 'MuseoSans';
     color: white;
     text-align: center;
-    background: url(../img/rosario1.jpg);
-    background-size: cover;
     padding: 210px 0;
     position:   relative;
     height: 207px;
+    width: 100%;
+}
+
+.rosario-bg{
+    background-image: url(../img/rosario.jpg);
+    background-size: cover;
+    background-position: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1; 
+   
 }
 #rosario h2{
     font-size: 75px;
@@ -2111,11 +2124,13 @@ footer{
 
     margin-top: 0;
     margin-bottom: 17px;
+    text-shadow: 0 0 5px #272626;
 }
 #rosario p{
     font-weight: 100;
     font-size: 17px;
     line-height: 23px;
+    text-shadow: 0 0 5px #272626;
 }
 
 .rosario-content{
@@ -2190,9 +2205,9 @@ footer{
         width: 1100px;       
     }
     #we-are-2 h3{font-size: 50px;}
-    
+
     .we-are-col{width: 45%;}
-    
+
     .we-are-col:last-child{margin-left: 10%}
 
 }

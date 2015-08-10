@@ -237,12 +237,12 @@ $(document).ready(function () {
 
 
     });
-    
-    
-    $('#form-suscribir input').keydown(function(){
-       $('#form-suscribir').removeClass('form-error') 
+
+
+    $('#form-suscribir input').keydown(function () {
+        $('#form-suscribir').removeClass('form-error')
     });
-    
+
     $('#form-suscribir').submit(function (event) {
         event.preventDefault();
 
@@ -284,12 +284,33 @@ $(document).ready(function () {
         } else {
             $('#botonera-fixed').stop().fadeOut();
         }
-
-
     });
 
 
+    var rosarioBg = ["url(img/rosario.jpg)", "url(img/rosario1.jpg)", "url(img/rosario2.jpg)", "url(img/rosario3.jpg)", "url(img/rosario4.jpg)"];
+    var rosarioBgIndex = 0;
+    function changeRosarioBg() {
+
+        $('.rosario-bg').fadeOut(200,function(){
+            $('.rosario-bg').css('background-image', rosarioBg[rosarioBgIndex]);
+            $('.rosario-bg').fadeIn();
+        });
+        rosarioBgIndex++;
+        if (rosarioBgIndex > rosarioBg.length - 1) {
+            rosarioBgIndex = 0;
+        }
+    }
+
+
+    setInterval(changeRosarioBg, 3000)
+
+
+
+
+
+
 });
+
 
 
 function validateEmail(email) {

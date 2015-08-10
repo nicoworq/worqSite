@@ -84,6 +84,7 @@
         </section>
 
         <section id="rosario">      
+            <div class="rosario-bg"></div>
             <div class="rosario-content">
                 <h2><?php echo _("Apps From Rosario to the World"); ?></h2>
                 <p>
