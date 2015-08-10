@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
-"POT-Creation-Date: 2015-08-10 19:15-0300\n"
-"PO-Revision-Date: 2015-08-10 19:15-0300\n"
+"POT-Creation-Date: 2015-08-10 19:20-0300\n"
+"PO-Revision-Date: 2015-08-10 19:21-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -387,8 +387,8 @@ msgid "Email us:"
 msgstr "Escríbenos"
 
 #: php/layout/header.php:129
-msgid "Call us"
-msgstr "Llámanos"
+msgid "Call us:"
+msgstr "Llámanos:"
 
 #: press.php:9
 msgid "Press"
@@ -537,6 +537,9 @@ msgstr ""
 #: thecompany.php:89
 msgid "Apps From Rosario to the World"
 msgstr "Apps de Rosario al mundo"
+
+#~ msgid "Call us"
+#~ msgstr "Llámanos"
 
 #~ msgid ""
 #~ "Worq is a talented multi-disciplinary team of digital creators and "

@@ -52,7 +52,7 @@ body{
     font-family: Arial;
     background: #0A0A0A;
     position: relative;
-    /* min-width: 1366px; */
+     min-width: 1300px; 
 }
 
 
@@ -204,7 +204,7 @@ header ul{
 
 .header-right .idioma{
     margin-right: 30px;
-    display: none;
+   
 }
 .header-right .idioma a{color: white;}
 .header-right .idioma a.active{color: #6DC823;}
