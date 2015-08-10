@@ -214,7 +214,7 @@
                     We are a design and innovation consultancy agency that helps bring innovative<br/>
                     products to market. Helping clients to develop product strategies ranging from<br/> simple product refresh to big innovations."); ?></p>
 
-                <a href="#" class="mostrarContacto">Get started now</a>
+                <a href="#" class="mostrarContacto"><?php echo _('Get started now'); ?></a>
             </div>
         </section>
         <section id="servicios2">
