@@ -2030,7 +2030,7 @@ footer{
 #we-are-2 p{
     color: #828b91;
     font-size: 17px;
-    font-weight: normal;
+    font-weight: 300;
     line-height: 30px;
     margin-bottom: 31px;
 }
@@ -2056,17 +2056,17 @@ footer{
     margin: 0 auto;
 }
 .what-we-do-container p{
-    text-align: left;
 
-    width: 40%;
+    width: 350px;
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
-    margin-top: 55px;
+    margin-top: 15px;
     vertical-align: top;
     box-sizing: border-box;
     padding: 0 25px;
+    text-align: center;
 }
 .we-do-list{
     margin: 0;
@@ -2080,6 +2080,7 @@ footer{
     font-weight: 500;
     font-size: 24px;
     margin: 0 27px;
+    width: 300px;
 }
 
 #what-we-do h4{

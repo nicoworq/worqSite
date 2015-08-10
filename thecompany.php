@@ -26,14 +26,12 @@
                     </h4>
                     <div class="we-are-content">
                         <p>
-                            <?php echo _("Worq is a talented multi-disciplinary team of digital creators and strategists. We partner with our clients to solve problems, realize opportunities and deliver truly exceptional experiences."); ?>
-                        </p>
-                        <p>
-                            <?php echo _("Our collaborators include both independent agencies, as well as
+                            <?php echo _("Worq is a talented multi-disciplinary team of digital creators and strategists. We partner with our clients to solve problems, realize opportunities and deliver truly exceptional experiences. <br/>"
+                                    . "Our collaborators include both independent agencies, as well as
                             
                             an exciting host of local creative outfits."); ?>
-
                         </p>
+                       
                     </div>
 
 
@@ -68,7 +66,8 @@
                 </ul>
                 <p>
                     <?php echo _("Websites and mobile applications from Rosario. Tasks and projects are becoming more complex as new technologies and specializations emerge."); ?>
-
+                </p>
+                <p>
                     <?php echo _("Those who still promise 'Full-Service' end up delivering only half the possible results. That's why we concentrate on what our clients really need to be successful."); ?>
                 </p>
                 <p>

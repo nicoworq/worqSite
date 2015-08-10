@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
-"POT-Creation-Date: 2015-08-07 19:22-0300\n"
-"PO-Revision-Date: 2015-08-07 19:26-0300\n"
+"POT-Creation-Date: 2015-08-09 22:17-0300\n"
+"PO-Revision-Date: 2015-08-09 22:19-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -384,7 +384,7 @@ msgstr "Enviar mensaje"
 
 #: php/layout/header.php:127
 msgid "Email us:"
-msgstr "Escr"
+msgstr "Escríbenos"
 
 #: php/layout/header.php:129
 msgid "Call us"
@@ -412,53 +412,60 @@ msgstr "Soluciones web <br/> Resultados concretos"
 
 #: thecompany.php:25
 msgid ""
-"Through brand strategy and design, we craft<br/> experiences that help "
-"brands stand out."
+"Through brand strategy and design, we craft experiences that help brands "
+"stand out."
 msgstr ""
-" Somos un grupo de creativos que <br>nos esforzamos por pensar soluciones  "
-"<br>concretas para tu negocio. "
+"Somos un grupo de creativos que nos esforzamos por pensar soluciones "
+"concretas para tu negocio."
 
 #: thecompany.php:29
 msgid ""
-"Worq is a talented multi-disciplinary team of digital creators and <br/"
-">strategists. We partner with our clients to solve problems, realize<br/> "
-"opportunities and deliver truly exceptional experiences."
+"Worq is a talented multi-disciplinary team of digital creators and "
+"strategists. We partner with our clients to solve problems, realize "
+"opportunities and deliver truly exceptional experiences. <br/>Our "
+"collaborators include both independent agencies, as well as\n"
+"                            \n"
+"                            an exciting host of local creative outfits."
 msgstr ""
 "Nos dedicamos al diseño de sitios web profesionales y al desarrollo de "
 "aplicaciones nativas para móviles, aunque nuestro objetivo final es hacer "
 "crecer tu negocio, diferenciarte, brindarte una solución concreta que supere "
 "tus expectativas y posicionarte en internet por encima de tu competencia. "
-"Impulsá tu proyecto!"
-
-#: thecompany.php:32
-msgid ""
-"Our collaborators include both independent agencies, as well as\n"
-"                            <br/>\n"
-"                            an exciting host of local creative outfits."
-msgstr ""
+"Impulsá tu proyecto!<br/>\n"
 "Hacemos foco en tu mercado y público específico, planteamos estrategias de "
-"marketing online, posicionamiento y branding para lograr objetivos "
-"concretos.\n"
+"marketing online, posicionamiento y branding para lograr objetivos concretos."
 "<br/>\n"
-"Tenemos la energía y el know how para que tu proyecto crezca.<br/>\n"
-"Cada cliente, cada sitio web, aplicación o estrategia que hacemos es "
-"especial. Somos una agencia pequeña y por eso podemos darnos algunos gustos."
+"Tenemos la energía y el know how para que tu proyecto crezca."
 
-#: thecompany.php:43
+#: thecompany.php:41
 msgid ""
-"Technology, Strategy<br/>\n"
+"Technology, Strategy\n"
 "                        and Creativity"
-msgstr "Elegí destacarte <br/> impulsá tu proyecto"
+msgstr "Elegí destacarte <br> impulsá tu proyecto"
 
-#: thecompany.php:47
+#: thecompany.php:45
 msgid ""
-"We guide the digital transformation of companies and organizations <br/>by "
+"We guide the digital transformation of companies and organizations by "
 "pioneering ground-breaking marketing solutions, products and business models."
 msgstr ""
+"Cada cliente, cada sitio web, aplicación o estrategia que hacemos es "
+"especial. Somo una agencia pequeña y por eso podemos darnos algunos gustos. "
 "Conocer a nuestros clientes, sus inquietudes y sentir sus proyectos como si "
-"fueran propios, nos encanta,  por eso creamos WORQ."
+"fueran propios, nos encanta,  por eso creamos WORQ.<br/>\n"
+"Nuestros sitios web se destacan por ser diferentes, \"a medida\", "
+"personalizados para lo que \"Tú\" proyecto necesita. Si elegís trabajar con "
+"nosotros, elegís destacarte, elegís estrategia, buscás ideas frescas y "
+"soluciones concretas.<br/>\n"
+"Le damos vital importancia a los reportes y análisis de un sitio web, "
+"observamos como navegan los usuarios, o la cantidad de ventas que tiene un e-"
+"commerce. <br/>\n"
+"Google analitics o envialosimple, son algunas de las herramientas que nos "
+"ayudan a recolectar información. Con estos datos ideamos estrategias que "
+"mejoran los resultados de un sitio web, optimizando al máximo su rendimiento."
+"<br/>\n"
+"Elegí impulsar tu proyecto, elegi a WORQ."
 
-#: thecompany.php:50
+#: thecompany.php:48
 msgid ""
 "We know that today no agency can do everything. Tasks and projects are "
 "becoming more complex as new technologies and specializations emerge. Those "
@@ -480,23 +487,23 @@ msgstr ""
 "<br/>\n"
 "Elegí impulsar tu proyecto, elegi a WORQ."
 
-#: thecompany.php:61
+#: thecompany.php:59
 msgid "What We Do"
 msgstr "Que hacemos"
 
-#: thecompany.php:65
+#: thecompany.php:63
 msgid "360 Solutions"
 msgstr "Soluciones 360"
 
-#: thecompany.php:66
+#: thecompany.php:64
 msgid "Boost Projects"
 msgstr "Impulsamos proyectos"
 
-#: thecompany.php:67
+#: thecompany.php:65
 msgid "Design & develop"
 msgstr "DISEÑO Y DESARROLLO"
 
-#: thecompany.php:70
+#: thecompany.php:68
 msgid ""
 "Websites and mobile applications from Rosario. Tasks and projects are "
 "becoming more complex as new technologies and specializations emerge."
@@ -505,7 +512,7 @@ msgstr ""
 "y las nuevas tecnologías que nos sorprenden día a día para poder ofrecerte "
 "soluciones de vanguardia."
 
-#: thecompany.php:72
+#: thecompany.php:71
 msgid ""
 "Those who still promise 'Full-Service' end up delivering only half the "
 "possible results. That's why we concentrate on what our clients really need "
@@ -515,7 +522,7 @@ msgstr ""
 "google maps, redes sociales y diversas aplicaciones externas. Desarollamos "
 "sitios web sólidos, potentes y atractivos. "
 
-#: thecompany.php:75
+#: thecompany.php:74
 msgid ""
 "We create web & digital experiences that transform brands, grow businesses "
 "and make people's lives better. We have the energy to boost your project."
@@ -524,11 +531,11 @@ msgstr ""
 "usuario personalizadas. Nos encantan los startups y nos apasiona llevar tus "
 "ideas a la realidad."
 
-#: thecompany.php:82
+#: thecompany.php:81
 msgid "AND EVERYDAY WE DO"
 msgstr "NUESTRO TRABAJO DIARIO"
 
-#: thecompany.php:83
+#: thecompany.php:82
 msgid ""
 "Branding & Identity Design ~ Concept Development ~ Usability Testing & "
 "Research ~ Interaction Design ~ UX and UI design ~ Information Architecture "
@@ -539,9 +546,65 @@ msgstr ""
 "experiencia e interfaz de usuario ~ Arquitectura de la información ~ "
 "Creación de contenido"
 
-#: thecompany.php:89
+#: thecompany.php:88
 msgid "Apps From Rosario to the World"
 msgstr "Apps de Rosario al mundo"
+
+#~ msgid ""
+#~ "Worq is a talented multi-disciplinary team of digital creators and "
+#~ "strategists. We partner with our clients to solve problems, realize "
+#~ "opportunities and deliver truly exceptional experiences."
+#~ msgstr ""
+#~ "Nos dedicamos al diseño de sitios web profesionales y al desarrollo de "
+#~ "aplicaciones nativas para móviles, aunque nuestro objetivo final es hacer "
+#~ "crecer tu negocio, diferenciarte, brindarte una solución concreta que "
+#~ "supere tus expectativas y posicionarte en internet por encima de tu "
+#~ "competencia.<br/> Impulsá tu proyecto!"
+
+#~ msgid ""
+#~ "Through brand strategy and design, we craft<br/> experiences that help "
+#~ "brands stand out."
+#~ msgstr ""
+#~ " Somos un grupo de creativos que <br>nos esforzamos por pensar "
+#~ "soluciones  <br>concretas para tu negocio. "
+
+#~ msgid ""
+#~ "Worq is a talented multi-disciplinary team of digital creators and <br/"
+#~ ">strategists. We partner with our clients to solve problems, realize<br/> "
+#~ "opportunities and deliver truly exceptional experiences."
+#~ msgstr ""
+#~ "Nos dedicamos al diseño de sitios web profesionales y al desarrollo de "
+#~ "aplicaciones nativas para móviles, aunque nuestro objetivo final es hacer "
+#~ "crecer tu negocio, diferenciarte, brindarte una solución concreta que "
+#~ "supere tus expectativas y posicionarte en internet por encima de tu "
+#~ "competencia. Impulsá tu proyecto!"
+
+#~ msgid ""
+#~ "Our collaborators include both independent agencies, as well as\n"
+#~ "                            <br/>\n"
+#~ "                            an exciting host of local creative outfits."
+#~ msgstr ""
+#~ "Hacemos foco en tu mercado y público específico, planteamos estrategias "
+#~ "de marketing online, posicionamiento y branding para lograr objetivos "
+#~ "concretos.\n"
+#~ "<br/>\n"
+#~ "Tenemos la energía y el know how para que tu proyecto crezca.<br/>\n"
+#~ "Cada cliente, cada sitio web, aplicación o estrategia que hacemos es "
+#~ "especial. Somos una agencia pequeña y por eso podemos darnos algunos "
+#~ "gustos."
+
+#~ msgid ""
+#~ "Technology, Strategy<br/>\n"
+#~ "                        and Creativity"
+#~ msgstr "Elegí destacarte <br/> impulsá tu proyecto"
+
+#~ msgid ""
+#~ "We guide the digital transformation of companies and organizations <br/"
+#~ ">by pioneering ground-breaking marketing solutions, products and business "
+#~ "models."
+#~ msgstr ""
+#~ "Conocer a nuestros clientes, sus inquietudes y sentir sus proyectos como "
+#~ "si fueran propios, nos encanta,  por eso creamos WORQ."
 
 #~ msgid ""
 #~ "Websites and mobile applications from Rosario. Tasks and projects are "
