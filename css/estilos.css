@@ -1403,7 +1403,7 @@ img.contadores-ipad {
 .contenido-apps p b{
     font-weight: 500;
 }
-.contenido-apps a{
+.contenido-apps a.get-app{
     display: inline-block;
     /* color:white; */
     font-size: 22px;
