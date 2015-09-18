@@ -1,5 +1,5 @@
 <div id="page-loader">
-    <img src="img/loader.svg" alt="Loading"/>
+    <img src="img/loader.png" alt="Loading"/>
 </div>
 
 <header class="loaderAnim">
@@ -32,7 +32,7 @@
             }
             ?>">ES</a>
         </span>
-        <span class="llamar"><?php //echo _('CALL US');   ?> +54 (9) 3416 280427</span>
+        <a class="llamar" href="tel:3416280427">+54 (9) 3416 280427</a>
         <span class="contacto"><b><a href="#" class="mostrarContacto"><?php echo _('CONTACT'); ?></a></b></span>
     </div>
 
@@ -70,7 +70,7 @@
 
         <form id="form-contacto" method="post" action="php/ajax-form-contacto.php">
             <div id="contacto-progress">
-                <img src="img/loader.svg" alt="Progreso"/>
+                <img src="img/loader.png" alt="Progreso"/>
             </div>
 
 

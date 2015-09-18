@@ -46,13 +46,14 @@ a,button,input[type=submit],.bt-form{
     -webkit-transition:all .6s cubic-bezier(0.23, 1, 0.32, 1);
     transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
 }
+*{box-sizing: border-box;}
 body{
     margin:0;
     padding:0;
     font-family: Arial;
     background: #0A0A0A;
     position: relative;
-     min-width: 1300px; 
+    /* min-width: 1300px; */
 }
 
 
@@ -76,6 +77,11 @@ body{
     top: 7%;
     /* margin-top: -16px; */
     margin-left: -16px;
+    -webkit-animation: rotating 1s linear infinite;
+    -moz-animation: rotating 1s linear infinite;
+    -ms-animation: rotating 1s linear infinite;
+    -o-animation: rotating 1s linear infinite;
+    animation: rotating 1s linear infinite;
 }
 
 
@@ -204,11 +210,13 @@ header ul{
 
 .header-right .idioma{
     margin-right: 30px;
-   
+
 }
 .header-right .idioma a{color: white;}
 .header-right .idioma a.active{color: #6DC823;}
-.header-right .llamar{}
+.header-right .llamar{
+    color: white;
+}
 .header-right .contacto{}
 
 .press header, .the-company header{position: fixed;top: 0;z-index: 100000;}
@@ -697,6 +705,43 @@ input:checked + .necesito-bt{
     left: 50%;
     margin-left: -16px;
     display: block;
+    -webkit-animation: rotating 1s linear infinite;
+    -moz-animation: rotating 1s linear infinite;
+    -ms-animation: rotating 1s linear infinite;
+    -o-animation: rotating 1s linear infinite;
+    animation: rotating 1s linear infinite;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 #contacto-ok{
@@ -1179,6 +1224,7 @@ img.contadores-ipad {
     table-layout: fixed;
     border-collapse: separate;
     border-width: 20px;
+    transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .proyecto img{
     max-width: 100%;
@@ -1218,7 +1264,7 @@ img.contadores-ipad {
     width: 1200px;
     margin: 0 auto;
 }
-.bg-pro-web{
+section#pro-web{
     background: #F8FAFB;       
     text-align: center;
     background-position: 100% 0;
@@ -1245,7 +1291,17 @@ img.contadores-ipad {
     width: 1000px;
     margin: 0 auto;
 }
-.propiedades span{
+.propiedades-mobile{
+    font-size: 25px;
+    color:#444444;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 32px;
+    min-height: 30px;
+    display: none;
+}
+
+.propiedades p{
     font-size: 23px;
     color:#444444;
     font-weight: 500;
@@ -1364,7 +1420,17 @@ img.contadores-ipad {
     font-weight: 300;
     line-height: 25px;
 }
+
+#apps .section-text p br{display: none}
+
 #apps .section-footer p{
+    font-size: 13px;
+
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 59px;
+}
+.section-footer{
     font-size: 13px;
 
     color: white;
@@ -1415,6 +1481,8 @@ img.contadores-ipad {
     color: #2D1B05;
     border-radius: 4px;  background-color: #fbca1d; box-shadow: 0 1px 5px rgba(0,0,0,.7);
 }
+.get-app-mobile{display: none !important;}
+
 .contenido-apps a.get-app:hover{
     background: #FFB800;
 }
@@ -1440,7 +1508,15 @@ a.link-taxista {
     top: 153px;
     width: 34%;
 }
+.imagen-app3{
+    position: absolute;
+    top: 410px;
+    left: 0;
+    display: none;
+    width: 333px;
+}
 
+#apps .section-footer p{}
 
 #servicios{
     overflow: hidden;
@@ -1464,6 +1540,7 @@ a.link-taxista {
     line-height: 24px;
     margin-top: -3px;
     margin-bottom: -26px;
+    box-sizing: border-box;
 }
 #servicios2{
     overflow: hidden;
@@ -1493,7 +1570,7 @@ a.link-taxista {
     display: inline-block;
     margin-bottom: 16px;
 }
-
+.nuestros-servicios-mobile{ width: 380px; margin: 0 auto;display: none!important}
 .contenido-servicios{
     /* background: url(../img/bg-consulting.jpg) #b70178 no-repeat 50%; */
     /* background-size: cover; */
@@ -1590,6 +1667,7 @@ a.link-taxista {
     font-family: 'MuseoSans';
     position: relative;
 }
+.contenido-suscribir{position: relative}
 .contenido-suscribir h3{font-weight: 300;font-size: 26px;color: white;text-transform: uppercase;line-height: 32px;}
 .contenido-suscribir{
     background: url(../img/bg-suscribite.jpg)no-repeat;
@@ -1659,6 +1737,23 @@ footer{
     margin-bottom: 0;
 }
 
+.logo-footer-mobile{
+    text-align: center;
+    font-size: 92px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    display: none;
+    position: relative;
+    margin: 0;
+}
+.logo-footer-mobile span{
+    font-size: 4px;
+    font-weight: 900;
+    position: absolute;
+    top: 19px;
+    right: 16%;
+}
 
 #botonera-fixed{
     position: fixed;
@@ -2181,7 +2276,14 @@ footer{
 }
 
 @media(max-width:1366px){
-
+    .botonera-marco{
+        width: 100%;
+        padding: 0;
+    }
+    .contenido-apps{
+        width: 100%;
+    }
+    #navegacion-fixed{    margin-left: 18%;}
     .proyecto-over{
         left: 10px;
         top: 10px;
@@ -2216,24 +2318,331 @@ footer{
 
 }
 
-@media(max-width:1024px){
-
-    .contenido-servicios h3{
-        font-size: 56px;
-    }
-    .contenido-servicios h3 span {       
-        font-size: 56px;
-    }
-    #servicios2 .contenido-servicios h3{
-        font-size: 56px;
+@media(max-width:1281px){
+    .header-right .contacto{
+        position: absolute;
+        right: 30px;
+        top: 30px;
     }
 
-    .header-center{
-        display:none;
+    .header-right .llamar{
+        position: absolute;
+        right: 30px;
+        top: 10px;
     }
-    #navegacion-fixed li a {
 
-        font-size: 12px; 
-        padding: 0 10px;
+    .header-right .idioma{
+        margin-right: 180px;
     }
 }
+
+@media(max-width:1220px){
+    .pro-web-container{
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    #navegacion-fixed li a{
+        padding: 26px 14px;
+    }
+    .propiedades{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:1144px){
+    #logo-worq{
+        position: absolute;
+        top: 6px;
+        left: 30px;
+        margin: 0;
+    }
+    .header-left a{
+        position: absolute;
+        top: 31px;
+        left: 30px;
+    }
+}
+/* ---------------
+     MOBILE
+* --------------- */
+
+#home-mobile{display: none;background: url(../img/bg-mobile.jpg) no-repeat 0 0;text-align: center;background-size: cover;width: 100%;min-height: 100vh;padding-bottom: 90px;padding-top: 89px;}
+.header-mobile{
+    text-align: center;
+    padding: 24px 19px;
+    font-family: 'MuseoSans';
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+}
+.header-mobile.open{
+    background: #0a0a0a;
+}
+.header-mobile-bg{
+    width: 100%;
+    height: 89px;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    left: 0;
+}
+#menu-mobile-bt{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-top: 6px;
+    cursor: pointer;
+}
+#menu-mobile-bt span{
+    display: block;
+    background-color: white;
+    width: 38px;
+    height: 4px;
+    margin-bottom: 6px;
+}
+
+#call-mobile{
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+#logo-mobile{}
+
+
+#menu-mobile{
+    background: #0a0a0a;
+    width: 100%;
+    position: fixed;
+    top: 89px;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+    display: none;
+}
+#menu-mobile.open{display: block}
+#menu-mobile li{
+    padding: 4% 0;
+}
+#menu-mobile li a{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    z-index: 100000;
+    cursor: pointer;
+}
+#home-mobile h2{
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    font-family: 'MuseoSans';
+    padding: 0 50px;
+    margin: 0;
+    margin-top: 49px;
+    line-height: 41px;
+}
+#home-mobile h3{font-size: 19px;font-weight: 500;color: white;font-family: 'MuseoSans';padding: 0 43px;margin-top: 28px;line-height: 24px;margin-bottom: 32px;}
+#home-mobile h2 span{font-weight: 100;margin-top: 17px;display: block;}
+
+#home-mobile a.getStarted{
+    background: #78D32E;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 3px;
+    color:white;
+    padding: 16px 40px;
+    display: inline-block;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.51);
+
+}
+.slides-mobile{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 0!important;
+}
+.slides-mobile li{
+    width: 100%;
+    text-align: center;
+}
+
+.slides-mobile li img{max-width: 100%;text-align: center;}
+
+@media(max-width:1020px){
+    #slide-home,header,#botonera-fixed,#botonera-container{display: none !important;}
+    #home-mobile{display: block;}
+
+
+
+}
+
+@media(max-width:640px){
+
+
+    .propiedades-mobile{display: block;}
+
+    section#pro-web{
+        padding: 72px 0 48px;
+    }
+
+    .pro-web-container .section-col .section-text h3{
+        margin-top: 10px;
+    }
+    #pro-web .section-col2{
+        margin-top: 0;
+    }
+
+    #pro-web h4{
+        font-size: 50px;
+        margin: 0px 0 21px;
+    }
+    #pro-web h4 span ,#ultimos-proyectos h3{
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    .propiedades span, .section-text{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #pro-web .section-footer{display: none;}
+
+    #pro-web a{
+        margin: 33px 0 0;
+    }
+
+    #ultimos-proyectos{
+        padding: 61px 0 28px;
+    }
+    .proyecto{
+        width: 25%;
+        margin-right: 0%;
+    }
+    .proyecto.slick-current{
+        box-shadow: 0 0 52px #000;
+        transform: scale(1.1);
+        z-index: 10;
+    }
+
+    .contenido-apps h3{
+        font-size: 89px;
+        line-height: 83px;
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+    #apps{
+        padding: 54px 0 62px;
+    }
+    .contenido-apps .separador{
+        width: 133px;
+        height: 4px;
+        margin: 13px auto -8px;
+    }
+    #apps .section-text{
+        /* text-align: center; */
+        padding: 0 40px !important;
+        float: none;
+        width: 100%;
+    }
+    #apps .section-col{
+        width: 100%;
+    }
+    #apps .section-text p{
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
+    .contenido-apps p{
+        width: 100%;
+        margin: 0;
+    }
+    .contenido-apps p.bring-ideas{
+        margin: 47px 0;
+    }
+    .section-footer,.get-app-pc{display: none !important;}
+
+    .get-app-mobile{display: inline-block !important;margin-bottom: 326px !important;}
+
+    .imagen-app1, .imagen-app2{display: none;}
+
+    .imagen-app3{display: block}
+
+
+    .contenido-servicios h3, .contenido-servicios h3 span{
+        font-size: 50px;
+    }
+
+    .contenido-servicios .nuestros-servicios span{display: none;}
+    #servicios{
+        padding: 51px 0 79px;
+    }
+    #servicios h4{
+        font-size: 35px;
+        margin-top: 61px;
+        margin-bottom: 46px;
+    }
+    #servicios p{
+        text-align: left;
+        width: 100%;
+        padding: 0 45px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #servicios a{
+        margin-top: 71px;
+    }
+    #servicios p br{display: none;}
+
+    #servicios2 .contenido-servicios{
+        padding: 52px 0 70px;
+    }
+    #servicios2 .contenido-servicios h3{
+        font-size: 50px;
+        margin-bottom: 52px;
+    }
+    #servicios2 a{
+        margin-top: 52px;
+    }
+
+    .nuestros-servicios-mobile{display: block!important;font-size: 22px !important;}
+
+    .nuestros-servicios-desktop{display: none!important}
+
+    .contenido-suscribir{
+        background: url(../img/bg-suscribite-mobile.jpg)no-repeat 0 50%;
+        background-size: cover;
+        height: 100vh;
+    }
+    footer{display: none}
+    .logo-footer-mobile{display: block;}
+
+    .contenido-footer{
+        position: absolute;
+        bottom: 12%;
+        width: 100%;
+    }
+
+    #form-contacto{width: 100%;}
+
+    .necesito-bt{margin-bottom: 20px;display: block;padding: 17px 20px;}
+    .telefonos{width: 100%;padding: 0 30px;}
+    #form-contacto input[type=text], #form-contacto textarea{width: 100%;margin: 0;margin-bottom: 20px;padding: 18px 0;}
+
+    #form-contacto input[type=submit]{
+        float: none;
+        padding: 18px 54px;
+    }
+    .form-invalid{
+        text-align: left;
+        top: 70px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
