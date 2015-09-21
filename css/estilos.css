@@ -2460,6 +2460,7 @@ footer{
 #menu-mobile li{
     padding: 4% 0;
 }
+#top-mobile{display: none}
 #menu-mobile li a{
     color: white;
     font-size: 24px;
@@ -2514,7 +2515,7 @@ footer{
 
 @media(max-width:1020px){
     #slide-home,header,#botonera-fixed,#botonera-container{display: none !important;}
-    #home-mobile{display: block;}
+    #home-mobile,#top-mobile{display: block;}
 
 
 
