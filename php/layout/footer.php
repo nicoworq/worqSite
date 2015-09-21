@@ -12,7 +12,7 @@
             <div class="contenedor-suscribir">
                 <form id="form-suscribir" action="php/ajax-suscribir.php">
                     <input type="text" name="email" placeholder="<?php echo _("Enter your Email"); ?>"/>
-                    <input type="submit" value="<?php echo _("Subscribe"); ?>"/>
+                    <input type="submit" value="<?php echo _("Subscribe"); ?>" data-ref-bt="Suscribir footer"/>
                     <div id="form-suscribir-ok"><?php echo _('Thanks for your subscription!') ?></div>
                 </form>
             </div>
@@ -46,4 +46,7 @@
     ga('create', 'UA-34333071-2', 'auto');
     ga('send', 'pageview');
 
+    jQuery(function () {
+        jQuery.scrollDepth();
+    });
 </script>

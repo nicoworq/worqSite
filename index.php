@@ -8,10 +8,10 @@
         <?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container" class="loaderAnim"> 
             <ul id="botonera">
-                <li><a href="#pro-web" ><?php echo _("PROFESIONAL WEBSITES") ?></a></li>
-                <li><a href="#apps"><?php echo _('CUSTOM APPLICATIONS'); ?></a></li>
-                <li><a href="#servicios"><?php echo _('WEB & BRAND CONSULTING'); ?></a></li>
-                <li><a href="#servicios2"><?php echo _('MARKETING & REPORTS'); ?></a></li>
+                <li><a href="#pro-web" data-ref-bt="Pro web blanco"><?php echo _("PROFESIONAL WEBSITES") ?></a></li>
+                <li><a href="#apps" data-ref-bt="Apps blanco"><?php echo _('CUSTOM APPLICATIONS'); ?></a></li>
+                <li><a href="#servicios" data-ref-bt="Web brand blanco"><?php echo _('WEB & BRAND CONSULTING'); ?></a></li>
+                <li><a href="#servicios2" data-ref-bt="Marketing blanco"><?php echo _('MARKETING & REPORTS'); ?></a></li>
             </ul>
         </section>
         <section id="slide-home" class="loaderAnim">            
@@ -44,7 +44,7 @@
                     </ul>
                 </div>
 
-                <a href="" class="slide-home-arrow">
+                <a href="" class="slide-home-arrow" data-ref-bt="Scroll for more">
                     <div><?php echo _('Scroll for more'); ?></div>
                     <img src="img/flecha.png" alt="WORQ" />
                 </a>
@@ -52,12 +52,7 @@
 
             </div>
         </section>
-
-       
-
         <section id="home-mobile">
-
-
             <h2><?php echo _('WE LAUNCH WEB PROJECTS <br/>  <span>WITH SUPERIOR QUALITY</span>'); ?></h2>  
 
             <ul class="slides-mobile">
@@ -66,7 +61,7 @@
             </ul>
             <h3>High Design Quality + Mobile Friendly
                 & 100% Made to Measure</h3>
-            <a href="#" class="getStarted mostrarContacto"><?php echo _('Get started now'); ?></a>
+            <a href="#" class="getStarted mostrarContacto" data-ref-bt="Contacto Home slider"><?php echo _('Get started now'); ?></a>
         </section>
 
         <section id="pro-web" class="loaderAnim">
@@ -103,7 +98,7 @@
 
                     </div>
 
-                    <a href ="#" class="mostrarContacto"><?php echo _('Get started now'); ?></a>
+                    <a href ="#" class="mostrarContacto" data-ref-bt="Contacto Prosites Home"><?php echo _('Get started now'); ?></a>
                     <div class="section-footer">
                         <p><?php echo _('Visual Design ~ Branding & Identity Design ~ Concept Development ~ Usability Testing & Research ~ Interaction Design ~ Information Architecture ~ Content Creation ~ Prototyping ~ Wireframing ~ Platform Design ~ Interface Design'); ?></p>
                     </div>
@@ -118,7 +113,7 @@
 
             <div class="fila-proyectos">
 
-                <a class="proyecto" target="blank" href="http://contadoresrosario.com">
+                <a class="proyecto" target="blank" href="http://contadoresrosario.com" data-ref-bt="Casos Contadores.com">
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br/>
@@ -130,7 +125,7 @@
                     <img src="img/work-contadoresrosario.jpg"/>
                 </a>
 
-                <a class="proyecto" target="blank" href="http://gruposerval.com.ar">
+                <a class="proyecto" target="blank" href="http://gruposerval.com.ar" data-ref-bt="Casos Serval">
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
@@ -140,7 +135,7 @@
                     <img src="img/work-gruposerval.jpg"/>
                 </a>
 
-                <a class="proyecto" target="blank" href="http://falazairroo.com">
+                <a class="proyecto" target="blank" href="http://falazairroo.com" data-ref-bt="Casos Fala">
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
@@ -150,7 +145,7 @@
                     <img src="img/work-falazairroo.jpg"/>
                 </a>
 
-                <a class="proyecto" target="blank" href="http://fourtech.com.ar">
+                <a class="proyecto" target="blank" href="http://fourtech.com.ar" data-ref-bt="Casos Fourtech">
                     <div class="proyecto-over">
                         <div class="proyecto-over-contenido">
                             <span>&#8776;</span><br>
@@ -170,12 +165,12 @@
         <section id="apps">
             <div class="apps-contenedor">
                 <div class="imagen-app1">
-                    <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
+                    <a href="http://taxistavirtual.com" title="TaxistaVirtual.com" data-ref-bt="Link taxista img1">
                         <img src="img/imagen_taxista_virtual1-min.png" alt="TaxistaVirtual"/>
                     </a>
                 </div>
                 <div class="imagen-app3">
-                    <a href="http://taxistavirtual.com" title="TaxistaVirtual.com">
+                    <a href="http://taxistavirtual.com" title="TaxistaVirtual.com" data-ref-bt="Link taxista img3">
                         <img src="img/imagen-taxista-mobile-min.png" alt="TaxistaVirtual"/>
                     </a>
                 </div>
@@ -184,7 +179,7 @@
                     <div class="separador"></div>                    
                     <p class="bring-ideas"><?php echo _('bring <b>ideas</b> to <b>reality</b>'); ?></p>
 
-                    <a href="#" class="mostrarContacto get-app get-app-mobile"><?php echo _("Get your APP"); ?></a>
+                    <a href="#" class="mostrarContacto get-app get-app-mobile" data-ref-bt="Contacto taxista Home mobile"><?php echo _("Get your APP"); ?></a>
                     <div class="section-col">
                         <div class="section-text">
                             <p> <?php echo _(" We're a Startup Studio. A company that builds companies.<br/>
@@ -210,7 +205,7 @@
 
                         </div>
                     </div>
-                    <a href="#" class="mostrarContacto get-app get-app-pc"><?php echo _("Get your APP"); ?></a>
+                    <a href="#" class="mostrarContacto get-app get-app-pc" data-ref-bt="Contacto taxista home"><?php echo _("Get your APP"); ?></a>
                     <div class="section-footer">
                         <p><?php echo _("Digital Strategy -Website Design - User Interface Design<br/>
                             -User Experience Design- Social Campaigns-eCommerce / Retail -Content Development-Digital Installations-Web Apps / Products-Mobile Design"); ?></p>
@@ -237,7 +232,7 @@
                     We are a design and innovation consultancy agency that helps bring innovative<br/>
                     products to market. Helping clients to develop product strategies ranging from<br/> simple product refresh to big innovations."); ?></p>
 
-                <a href="#" class="mostrarContacto"><?php echo _('Get started now'); ?></a>
+                <a href="#" class="mostrarContacto" data-ref-bt="Contacto web brand home"><?php echo _('Get started now'); ?></a>
             </div>
         </section>
         <section id="servicios2">
@@ -249,7 +244,7 @@
 
 
                 </div>
-                <a href="#" class="mostrarContacto"><?php echo _('Get started now!'); ?></a>
+                <a href="#" class="mostrarContacto" data-ref-bt="Contacto online marketing home"><?php echo _('Get started now!'); ?></a>
 
             </div>
         </section>
