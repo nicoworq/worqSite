@@ -59,8 +59,8 @@
                 <li><img src="img/slide-mobile1-min.png" alt="WORQ - Sitios responsivos"/></li>
                 <li><img src="img/slide-mobile2-min.png" alt="WORQ - Aplicaciones web"/></li>
             </ul>
-            <h3>High Design Quality + Mobile Friendly
-                & 100% Made to Measure</h3>
+            <h3><?php echo _('High Design Quality + Mobile Friendly
+                & 100% Made to Measure'); ?></h3>
             <a href="#" class="getStarted mostrarContacto" data-ref-bt="Contacto Home slider"><?php echo _('Get started now'); ?></a>
         </section>
 

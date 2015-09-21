@@ -2708,6 +2708,9 @@ footer{
     #servicios p{
         padding: 0 40px;
     }
+    #servicios2 a {     
+        font-size: 5vw;
+    }
 }
 
 @media(max-width:400px){
@@ -2752,7 +2755,7 @@ footer{
     #menu-mobile li a{
         font-size: 5vw;
     }
-    
+
     #menu-mobile{
         top: 77px;
     }
