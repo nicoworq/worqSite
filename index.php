@@ -52,42 +52,12 @@
 
             </div>
         </section>
-        <section id="home-mobile">
-            <div class="header-mobile">               
-                <button id="menu-mobile-bt">
-                    <span>&nbsp;</span>
-                    <span>&nbsp;</span>
-                    <span>&nbsp;</span>
-                </button>
-                <a id="logo-mobile" href="#" >
-                    <img src="img/logo-worq-mobile.png" alt="WORQ"/>
-                </a>
-                <a id="call-mobile" href="tel:3416280427">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUQ4NDU2RUE1RDdFMTFFNThBQzlFRDA2RDg0QzYwMTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUQ4NDU2RUI1RDdFMTFFNThBQzlFRDA2RDg0QzYwMTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFRDg0NTZFODVEN0UxMUU1OEFDOUVEMDZEODRDNjAxMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFRDg0NTZFOTVEN0UxMUU1OEFDOUVEMDZEODRDNjAxMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlUsbpcAAAOTSURBVHjarJjfSxVREMfvXUW7lr8iA0EDLSQjo19UYCVFWfYDyqAfEhUU2C/DiKA/oId6ykClB3vroZceoocyFSwvoiBpFqZppgUVBZXi7Yeh23dgFobD7t6z1zPwYXfP2ZmdPWd2zpwN27YdCihFoByUguVgCUgHZGgKjINB8Bw8BaOBrJNDGiSDk6DbDi6d4BjbiPussMYI7QW3wVLRFgNR0Msj8BOEQSZYBtaAzSAidIZBDWhOdIQWgHvK27aCQyBV423ngcOgXbHRBCJeel7G8kC/MNIHSjWn143t4LWw9wIs1nWInBkVyjd05z8OKaBO2B1xc0pVSgevWGGaAzlkmDNgRoxUxM+h++INTrjEBI1e2JBTMqZcHaoUN11XDBwBE9w3AIoNOCWnb7fqEM3vGHf2gCShWCWG2JF+QzHlBPqwE6dOZ7V42AahlA1iHgmvyIBTZcLecenQS258oigU+mTgGkNB7uSpLrq2kBtLwCrOk/VK3vzrk1O3hsxIIx830mpADu3ihgmXtP4ZTHsYsgw59BD85vMKi1dtknbwT7l5FrxxMTIr3myuQrPQweel5NAKvujzUIi6tJ0HbSFz4jy7mBzK4wuvuuWRS1s4ZFZG+JhPDqWJGHKTVo4lKZcMxhDJJB/TLY23ngF1SlsxOGfQIefZtsXFFkmWj0ID+KS03eRCzIRk8HGKHPrAFwU+CjGeJinzuWZea8ChIj6OW+KzXhdH6QG4q7Qt4q+wFiSL9krQAh6Da+y0X8yt5uMApe5aTt2TvODFWxBbPZYSKriugKse/UOgxMVmGvjD95wNcSnhyEGNtScDtNiJyVuXeqpK9Bc4jT3c0BagdGhM0KlcxVYXt3fI1f6UUNgSYKXeB94HcOarUp+Xi76j0qFkLpJsrqlTAjhFNfEF8C6OM7/ADqUkHuI+KtQstYStEMp1CdQ1FBubuPx9Br4Jez94KyTvvyP6t3kV+U3ipmoDxReNXpbLNqpWPKfeb9cREQE+w1Nheht0Wdn3p8bbKOaAQaHUwPM9V0fSlBmgWF2ou5XOUf50UP7YMwdn9itBH+UNhPbe3vkK6pUvpYtTRIaGE5ngNOhVbNzy+4p1fseUcfG/UilJuvl3zBj4ziVENijktWs9SBI6dO9F0GnihxXliAO8ZMwGSIT0YTTzlGltwXVGSJVcsJN/SNEvvXyuZ2yu/D5yBRHlavNLEOP/BRgAe16MHGbRX6gAAAAASUVORK5CYII="/>
-                </a>               
-                <ul id="menu-mobile">
-                    <li><a href="#pro-web"><?php echo _('Profesional Websites'); ?></a></li>
-                    <li><a href="#apps"><?php echo _('Custom Applications'); ?></a></li>
-                    <li><a href="#servicios"><?php echo _('Web & Brand Consulting'); ?></a></li>
-                    <li><a href="#servicios2"><?php echo _('Marketing & Consulting'); ?></a></li>
 
-                    <li><a href="press.php"><?php echo _('PRESS') ?></a></li>
-                    <li>
-                        <a href="<?php echo $current_page . '?lang=en'; ?>" class="<?php
-                        if ($lang === 'en') {
-                            echo 'active';
-                        }
-                        ?>">EN</a>/ 
-                        <a href="<?php echo $current_page . '?lang=es'; ?>" class="<?php
-                        if ($lang === 'es') {
-                            echo 'active';
-                        }
-                        ?>">ES</a>
-                    </li>
-                    <li><a href="thecompany.php"><?php echo _('THE COMPANY') ?></a></li>
-                    <li><a class="mostrarContacto" href="#contacto"><?php echo _('Contact Us'); ?></a></li>
-                </ul>
-            </div>
+       
+
+        <section id="home-mobile">
+
+
             <h2><?php echo _('WE LAUNCH WEB PROJECTS <br/>  <span>WITH SUPERIOR QUALITY</span>'); ?></h2>  
 
             <ul class="slides-mobile">

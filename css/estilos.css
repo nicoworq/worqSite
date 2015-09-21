@@ -1675,6 +1675,10 @@ a.link-taxista {
     text-align: center;
     padding: 88px 0 171px;
 }
+.contenedor-suscribir{
+    width: 100%;
+    padding: 0 20px;
+}
 
 #form-suscribir{
     display: inline-block;
@@ -1746,6 +1750,7 @@ footer{
     display: none;
     position: relative;
     margin: 0;
+    font-size: 21vw;
 }
 .logo-footer-mobile span{
     font-size: 4px;
@@ -2378,9 +2383,19 @@ footer{
     width: 100%;
     top: 0;
     z-index: 10000;
+    background-color: rgba(10, 10, 10, 0);
+    max-width: 100vw;
+    transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .header-mobile.open{
-    background: #0a0a0a;
+    background: #0a0a0a !important;
+}
+.header-mobile.scrolled{
+    padding: 10px 19px;
+}
+
+.header-mobile.scrolled #menu-mobile{
+    top: 0;
 }
 .header-mobile-bg{
     width: 100%;
@@ -2398,6 +2413,7 @@ footer{
     float: left;
     margin-top: 6px;
     cursor: pointer;
+    outline: none;
 }
 #menu-mobile-bt span{
     display: block;
@@ -2405,6 +2421,18 @@ footer{
     width: 38px;
     height: 4px;
     margin-bottom: 6px;
+    transform-origin: 13% 50%;
+    transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.header-mobile.open #menu-mobile-bt span:first-child{
+    transform: rotate3d(0, 0, 1, 45deg);
+}
+.header-mobile.open #menu-mobile-bt span:last-child{
+    transform: rotate3d(0, 0, 1, -45deg);
+}
+.header-mobile.open #menu-mobile-bt span.hide{
+    opacity: 0;
 }
 
 #call-mobile{
@@ -2422,10 +2450,13 @@ footer{
     top: 89px;
     left: 0;
     text-align: center;
-    bottom: 0;
     display: none;
+    min-height: 100vh;
+    z-index: 1000;
+    transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 #menu-mobile.open{display: block}
+#menu-mobile.scrolled{top: 61px;}
 #menu-mobile li{
     padding: 4% 0;
 }
@@ -2436,6 +2467,8 @@ footer{
     text-transform: uppercase;
     z-index: 100000;
     cursor: pointer;
+    font-size: 6vw;
+    font-family: 'MuseoSans';
 }
 #home-mobile h2{
     color: white;
@@ -2446,6 +2479,9 @@ footer{
     margin: 0;
     margin-top: 49px;
     line-height: 41px;
+    font-size: 9vw;
+    line-height: 9vw;
+    padding: 0 30px;
 }
 #home-mobile h3{font-size: 19px;font-weight: 500;color: white;font-family: 'MuseoSans';padding: 0 43px;margin-top: 28px;line-height: 24px;margin-bottom: 32px;}
 #home-mobile h2 span{font-weight: 100;margin-top: 17px;display: block;}
@@ -2536,6 +2572,8 @@ footer{
         line-height: 83px;
         margin-top: 12px;
         margin-bottom: 0;
+        font-size: 19vw;
+        line-height: 17.5vw;
     }
     #apps{
         padding: 54px 0 62px;
@@ -2576,16 +2614,19 @@ footer{
 
     .contenido-servicios h3, .contenido-servicios h3 span{
         font-size: 50px;
+        font-size: 10.5vw;
+        line-height: 12.5vw;
     }
 
-    .contenido-servicios .nuestros-servicios span{display: none;}
+    .contenido-servicios .nuestros-servicios span{display: none;font-size: 5vw !important;}
     #servicios{
-        padding: 51px 0 79px;
+        padding: 60px 0 79px;
     }
     #servicios h4{
         font-size: 35px;
         margin-top: 61px;
         margin-bottom: 46px;
+        font-size: 8vw;
     }
     #servicios p{
         text-align: left;
@@ -2605,6 +2646,7 @@ footer{
     #servicios2 .contenido-servicios h3{
         font-size: 50px;
         margin-bottom: 52px;
+        font-size: 10.5vw;
     }
     #servicios2 a{
         margin-top: 52px;
@@ -2644,5 +2686,73 @@ footer{
         font-size: 14px;
         font-weight: 400;
     }
+
+    #form-suscribir{
+        /* width: 100%; */
+    }
 }
 
+@media(max-width:480px){
+
+    #pro-web h4{
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+    #ultimos-proyectos h3{
+        font-size: 11vw;
+        line-height: 11vw;
+    }
+    .contenido-apps h3{}
+
+    #servicios p{
+        padding: 0 40px;
+    }
+}
+
+@media(max-width:400px){
+    .contenido-apps h3{
+    }
+
+    #form-suscribir{
+        max-width: 100vw;box-sizing: border-box;}
+    #form-suscribir input[type=submit]{
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    .nuestros-servicios-mobile{
+        width: 100%;
+        padding: 0 30px;
+    }
+}
+
+@media(max-height:479px){
+    #menu-mobile li{
+        padding: 4% 0;
+    }
+    #menu-mobile li a{
+        font-size: 5vw;
+    }
+}
+@media(max-height:445px){
+    #menu-mobile li{
+        padding: 3% 0;
+    }
+    #menu-mobile li a{
+        font-size: 5vw;
+    }
+}
+@media(max-height:395px){
+    #menu-mobile li{
+        padding: 3% 0;
+    }
+    #menu-mobile li a{
+        font-size: 5vw;
+    }
+    
+    #menu-mobile{
+        top: 77px;
+    }
+}
