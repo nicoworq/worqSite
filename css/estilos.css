@@ -2961,6 +2961,11 @@ footer{
     #form-contacto label{
         display: block;
     }
+    #form-contacto input[type=submit]{
+    padding: 18px;
+    width: 100%;
+    font-size: 4vh;
+}
 
     #page-loader img{
         top: 3%;
