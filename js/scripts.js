@@ -412,10 +412,10 @@ $(document).ready(function () {
 });
 
 function ocultarTodo() {
-    $('#pro-web,#ultimos-proyectos,#apps,#servicios,#servicios2,#suscribir,#home-mobile').addClass('hideDiv');
+    $('#pro-web,#ultimos-proyectos,#apps,#servicios,#servicios2,#suscribir,#home-mobile,#press-head,#press,#we-are,#we-are-2,#what-we-do,#rosario').addClass('hideDiv');
 }
 function mostrarTodo() {
-    $('#pro-web,#ultimos-proyectos,#apps,#servicios,#servicios2,#suscribir,#home-mobile').removeClass('hideDiv');
+    $('#pro-web,#ultimos-proyectos,#apps,#servicios,#servicios2,#suscribir,#home-mobile,#press-head,#press,#we-are,#we-are-2,#what-we-do,#rosario').removeClass('hideDiv');
 }
 
 
