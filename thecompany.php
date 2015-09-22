@@ -26,12 +26,14 @@
                     </h4>
                     <div class="we-are-content">
                         <p>
-                            <?php echo _("Worq is a talented multi-disciplinary team of digital creators and strategists. We partner with our clients to solve problems, realize opportunities and deliver truly exceptional experiences. <br/>"
+                            <?php
+                            echo _("Worq is a talented multi-disciplinary team of digital creators and strategists. We partner with our clients to solve problems, realize opportunities and deliver truly exceptional experiences. <br/>"
                                     . "Our collaborators include both independent agencies, as well as
                             
-                            an exciting host of local creative outfits."); ?>
+                            an exciting host of local creative outfits.");
+                            ?>
                         </p>
-                       
+
                     </div>
 
 
@@ -60,19 +62,28 @@
 
             <div class="what-we-do-container">
                 <ul class="we-do-list">
-                    <li><?php echo _("360 Solutions"); ?></li>
-                    <li><?php echo _("Boost Projects"); ?></li>
-                    <li><?php echo _("Design & develop"); ?></li>
+                    <li><h4><?php echo _("360 Solutions"); ?></h4>
+
+                        <p>
+                            <?php echo _("Websites and mobile applications from Rosario. Tasks and projects are becoming more complex as new technologies and specializations emerge."); ?>
+                        </p>
+                    </li>
+                    <li><h4><?php echo _("Boost Projects"); ?></h4>
+
+                        <p>
+                            <?php echo _("Those who still promise 'Full-Service' end up delivering only half the possible results. That's why we concentrate on what our clients really need to be successful."); ?>
+                        </p>
+                    </li>
+                    <li><h4><?php echo _("Design & develop"); ?></h4>
+
+                        <p>
+                            <?php echo _("We create web & digital experiences that transform brands, grow businesses and make people's lives better. We have the energy to boost your project."); ?>
+                        </p>
+                    </li>
                 </ul>
-                <p>
-                    <?php echo _("Websites and mobile applications from Rosario. Tasks and projects are becoming more complex as new technologies and specializations emerge."); ?>
-                </p>
-                <p>
-                    <?php echo _("Those who still promise 'Full-Service' end up delivering only half the possible results. That's why we concentrate on what our clients really need to be successful."); ?>
-                </p>
-                <p>
-                    <?php echo _("We create web & digital experiences that transform brands, grow businesses and make people's lives better. We have the energy to boost your project."); ?>
-                </p>
+
+
+
 
 
             </div>

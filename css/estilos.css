@@ -483,7 +483,13 @@ header ul{
 
 
 
-
+.separador-contacto-mobile{
+    background: #d6d6d6;
+    height: 1px;
+    width: 125px;
+    margin: 0 auto;
+    display: none;
+}
 
 
 
@@ -1854,8 +1860,9 @@ footer{
     margin: 0 40px 40px 40px;
     padding: 24px 117px;
     color:white;
-    width: 998px;
+    width: 980px;
     margin: 0 auto;
+    padding: 24px 1vw;
 }
 #press h1{
     font-family: 'MuseoSans';
@@ -1881,68 +1888,84 @@ footer{
     padding: 65px 0 23px;
     overflow: hidden;
     position: relative;
+    text-align: center;
 }
 
 #press li img {
     float: left;
 }
+.contenedor-logo{min-width: 300px;float: left;}
 
 .prensa-logo{
     float: left;
     background: url(../img/sprite-prensa.jpg)no-repeat;
     width: 240px;
     height: 70px;
+    /* min-width: 300px !important; */
 }
 
 .prensa-forbes{
     background-position: 0px -108px;
+    width: 211px;
 }
 
 .prensa-telam{
     background-position: 0px 0px;
     height: 112px;
     margin-top: -30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    width: 172px;
 }
 
 .prensa-on{
     background-position: 0px -323px;
     margin: 6px 11px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 199px;
 }
 .prensa-mdz{
     background-position: 0px -177px;
     height: 80px;
     margin: 3px 15px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 192px;
 }
 .prensa-rosario3{
     background-position: 0px -386px;
-    width: 277px;
+    width: 260px;
     margin: 17px -2px;
 }
 .prensa-ciudadano{
     background-position: 0px -258px;
     margin: 11px 16px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 187px;
 }
 
 
 #press li span {
-    float: right;
     font-size: 143px;
     font-weight: bold;
     color: #BF015A;
     line-height: 73px;
     margin-top: 32px;
-    margin-right: 38px;
+    /* height: 20px; */
+    display: inline-block;
+    float: left;
 }
 #press li p {
     float: right;
     font-size: 14px;
     color: #FFF;
-    width: 59%;
     line-height: 26px;
     font-family: 'MuseoSans';
     font-weight: 300;
     margin-top: 23px;
+    text-align: left;
+    min-width: 56%;
 }
 
 #team{
@@ -2161,7 +2184,7 @@ footer{
 }
 .what-we-do-container p{
 
-    width: 350px;
+    width: 325px;
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
@@ -2179,12 +2202,16 @@ footer{
 }
 .we-do-list li{
     display: inline-block;
+    margin: 0 27px;
+    width: 317px;
+    text-align: center;
+}
+#what-we-do .we-do-list li h4{
     color: white;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 24px;
-    margin: 0 27px;
-    width: 300px;
+    margin-bottom: 16px;
 }
 
 #what-we-do h4{
@@ -2205,22 +2232,21 @@ footer{
     text-align: center;
     padding: 210px 0;
     position:   relative;
-    height: 207px;
+    min-height: 207px;
     width: 100%;
 }
 
 .rosario-bg{
     background-image: url(../img/rosario.jpg);
     background-size: cover;
-    background-position: 0;
-
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: -1; 
-
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 #rosario h2{
     font-size: 75px;
@@ -2238,8 +2264,7 @@ footer{
 }
 
 .rosario-content{
-    position: absolute;
-    top: 59%;
+    position: relative;
     width: 100%;
 }
 
@@ -2385,10 +2410,13 @@ footer{
     z-index: 10000;
     background-color: rgba(10, 10, 10, 0);
     max-width: 100vw;
-    transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: background .6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .header-mobile.open{
     background: #0a0a0a !important;
+}
+.header-mobile.contactOpen{
+    background: white !important;
 }
 .header-mobile.scrolled{
     padding: 10px 19px;
@@ -2424,14 +2452,16 @@ footer{
     transform-origin: 13% 50%;
     transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
 }
-
-.header-mobile.open #menu-mobile-bt span:first-child{
+.contactOpen #menu-mobile-bt span{
+    background: #131214;
+}
+#menu-mobile-bt.open span:first-child{
     transform: rotate3d(0, 0, 1, 45deg);
 }
-.header-mobile.open #menu-mobile-bt span:last-child{
+#menu-mobile-bt.open span:last-child{
     transform: rotate3d(0, 0, 1, -45deg);
 }
-.header-mobile.open #menu-mobile-bt span.hide{
+#menu-mobile-bt.open span.hide{
     opacity: 0;
 }
 
@@ -2439,24 +2469,38 @@ footer{
     display: inline-block;
     float: right;
     cursor: pointer;
+    width: 36px;
+    height: 36px;
+    color: white;
 }
-#logo-mobile{}
-
+#call-mobile img{max-width: 100%;color: white;}
+#logo-mobile{width: 149px;height: 37px;display: inline-block;}
+#logo-mobile img{
+    max-width: 100%;
+}
+#logo-mobile img.positivo{
+    display: none;
+}
+.contactOpen #logo-mobile img.positivo{
+    display: block;
+}
+.contactOpen #logo-mobile img.normal{
+    display: none;
+}
 
 #menu-mobile{
     background: #0a0a0a;
     width: 100%;
-    position: fixed;
-    top: 89px;
+    position: relative;
+    top: 88px;
     left: 0;
     text-align: center;
     display: none;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     z-index: 1000;
-    transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 #menu-mobile.open{display: block}
-#menu-mobile.scrolled{top: 61px;}
+#menu-mobile.scrolled{top: 60px;}
 #menu-mobile li{
     padding: 4% 0;
 }
@@ -2478,14 +2522,14 @@ footer{
     font-family: 'MuseoSans';
     padding: 0 50px;
     margin: 0;
-    margin-top: 49px;
+    margin-top: 7px;
     line-height: 41px;
     font-size: 9vw;
-    line-height: 9vw;
-    padding: 0 30px;
+    line-height: 10vw;
+    padding: 0 40px;
 }
-#home-mobile h3{font-size: 19px;font-weight: 500;color: white;font-family: 'MuseoSans';padding: 0 43px;margin-top: 28px;line-height: 24px;margin-bottom: 32px;}
-#home-mobile h2 span{font-weight: 100;margin-top: 17px;display: block;}
+#home-mobile h3{font-size: 19px;font-weight: 500;color: white;font-family: 'MuseoSans';padding: 0 25px;margin-top: 20px;line-height: 24px;margin-bottom: 25px;font-size: 5.2vw;line-height: 5.2vw;}
+#home-mobile h2 span{font-weight: 100;margin-top: 3px;display: block;font-size: 6vw;}
 
 #home-mobile a.getStarted{
     background: #78D32E;
@@ -2501,7 +2545,7 @@ footer{
 }
 .slides-mobile{
     margin: 0;
-    padding: 0;
+    padding: 0!important;
     list-style: none;
     width: 100%;
     margin-bottom: 0!important;
@@ -2509,6 +2553,7 @@ footer{
 .slides-mobile li{
     width: 100%;
     text-align: center;
+    padding: 0 20px;
 }
 
 .slides-mobile li img{max-width: 100%;text-align: center;}
@@ -2521,8 +2566,72 @@ footer{
 
 }
 
-@media(max-width:640px){
+.hideDiv{
+    overflow: hidden !important;
+    height: 0 !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+}
 
+@media(max-width:1024px){
+    #press-head{
+        margin-top: 0;
+    }
+    #press{
+        width: 100%;
+    }
+
+    .contenedor-logo{
+        min-width: 251px;
+    }
+    #press li{}
+    #press li p{
+        width: 30%;
+        float: right;
+    }
+
+    .we-are-container ,.what-we-do-container{
+        width: 100%;
+        padding: 0 5vw;
+    }
+    .we-do-list li{
+        width: 33%;
+        margin: 0;
+    }
+}
+@media(max-width:768px){
+
+    /*
+        CONTACTO MOBILE
+    */
+    #cerrar-contacto{
+        display: none;
+    }
+    #contacto.mostrar{
+        position: relative;
+    }
+    .separador-contacto-mobile{
+        display: block;
+    }
+    #contacto{
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        z-index: 12;
+    }
+    .contenido-contacto{
+        top: 0 !important;
+        margin-top: 7vw;
+    }
+    .contenido-contacto h2{
+        color: #0169fe;
+        font-size: 44px;
+        padding: 0 8vw;
+    }
+
+    #home-mobile h3{
+        line-height: 5.2vw;
+    }
 
     .propiedades-mobile{display: block;}
 
@@ -2671,10 +2780,12 @@ footer{
         width: 100%;
     }
 
-    #form-contacto{width: 100%;}
+    #form-contacto{width: 100%;padding: 48px 60px;}
 
-    .necesito-bt{margin-bottom: 20px;display: block;padding: 17px 20px;}
+    .necesito-bt{margin-bottom: 20px;display: inline-block;padding: 17px 20px;}
     .telefonos{width: 100%;padding: 0 30px;}
+
+    .telefonos h4{color: #afafaf;float: none;width: 100%;display: block;text-align: center !important;}
     #form-contacto input[type=text], #form-contacto textarea{width: 100%;margin: 0;margin-bottom: 20px;padding: 18px 0;}
 
     #form-contacto input[type=submit]{
@@ -2691,9 +2802,171 @@ footer{
     #form-suscribir{
         /* width: 100%; */
     }
+
+
+    /*
+     * Prensa
+     */
+    .press #contacto, .the-company #contacto {
+        top: 60px;
+    }
+
+    #press-head{
+        margin: 0;
+        width: 100%;
+        /* min-height: 60vh; */
+    }
+
+    #press-head h1{
+        font-size: 14vw;
+        margin: 22vh 0;
+    }
+
+    #press{
+        width: 100%;
+        padding: 0 13vw;
+    }
+
+    .contenedor-logo{
+        width: 100%;
+        float: none;
+        min-width: 100%;
+        margin: 0;
+    }
+
+    .prensa-logo{
+        float: none;
+        /* width: 100%; */
+        text-align: center;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    #press li p{
+        float: none;
+        /* width: 100%; */
+        margin-top: -14px;
+    }
+    #press li p br{
+        display: none;
+    }
+    #press li span{
+        float: none;
+        width: 100%;
+        line-height: 23vw;
+        display: block;
+        font-size: 23vw;
+        margin-top: 0;
+        overflow: visible;
+    }
+
+    /*
+        COMPANY
+    */
+
+    #we-are{
+        margin-top: 0;
+        height: auto;
+        padding: 22vh 5vh;
+        min-height: 100vh;
+    }
+    #we-are h1{
+        font-size: 16vw;
+        line-height: 16vw;
+    }
+    .we-are-content-abs{
+        position: relative;
+        margin-bottom: 0;
+    }
+    #we-are-2{
+        width: 100%;
+        padding: 0;
+    }
+    .we-are-container{
+        width: 100%;
+        padding: 10vh 6vw;
+    }
+    .we-are-col{
+        width: 100%;
+    }
+    .we-are-col:last-child{
+        margin: 0;
+    }
+    #we-are-2 h3{
+        text-align: center;
+        margin: 0;
+        font-size: 10vw;
+        margin-bottom: 8vh;
+    }
+    #we-are-2 h4{
+        margin-top: 13px;
+        font-size: 5vw;
+        text-align: center;
+        line-height: 7vw;
+    }
+    #we-are-2 h4 img{
+        display: none;
+    }
+    .we-are-content{
+        padding: 0;
+    }
+    #we-are-2 p{
+        text-align: center;
+    }
+
+    #what-we-do{
+        padding: 13vh 0;
+    }
+    #what-we-do h2{
+        font-size: 12vw;
+        margin-top: 0;
+    }
+    .what-we-do-container{
+        width: 100%;
+    }
+    .we-do-list{}
+    .we-do-list li{
+        width: 100%;
+        margin: 0;
+    }
+    #what-we-do .we-do-list li h4{
+        margin: 2vh 0;
+        font-size: 4vh;
+        line-height: 4vh;
+    }
+    .what-we-do-container p{
+        width: 100%;
+    }
+
+    #rosario{
+        padding: 20vh 0;
+        height: auto;
+    }
+    .rosario-content{
+        position: relative;
+        top: 0;
+    }
+    #rosario h2{
+        font-size: 7vh;
+    }
+
+    #rosario p{
+        font-size: 3vh;
+        line-height: 4vh;
+    }
 }
 
 @media(max-width:480px){
+
+    #form-contacto label{
+        display: block;
+    }
+
+    #page-loader img{
+        top: 3%;
+    }
+
+    #home-mobile h3{}
 
     #pro-web h4{
         font-size: 12vw;
@@ -2708,8 +2981,18 @@ footer{
     #servicios p{
         padding: 0 40px;
     }
-    #servicios2 a {     
-        font-size: 5vw;
+    #servicios2 a {
+        font-size: 6vw;
+        padding: 16px 20px;
+    }
+
+    .fila-proyectos{
+        padding: 0 !important;
+    }
+
+    .contenido-suscribir h3{
+        font-size: 5.5vw;
+        line-height: 6.5vw;
     }
 }
 
@@ -2717,46 +3000,34 @@ footer{
     .contenido-apps h3{
     }
 
+    .contenedor-suscribir{
+        padding: 0 50px;
+    }
+    #form-suscribir input[type=text]{
+
+        float: none;width: 100%;border-radius: 2px;margin-bottom: 10px;}
     #form-suscribir{
-        max-width: 100vw;box-sizing: border-box;}
+        max-width: 100vw;
+        box-sizing: border-box;
+        background: none;
+    }
     #form-suscribir input[type=submit]{
         float: none;
         width: 100%;
         margin-top: 10px;
     }
-
-
     .nuestros-servicios-mobile{
         width: 100%;
         padding: 0 30px;
     }
+
+    #press{
+        padding: 0 8vw;
+    }
+    #press li{
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
 }
 
-@media(max-height:479px){
-    #menu-mobile li{
-        padding: 4% 0;
-    }
-    #menu-mobile li a{
-        font-size: 5vw;
-    }
-}
-@media(max-height:445px){
-    #menu-mobile li{
-        padding: 3% 0;
-    }
-    #menu-mobile li a{
-        font-size: 5vw;
-    }
-}
-@media(max-height:395px){
-    #menu-mobile li{
-        padding: 3% 0;
-    }
-    #menu-mobile li a{
-        font-size: 5vw;
-    }
 
-    #menu-mobile{
-        top: 77px;
-    }
-}

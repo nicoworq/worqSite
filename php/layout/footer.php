@@ -28,7 +28,7 @@
 </footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/plugins.min.js"></script>
-<script src="js/scripts.min.js"></script>
+<script src="js/scripts.js"></script>
 
 <script>
     (function (i, s, o, g, r, a, m) {
