@@ -2515,6 +2515,7 @@ footer{
     font-size: 6vw;
     font-family: 'MuseoSans';
 }
+#menu-mobile li a.mostrarContacto , #menu-mobile li a.active{color:#6cc722; }
 #home-mobile h2{
     color: white;
     font-size: 44px;

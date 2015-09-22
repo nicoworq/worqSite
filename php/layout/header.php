@@ -54,10 +54,10 @@
         </a>                
     </div>
     <ul id="menu-mobile">
-        <li><a href="#pro-web" data-ref-bt="Pro web mobile"><?php echo _('Profesional Websites'); ?></a></li>
-        <li><a href="#apps" data-ref-bt="Apps mobile"><?php echo _('Custom Applications'); ?></a></li>
-        <li><a href="#servicios" data-ref-bt="Branding mobile"><?php echo _('Web & Brand Consulting'); ?></a></li>
-        <li><a href="#servicios2" data-ref-bt="Marketing mobile"><?php echo _('Marketing & Consulting'); ?></a></li>
+        <li><a href="index.php#pro-web" data-ref-bt="Pro web mobile"><?php echo _('Profesional Websites'); ?></a></li>
+        <li><a href="index.php#apps" data-ref-bt="Apps mobile"><?php echo _('Custom Applications'); ?></a></li>
+        <li><a href="index.php#servicios" data-ref-bt="Branding mobile"><?php echo _('Web & Brand Consulting'); ?></a></li>
+        <li><a href="index.php#servicios2" data-ref-bt="Marketing mobile"><?php echo _('Marketing & Consulting'); ?></a></li>
 
         <li><a href="press.php" data-ref-bt="Prensa mobile"><?php echo _('PRESS') ?></a></li>
         <li>
