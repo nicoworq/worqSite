@@ -371,6 +371,7 @@ $(document).ready(function () {
     })
 
     $('#menu-mobile li a').click(function () {
+        mostrarTodo();
         $('#menu-mobile-bt').removeClass('open');
         $('.header-mobile').removeClass('open');
         $('#menu-mobile').removeClass('open');
