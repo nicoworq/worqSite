@@ -28,7 +28,7 @@
 </footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/plugins.min.js"></script>
-<script src="js/scripts.js"></script>
+<script src="js/scripts.min.js"></script>
 
 <script>
     (function (i, s, o, g, r, a, m) {
@@ -49,4 +49,14 @@
     jQuery(function () {
         jQuery.scrollDepth();
     });
+</script>
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:79603,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
