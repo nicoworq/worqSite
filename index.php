@@ -154,6 +154,44 @@
                     </div>   
                     <img src="img/work-fourtech.jpg"/>
                 </a>
+             
+                
+                <a class="proyecto" target="blank" href="http://monitoreoagricola.com.ar" data-ref-bt="Casos sima">
+                    <div class="proyecto-over">
+                        <div class="proyecto-over-contenido">
+                            <span>&#8776;</span><br>
+                            <span><?php echo _('VIEW CASE'); ?></span>
+                        </div>
+                    </div>   
+                    <img src="img/work-sima.jpg"/>
+                </a>
+                <a class="proyecto" target="blank" href="http://conversarte.com" data-ref-bt="Casos conversarte">
+                    <div class="proyecto-over">
+                        <div class="proyecto-over-contenido">
+                            <span>&#8776;</span><br>
+                            <span><?php echo _('VIEW CASE'); ?></span>
+                        </div>
+                    </div>   
+                    <img src="img/work-conversarte.jpg"/>
+                </a>
+                <a class="proyecto" target="blank" href="http://nivelempresarial.com.ar" data-ref-bt="Casos nivel empresarial">
+                    <div class="proyecto-over">
+                        <div class="proyecto-over-contenido">
+                            <span>&#8776;</span><br>
+                            <span><?php echo _('VIEW CASE'); ?></span>
+                        </div>
+                    </div>   
+                    <img src="img/work-nivelempresarial.jpg"/>
+                </a>
+                <a class="proyecto" target="blank" href="http://desarrollosorfe.com" data-ref-bt="Casos orfe">
+                    <div class="proyecto-over">
+                        <div class="proyecto-over-contenido">
+                            <span>&#8776;</span><br>
+                            <span><?php echo _('VIEW CASE'); ?></span>
+                        </div>
+                    </div>   
+                    <img src="img/work-orfe.jpg"/>
+                </a>
 
             </div>
             <!-- 
