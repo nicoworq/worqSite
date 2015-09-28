@@ -1,7 +1,6 @@
 <?php include_once './php/layout/language.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
-    <!--test tu vieja-->
     <?php include_once './php/layout/head.php'; ?>
     <body>
         <?php include_once './php/layout/header.php'; ?>
