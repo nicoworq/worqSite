@@ -1,10 +1,9 @@
 <?php include_once './php/layout/language.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
-
+    <!--test -->
     <?php include_once './php/layout/head.php'; ?>
     <body>
-
         <?php include_once './php/layout/header.php'; ?>
         <section id="botonera-container" class="loaderAnim"> 
             <ul id="botonera">
