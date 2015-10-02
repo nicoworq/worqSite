@@ -138,9 +138,6 @@ $(document).ready(function () {
         $('#menu-mobile-bt').addClass('open');
         var fromTop = $(window).scrollTop() + 50;
 
-        $('.contenido-contacto').css('top', fromTop);
-        $('#cerrar-contacto').css('top', fromTop);
-        $('.contacto-ok-contenido').css('top', fromTop + 200);
         $('#contacto').toggleClass('mostrar');
     });
 
@@ -382,7 +379,7 @@ $(document).ready(function () {
 
     $('.slides-mobile').slick({"slidesToShow": 1, "slidesToScroll": 1, "centerMode": false, "arrows": false, "autoplay": true});
 
-    $('.fila-proyectos').slick({"autoplay":true , 'autoplaySpeed':1000,'easing':'easeInQuint', "slidesToShow": getSlidesToShow(), "slidesToScroll": 1, "arrows": false, "centerMode": getSlideCenterMode()});
+    $('.fila-proyectos').slick({"autoplay": true, 'autoplaySpeed': 1000, 'easing': 'easeInQuint', "slidesToShow": getSlidesToShow(), "slidesToScroll": 1, "arrows": false, "centerMode": getSlideCenterMode()});
 
     $(window).on('resize', function () {
         $('.fila-proyectos').slick("slickSetOption", 'slidesToShow', getSlidesToShow(), true);
