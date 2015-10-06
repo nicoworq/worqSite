@@ -2,6 +2,319 @@
 <!DOCTYPE html>
 <html lang=es>
 <?php $title = _('Web Apps Rosario'); include_once './php/layout/head.php'; ?>
+    <style>
+        #page-loader {
+    position: absolute;
+    z-index: 1000000000;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    -webkit-transition: opacity 1s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: opacity 1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+#page-loader.hide{
+    opacity: 0;
+}
+
+#page-loader img{
+    position: absolute;
+    left: 50%;
+    top: 7%;
+    /* margin-top: -16px; */
+    margin-left: -16px;
+    -webkit-animation: rotating 1s linear infinite;
+    -moz-animation: rotating 1s linear infinite;
+    -ms-animation: rotating 1s linear infinite;
+    -o-animation: rotating 1s linear infinite;
+    animation: rotating 1s linear infinite;
+}
+
+
+header{
+    background:#040404;
+    height: 30px;
+    padding: 15px 35px 7px;
+    color:white;
+    font-size: 12px;
+    color:#dbdbdb;
+    letter-spacing: 2px;
+    position: relative;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+    transform: translateY(0);
+}
+header ul li {
+    display: block;
+    margin-right: 19px;
+    float: left;
+}
+header ul li a{
+    color:white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 10px 4px;
+    display: inline-block;
+}
+
+header ul li a:after{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #FFF;
+    content: '';
+    opacity: 0;
+    -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+    transition: height 0.3s, opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+header ul li a:hover:after{
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(-3px);
+}
+#logo-worq{
+    margin-left: 5px;
+    margin-right: 44px;
+    float: left;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+header > span{
+    float: left;
+    margin-top: 9px;
+    color:white;
+}
+header ul{
+    display: inline-block;
+    margin-top: -2px;
+    margin-left: 38px;
+}
+
+.header-left, .header-center ,.header-right{
+    display: table-cell;
+    vertical-align: top;
+    width: 33%;
+}
+
+.header-left{
+    padding-top: 8px;
+
+    width: 29%;
+}
+.header-left a{
+    color: white;
+    display: inline-block;
+}
+
+.header-center{
+    text-align: center;
+
+
+    width: 42%;
+}
+.header-center span{
+
+
+}
+.header-right{
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 8px;
+    letter-spacing: 2px;
+    text-align: right;
+}
+.header-right span{
+    /* margin-left: 14px; */
+}
+
+.header-right b a{
+    color:#6dc823;
+
+    margin-left: 30px;
+}
+
+.header-right .idioma{
+    margin-right: 30px;
+
+}
+.header-right .idioma a{color: white;}
+.header-right .idioma a.active{color: #6DC823;}
+.header-right .llamar{
+    color: white;
+}
+.header-right .contacto{}
+
+.press header, .the-company header{position: fixed;top: 0;z-index: 100000;}
+
+#slide-home , #botonera-container{
+    padding: 0;
+    transition-duration: 0.4s;
+
+}
+
+#slide-home-bg{
+    width: 100%;
+    height: 899px;
+    height: 87vh;
+    /** background: url(../img/bg2.jpg) no-repeat 50%;*/
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0;
+}
+#slide-home-bg .img-bg{
+    position: absolute;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.slide-home-arrow{
+    position: absolute;    
+    bottom: 63px;
+    left: 50%;
+    margin-left: -45px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-family: MuseoSans;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.8;
+    -webkit-animation: arrowScroll 3s infinite; /* Chrome, Safari, Opera */
+    animation: arrowScroll 3s infinite;
+}
+
+@keyframes arrowScroll {
+    0% {opacity: 0.5;}
+    50% {opacity: 0.2;}
+    100% {opacity: 0.5;}
+}
+
+
+.slide-notebook{}
+.slide-notebook img{
+    height: 100% !important;
+    width: auto !important;
+    right: 0 !important;
+}
+.contenedor-contenido{
+    position: absolute;
+    top: 24%;
+    left: 74px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#slide-home{
+    color:white;
+    /* width: 60%; */
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+#slide-home h1{
+    font-family: 'MuseoSans';
+    font-weight: 900;
+    font-size: 170px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+
+    position: absolute;
+    top: 50%;
+    margin-top: -109px;
+    left: 11%;
+}
+.separador{
+    width: 140px;
+    height: 4px;
+    background: white;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+#slide-home h2{
+    font-family: 'MuseoSans';
+    font-weight: 800;
+    opacity: 1;
+    font-size: 43px;    
+    margin: 0;
+    text-transform: uppercase;
+    color:white;
+    /* position: absolute; */
+    top: 50%;
+    /* margin-top: -54px; */
+    left: 12%;
+}
+
+#slide-home p{
+    opacity: 0;
+}
+#slide-home h2 span{
+    font-weight: 300;
+}
+.slide{
+    display: block;
+    width: 100%;
+    margin: 0;
+    height: 86vh;
+    position: relative;
+}
+.slide-text , .slide-action{
+    width: 50%;
+    display: block;
+    vertical-align: middle;
+    float: left;
+    height: 87vh;
+    position: relative;
+}
+.slide-text {
+}
+.slide-cta .slide-text{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    height: auto;
+    top: 50%;
+    margin-top: -141px;
+}
+.slide-action{
+    position: relative;
+}
+.slide-action img{
+    position: absolute;
+    bottom: 0;
+    right: 117px;
+    width: 406px;
+}
+
+.cta-slide {
+
+    margin-top: 62px;
+}
+
+#call-action1{
+    /* position: absolute; */
+    top: 50%;
+    text-align: center;
+    right: 116px;
+    z-index: 10;
+    margin-top: -71.5px;
+}
+
+    </style>
 <body>
 <?php include_once './php/layout/header.php'; ?>
 <section id=botonera-container class=loaderAnim>
