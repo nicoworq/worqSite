@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WORQ SITE\n"
-"POT-Creation-Date: 2015-09-22 10:19-0300\n"
-"PO-Revision-Date: 2015-09-22 10:26-0300\n"
+"POT-Creation-Date: 2015-10-06 18:14-0300\n"
+"PO-Revision-Date: 2015-10-06 18:15-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_AR\n"
@@ -17,65 +17,69 @@ msgstr ""
 "X-Poedit-SearchPath-1: .\n"
 "X-Poedit-SearchPath-2: .\n"
 
-#: index.php:11
+#: index.php:5
+msgid "Web Apps Rosario"
+msgstr "Aplicaciones web Rosario"
+
+#: index.php:10
 msgid "PROFESIONAL WEBSITES"
 msgstr "SITIOS WEB PROFESIONALES"
 
-#: index.php:12
+#: index.php:11
 msgid "CUSTOM APPLICATIONS"
 msgstr "APLICACIONES A MEDIDA"
 
-#: index.php:13
+#: index.php:12
 msgid "WEB & BRAND CONSULTING"
 msgstr "CONSULTORÍA WEB "
 
-#: index.php:14
+#: index.php:13
 msgid "MARKETING & REPORTS"
 msgstr "MARKETING & REPORTES"
 
-#: index.php:36 index.php:56
+#: index.php:35 index.php:55
 msgid "WE LAUNCH WEB PROJECTS <br/>  <span>WITH SUPERIOR QUALITY</span>"
 msgstr "LANZAMOS PROYECTOS WEB <br/> <span>DE CALIDAD SUPERIOR</span>"
 
-#: index.php:38
+#: index.php:37
 msgid "Get your website"
 msgstr "Comenzá tu proyecto"
 
-#: index.php:48
+#: index.php:47
 msgid "Scroll for more"
 msgstr "Hacé scroll"
 
-#: index.php:62
+#: index.php:61
 msgid ""
 "High Design Quality + Mobile Friendly\n"
 "                & 100% Made to Measure"
 msgstr "Diseño de alta calidad + Listos para móviles & 100% hechos a medida"
 
-#: index.php:64 index.php:101 index.php:235
+#: index.php:63 index.php:100 index.php:272
 msgid "Get started now"
 msgstr "Comenzá tu sitio"
 
-#: index.php:69
+#: index.php:68
 msgid "PRO<span>&#8776;</span>WEBSITES"
 msgstr "PRO<span>&#8776;</span>WEBSITES"
 
-#: index.php:71
+#: index.php:70
 msgid "<font color=\"#68c023\">100%</font> MADE TO MEASURE"
 msgstr "<font color=\"#68c023\">100%</font> HECHO A MEDIDA"
 
-#: index.php:72
+#: index.php:71
 msgid "HIGH <font color=\"#68c023\">DESIGN</font> QUALITY"
 msgstr " <font color=\"#68c023\">DISEÑO</font> DE ALTA CALIDAD"
 
-#: index.php:73
+#: index.php:72
 msgid "<font color=\"#68c023\">MOBILE </font>FRIENDLY"
 msgstr "LISTOS PARA <font color=\"#68c023\">MÓVILES</font>"
 
-#: index.php:79
+#: index.php:78
 msgid "PLAN"
 msgstr "PLAN"
 
-#: index.php:80
+#: index.php:79
 msgid ""
 "We construct a framework for your project to take<br/> shape within in terms "
 "of strategy, production and time."
@@ -84,11 +88,11 @@ msgstr ""
 "Escuchamos todo lo que tenés para decirnos sobre tu empresa<br>\n"
 "y los objetivos que estás buscando."
 
-#: index.php:83
+#: index.php:82
 msgid "DESIGN"
 msgstr "DISEÑO"
 
-#: index.php:84
+#: index.php:83
 msgid ""
 "We distill planning into purposeful designs that reflect<br/> your "
 "objectives and outline a visual aesthetic."
@@ -97,11 +101,11 @@ msgstr ""
 "hechos a la medida de tu proyecto ni más ni menos.<br>\n"
 "Elegí destacarte, elegí estrategia y soluciones concretas."
 
-#: index.php:91
+#: index.php:90
 msgid "DISCOVER"
 msgstr "INVESTIGACIÓN"
 
-#: index.php:92
+#: index.php:91
 msgid ""
 "We ask and listen toward a thorough understanding of<br/> your company, "
 "project, audience and objectives."
@@ -110,11 +114,11 @@ msgstr ""
 "investigación. Elaboramos un plan de acción en el tiempo<br/>basado en tus "
 "recursos e inversión."
 
-#: index.php:95
+#: index.php:94
 msgid "GROW"
 msgstr "CRECIMIENTO"
 
-#: index.php:96
+#: index.php:95
 msgid ""
 "We track, analyze and correct your project's growth<br/> through ongoing "
 "campaigns and retainers."
@@ -123,7 +127,7 @@ msgstr ""
 " Observamos el comportamiento de los usuarios y planteamos<br>\n"
 " estrategias para optimizar los resultados del sitio web."
 
-#: index.php:103
+#: index.php:102
 msgid ""
 "Visual Design ~ Branding & Identity Design ~ Concept Development ~ Usability "
 "Testing & Research ~ Interaction Design ~ Information Architecture ~ Content "
@@ -134,31 +138,32 @@ msgstr ""
 "información ~ Creación de contenido ~ Prototipos ~ Wireframes ~ Diseño "
 "multiplataforma ~ Diseño de interfaces"
 
-#: index.php:112
+#: index.php:111
 msgid "CASES"
 msgstr "CASOS"
 
-#: index.php:120 index.php:132 index.php:142 index.php:152
+#: index.php:119 index.php:131 index.php:141 index.php:151 index.php:162
+#: index.php:171 index.php:180 index.php:189
 msgid "VIEW CASE"
 msgstr "VER CASO"
 
-#: index.php:160
+#: index.php:197
 msgid "View More"
 msgstr "Ver Más"
 
-#: index.php:178
+#: index.php:215
 msgid "<span>We make</span> APPS"
 msgstr "<span>Creamos </span>APPS"
 
-#: index.php:180
+#: index.php:217
 msgid "bring <b>ideas</b> to <b>reality</b>"
 msgstr "Llevamos a cabo tus <b>ideas</b>"
 
-#: index.php:182 index.php:208
+#: index.php:219 index.php:245
 msgid "Get your APP"
 msgstr "Contanos tu idea"
 
-#: index.php:185
+#: index.php:222
 msgid ""
 " We're a Startup Studio. A company that builds companies.<br/>\n"
 "                                Sharing people, resources and technologies "
@@ -178,7 +183,7 @@ msgstr ""
 "aplicado de forma inteligente, creamos experiencias que ayudan a las marcas "
 "a estar a la vanguardia"
 
-#: index.php:196
+#: index.php:233
 msgid ""
 "Our passion for design goes beyond beautiful imagery<br/>\n"
 "                                and into the mind of the consumer, where we "
@@ -200,7 +205,7 @@ msgstr ""
 "aumento. Creemos que el diseño debe ayudar a las personas creando un mejor "
 "contexto, y este es nuestro grano de arena."
 
-#: index.php:210
+#: index.php:247
 msgid ""
 "Digital Strategy -Website Design - User Interface Design<br/>\n"
 "                            -User Experience Design- Social Campaigns-"
@@ -211,11 +216,11 @@ msgstr ""
 "usuario ~ Productos diseñados para móviles ~ Aplicaciones web ~ Aplicaciones "
 "para móviles"
 
-#: index.php:225
+#: index.php:262
 msgid "WEB<span>&</span>BRAND<span> CONSULTING</span>"
 msgstr "CONSULTORÍA <span>WEB</span>"
 
-#: index.php:227
+#: index.php:264
 msgid ""
 "WEB PERFORMANCE ANALYSIS&nbsp;&nbsp;|&nbsp;&nbsp;OPTIMIZE RESULTS&nbsp;"
 "&nbsp;|&nbsp;&nbsp;NAMING ADVICE"
@@ -223,13 +228,13 @@ msgstr ""
 "ANÁLISIS DE RENDIMIENTO WEB&nbsp;&nbsp;|&nbsp;&nbsp;OPTIMIZACIÓN DE "
 "RESULTADOS&nbsp;&nbsp;|&nbsp;&nbsp;CONSEJOS DE NAMING"
 
-#: index.php:229
+#: index.php:266
 msgid ""
 "The <b>boost</b> that your<br/>\n"
 "                    project <b>need</b>"
 msgstr "El <b>impulso</b> <br/> que tu empresa necesita"
 
-#: index.php:231
+#: index.php:268
 msgid ""
 "At WORQ we develop strategies to put your business to the top.<br/>\n"
 "                    We are a design and innovation consultancy agency that "
@@ -244,11 +249,11 @@ msgstr ""
 "desde <br/>\n"
 "una simple actualización de producto hasta grandes innovaciones y startups."
 
-#: index.php:240
+#: index.php:277
 msgid "ONLINE MARKETING <br/><span>&</span>REPORTS"
 msgstr "MARKETING ONLINE<br/><span>&</span>REPORTES"
 
-#: index.php:242
+#: index.php:279
 msgid ""
 "STATS AND METRICS&nbsp;&nbsp;|&nbsp;&nbsp;SOCIAL MEDIA&nbsp;&nbsp;|&nbsp;"
 "&nbsp;SEO&nbsp;&nbsp;|&nbsp;&nbsp;MOBILE FRIENDLY&nbsp;&nbsp;|&nbsp;&nbsp;"
@@ -258,14 +263,14 @@ msgstr ""
 "&nbsp;&nbsp;SEO&nbsp;&nbsp;|&nbsp;&nbsp;MOBILE FRIENDLY&nbsp;&nbsp;|&nbsp;"
 "&nbsp;Generación de Contenido"
 
-#: index.php:243
+#: index.php:280
 msgid ""
 "STATS AND METRICS, SOCIAL MEDIA, SEO, MOBILE FRIENDLY, EMAIL AND CONTENT"
 msgstr ""
 "Métricas y Estrategias, SOCIAL MEDIA, SEO, MOBILE FRIENDLY, Generación de "
 "Contenido"
 
-#: index.php:247
+#: index.php:284
 msgid "Get started now!"
 msgstr "Hablemos de tu proyecto"
 
@@ -303,11 +308,11 @@ msgstr "DESARROLADO POR <b>WORQ</b>"
 msgid "BOOST YOUR PROJECT"
 msgstr "IMPULSÁ TU PROYECTO"
 
-#: php/layout/header.php:14 php/layout/header.php:61
+#: php/layout/header.php:14 php/layout/header.php:62
 msgid "PRESS"
 msgstr "PRENSA"
 
-#: php/layout/header.php:16 php/layout/header.php:74
+#: php/layout/header.php:16 php/layout/header.php:75
 msgid "THE COMPANY"
 msgstr "LA EMPRESA"
 
@@ -319,93 +324,97 @@ msgstr "PORTFOLIO"
 msgid "CONTACT"
 msgstr "CONTACTO"
 
-#: php/layout/header.php:56 php/layout/header.php:83
+#: php/layout/header.php:57 php/layout/header.php:84
 msgid "Profesional Websites"
 msgstr "Sitios web"
 
-#: php/layout/header.php:57 php/layout/header.php:84
+#: php/layout/header.php:58 php/layout/header.php:85
 msgid "Custom Applications"
 msgstr "Aplicaciones a medida"
 
-#: php/layout/header.php:58 php/layout/header.php:85
+#: php/layout/header.php:59 php/layout/header.php:86
 msgid "Web & Brand Consulting"
 msgstr "Consultoría Web"
 
-#: php/layout/header.php:59 php/layout/header.php:86
+#: php/layout/header.php:60 php/layout/header.php:87
 msgid "Marketing & Consulting"
 msgstr "Marketing & Consultoria"
 
-#: php/layout/header.php:75 php/layout/header.php:87
+#: php/layout/header.php:76 php/layout/header.php:88
 msgid "Contact Us"
 msgstr "Contacto"
 
-#: php/layout/header.php:94
+#: php/layout/header.php:95
 msgid "Thanks for your submission"
 msgstr "Gracias por tu consulta"
 
-#: php/layout/header.php:95
+#: php/layout/header.php:96
 msgid "We'll respond to you<br/>as soon as we can!"
 msgstr "Te responderemos <br/> a la brevedad"
 
-#: php/layout/header.php:96
+#: php/layout/header.php:97
 msgid "Continue at worq"
 msgstr "Continuar en WORQ"
 
-#: php/layout/header.php:105
+#: php/layout/header.php:106
 msgid "Lets Talk<br/>About Your Project"
 msgstr "Hablemos sobre<br/>tu Proyecto"
 
-#: php/layout/header.php:114
+#: php/layout/header.php:115
 msgid "what do you need?"
 msgstr "¿QUÉ BUSCÁS?"
 
-#: php/layout/header.php:129
+#: php/layout/header.php:130
 msgid "Web Application"
 msgstr "Aplicación Web"
 
-#: php/layout/header.php:133
+#: php/layout/header.php:134
 msgid "Other"
 msgstr "Otro"
 
-#: php/layout/header.php:139
+#: php/layout/header.php:140
 msgid "How much do you want to invest?"
 msgstr "Cuánto quieres invertir ? "
 
-#: php/layout/header.php:150
+#: php/layout/header.php:151
 msgid "Some inputs are empty or wrong, please fill them right"
 msgstr "Algunos campos están mal. Por favor corregilos"
 
-#: php/layout/header.php:152
+#: php/layout/header.php:153
 msgid "please complete this form, we will contact you soon"
 msgstr "COMPLETÁ EL FORMULARIO, NOS CONTACTAREMOS PRONTO"
 
-#: php/layout/header.php:153
+#: php/layout/header.php:154
 msgid "Your Name *"
 msgstr "Tu Nombre *"
 
-#: php/layout/header.php:155
+#: php/layout/header.php:156
 msgid "Phone"
 msgstr "Teléfono"
 
-#: php/layout/header.php:157
+#: php/layout/header.php:158
 msgid "Message"
 msgstr "Mensaje"
 
-#: php/layout/header.php:159
+#: php/layout/header.php:160
 msgid "Send Message"
 msgstr "Enviar mensaje"
 
-#: php/layout/header.php:163
+#: php/layout/header.php:164
 msgid "Email us:"
 msgstr "Escríbenos"
 
-#: php/layout/header.php:165
+#: php/layout/header.php:166
 msgid "Call us:"
 msgstr "Llámanos:"
 
-#: press.php:9
+#: press.php:4 press.php:9
 msgid "Press"
 msgstr "Prensa"
+
+#: thecompany.php:4
+msgid "The Company"
+msgstr "La compañía"
 
 #: thecompany.php:12
 msgid "We are WORQ"
@@ -431,7 +440,7 @@ msgstr ""
 "Somos un grupo de creativos que nos esforzamos por pensar soluciones "
 "concretas para tu negocio."
 
-#: thecompany.php:29
+#: thecompany.php:30
 msgid ""
 "Worq is a talented multi-disciplinary team of digital creators and "
 "strategists. We partner with our clients to solve problems, realize "
@@ -452,13 +461,13 @@ msgstr ""
 "Cada cliente, cada sitio web, aplicación o estrategia que hacemos es "
 "especial. Somos una agencia pequeña y por eso podemos darnos algunos gustos. "
 
-#: thecompany.php:41
+#: thecompany.php:43
 msgid ""
 "Technology, Strategy\n"
 "                        and Creativity"
 msgstr "Elegí destacarte <br> impulsá tu proyecto"
 
-#: thecompany.php:45
+#: thecompany.php:47
 msgid ""
 "We guide the digital transformation of companies and organizations by "
 "pioneering ground-breaking marketing solutions, products and business models."
@@ -466,7 +475,7 @@ msgstr ""
 "Conocer a nuestros clientes, sus inquietudes y sentir sus proyectos como si "
 "fueran propios, nos encanta,  por eso creamos WORQ.<br/>"
 
-#: thecompany.php:48
+#: thecompany.php:50
 msgid ""
 "We know that today no agency can do everything. Tasks and projects are "
 "becoming more complex as new technologies and specializations emerge. Those "
@@ -488,21 +497,13 @@ msgstr ""
 "<br/>\n"
 "Elegí impulsar tu proyecto, elegí a WORQ."
 
-#: thecompany.php:59
+#: thecompany.php:61
 msgid "What We Do"
 msgstr "Qué hacemos"
 
-#: thecompany.php:63
+#: thecompany.php:65
 msgid "360 Solutions"
 msgstr "Soluciones 360"
-
-#: thecompany.php:64
-msgid "Boost Projects"
-msgstr "Impulsamos proyectos"
-
-#: thecompany.php:65
-msgid "Design & develop"
-msgstr "DISEÑO Y DESARROLLO"
 
 #: thecompany.php:68
 msgid ""
@@ -514,6 +515,10 @@ msgstr ""
 "soluciones de vanguardia."
 
 #: thecompany.php:71
+msgid "Boost Projects"
+msgstr "Impulsamos proyectos"
+
+#: thecompany.php:74
 msgid ""
 "Those who still promise 'Full-Service' end up delivering only half the "
 "possible results. That's why we concentrate on what our clients really need "
@@ -523,7 +528,11 @@ msgstr ""
 "Google Maps, redes sociales y diversas aplicaciones externas. Desarollamos "
 "sitios web sólidos, potentes y atractivos. "
 
-#: thecompany.php:74
+#: thecompany.php:77
+msgid "Design & develop"
+msgstr "DISEÑO Y DESARROLLO"
+
+#: thecompany.php:80
 msgid ""
 "We create web & digital experiences that transform brands, grow businesses "
 "and make people's lives better. We have the energy to boost your project."
@@ -532,11 +541,11 @@ msgstr ""
 "usuario personalizadas. Nos encantan los startups y nos apasiona llevar tus "
 "ideas a la realidad."
 
-#: thecompany.php:81
+#: thecompany.php:92
 msgid "AND EVERYDAY WE DO"
 msgstr "NUESTRO TRABAJO DIARIO"
 
-#: thecompany.php:82
+#: thecompany.php:93
 msgid ""
 "Branding & Identity Design ~ Concept Development ~ Usability Testing & "
 "Research ~ Interaction Design ~ UX and UI design ~ Information Architecture "
@@ -547,7 +556,7 @@ msgstr ""
 "experiencia e interfaz de usuario ~ Arquitectura de la información ~ "
 "Creación de contenido"
 
-#: thecompany.php:89
+#: thecompany.php:100
 msgid "Apps From Rosario to the World"
 msgstr "Apps de Rosario al mundo"
 
