@@ -42,9 +42,6 @@ $(document).ready(function () {
     var hideIntervalID = setInterval(hideLoader, 500);
 
 
-    $('#form-contacto input[type=submit]').mouseenter(function () {
-
-    });
 
     $('#contacto').not('#form-contacto').click(function (e) {
 

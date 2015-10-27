@@ -11,12 +11,18 @@ if (isset($_POST['sex']) && $_POST['sex'] !== '') {
     exit;
 }
 
+
 $nombre = strip_tags($_POST['nombre']);
 $mensaje = strip_tags($_POST['mensaje']);
 $email = strip_tags($_POST['email']);
 $telefono = strip_tags($_POST['telefono']);
 $necesito = $_POST['necesito'];
 
+if($nombre == '' || $mensaje == '' || $email == '' ) {
+    //descarto por ser un bot
+    echo json_encode(array('enviado' => TRUE));
+    exit;
+}
 
 $necesito_txt = '';
 foreach ($necesito as $n) {

@@ -106,6 +106,7 @@
         <h2><?php echo _('Lets Talk<br/>About Your Project'); ?></h2>       
         <div class="separador-contacto-mobile"></div>
         <form id="form-contacto" method="post" action="php/ajax-form-contacto.php">
+            <input name="sex" value="" type='text' placeholder="Sex"/>
             <div id="contacto-progress">
                 <img src="img/loader.png" alt="Progreso"/>
             </div>
@@ -153,8 +154,7 @@
                 <h5><?php echo _('please complete this form, we will contact you soon'); ?></h5>
                 <input type="text" name="nombre" placeholder="<?php echo _('Your Name *') ?>" tabindex="1"/>
                 <input type="text" name="email" placeholder="Email" tabindex="2"/>
-                <input type="text" name="telefono" placeholder="<?php echo _('Phone'); ?>" tabindex="3"/>
-                <input type="text" name="sex" value=""/>
+                <input type="text" name="telefono" placeholder="<?php echo _('Phone'); ?>" tabindex="3"/>                
                 <textarea rows="5" name="mensaje" placeholder="<?php echo _('Message'); ?>" tabindex="4"></textarea>
             </div>
             <input type="submit" value="<?php echo _('Send Message') ?>" tabindex="5" data-ref-bt="Submit contacto" />
