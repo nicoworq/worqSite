@@ -1,27 +1,41 @@
 <?php
 
+
+/*
+ * AJAX CONTACTO
+ * 
+ * AUTOR: Nicolas Monjelat
+ * VERSION 1.0
+ * 
+ * 
+ */
+
+
 header('Content-type: application/json');
 
-include_once 'class.phpmailer.php';
+$honeyPot = filter_input(INPUT_POST, 'sex', FILTER_SANITIZE_STRING);
 
-
-if (isset($_POST['sex']) && $_POST['sex'] !== '') {
-    //descarto por ser un bot
-    echo json_encode(array('enviado' => TRUE));
-    exit;
-}
-
-
-$nombre = strip_tags($_POST['nombre']);
-$mensaje = strip_tags($_POST['mensaje']);
-$email = strip_tags($_POST['email']);
-$telefono = strip_tags($_POST['telefono']);
+$mensaje = filter_input(INPUT_POST, 'mensaje', FILTER_SANITIZE_STRING);
+$nombre = filter_input(INPUT_POST, 'nombre', FILTER_SANITIZE_STRING);
+$telefono = filter_input(INPUT_POST, 'telefono', FILTER_SANITIZE_STRING);
+$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 $necesito = $_POST['necesito'];
 
-if($nombre == '' || $mensaje == '' || $email == '' ) {
-    //descarto por ser un bot
-    echo json_encode(array('enviado' => TRUE));
-    exit;
+//Descarto por ser un bot!
+if (!is_null($honeyPot)) {
+    echo json_encode(array('enviado' => TRUE, 'trucho-sex' => TRUE));
+    die();
+}
+
+if (is_null($nombre) || is_null($email)) {
+    echo json_encode(array('enviado' => TRUE, 'trucho-vacio' => TRUE));
+    die();
+}
+
+//REGLAS DE SPAM
+if (substr_count($mensaje, '$') > 2 || substr_count($mensaje, '.com') > 3 || substr_count($mensaje, '.xxx') > 1) {
+    echo json_encode(array('enviado' => TRUE, 'trucho' => TRUE, 'spam-loco' => TRUE));
+    die();
 }
 
 $necesito_txt = '';
