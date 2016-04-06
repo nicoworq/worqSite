@@ -22,7 +22,7 @@ $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 $necesito = $_POST['necesito'];
 
 //Descarto por ser un bot!
-if (!is_null($honeyPot)) {
+if ($honeyPot) {
     echo json_encode(array('enviado' => TRUE, 'trucho-sex' => TRUE));
     die();
 }
