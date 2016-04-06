@@ -40,6 +40,8 @@ if (substr_count($mensaje, '$') > 2 || substr_count($mensaje, '.com') > 3 || sub
     die();
 }
 
+include_once 'class.phpmailer.php';
+
 $necesito_txt = '';
 foreach ($necesito as $n) {
     $necesito_txt = $necesito_txt . ' --  ' . strip_tags($n);
