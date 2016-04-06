@@ -10,7 +10,9 @@
  * 
  */
 
-
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 header('Content-type: application/json');
 
 $honeyPot = filter_input(INPUT_POST, 'sex', FILTER_SANITIZE_STRING);
