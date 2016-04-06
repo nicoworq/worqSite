@@ -21,7 +21,7 @@ $mensaje = filter_input(INPUT_POST, 'mensaje', FILTER_SANITIZE_STRING);
 $nombre = filter_input(INPUT_POST, 'nombre', FILTER_SANITIZE_STRING);
 $telefono = filter_input(INPUT_POST, 'telefono', FILTER_SANITIZE_STRING);
 $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-$necesito = $_POST['necesito'];
+$necesito = isset($_POST['necesito'])? $_POST['necesito'] : array();
 
 //Descarto por ser un bot!
 if ($honeyPot !== '') {
